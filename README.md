@@ -6,7 +6,7 @@ Da das ganze in https://obsidian.md/ angefertigt wurde, ist das über mehrere Da
 ## Anmerkungen zur "Installation"
 Es ist stark empfohlen (und für manche Features notwendig) https://obsidian.md/ zu verwenden. Wenn ihr das runtergeladen habt, öffnet einen neuen Vault
 ![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/68dfaf47-5383-4b93-8e91-e20e9697dd39)
-und navigiert zum runtergeladenen Repo. Dort müsst ihr innerhalb dieses befinden (**einfache Auswahl reicht nicht aus!**) - d.h. ihr solltet im Datei-manager die Readme.md Datei sehen - und könnt von dort den Vault öffnen. Damit habt ihr gleich die ganzen Plugins mit installiert.
+und navigiert zum runtergeladenen Repo. Dort dann einfach zum runtergeladenen Repo navigieren. Wenn alles richtig verlaufen ist, solltet ihr einen Prompt bekommen, dass Plugins verwendet werden und ein leicht anderes Theme als das Standardtheme sehen.
 
 
 ## Anmerkungen zur Offline-Nutzung
