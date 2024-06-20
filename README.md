@@ -6,8 +6,8 @@ Da das ganze in https://obsidian.md/ angefertigt wurde, ist das über mehrere Da
 ## Anmerkungen zur "Installation"
 Es ist stark empfohlen (und für manche Features notwendig) https://obsidian.md/ zu verwenden. Wenn ihr das runtergeladen habt, öffnet einen neuen Vault
 ![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/68dfaf47-5383-4b93-8e91-e20e9697dd39)
-und navigiert zum runtergeladenen Repo. Dort müsst ihr innerhalb dieses befinden (**einfache Auswahl reicht nicht aus!**) und könnt von dort den Vault öffnen. Damit habt ihr gleich meine ganzen Plugins mit installiert.
+und navigiert zum runtergeladenen Repo. Dort müsst ihr innerhalb dieses befinden (**einfache Auswahl reicht nicht aus!**) - d.h. ihr solltet im Datei-manager die Readme.md Datei sehen - und könnt von dort den Vault öffnen. Damit habt ihr gleich die ganzen Plugins mit installiert.
 
 
 ## Anmerkungen zur Offline-Nutzung
-Ich habe insbesondere bei Konstruktion mit Zirkel und Lineal massiv mit HTML Geogebra Darstellungen eingebettet. Diese sind interaktiv und dementsprechend mMn schöner, aber nur online nutzbar. Solange ihr nicht auf diese zugreifen wollt, ist natürlich alles offline nutzbar.
+Ich habe insbesondere bei Konstruktion mit Zirkel und Lineal massiv mit HTML Geogebra Darstellungen eingebettet. Diese sind interaktiv und dementsprechend mMn schöner als einfache Gifs oder Bilder, aber nur online nutzbar. Solange ihr nicht auf diese zugreifen wollt, ist natürlich alles offline nutzbar.
