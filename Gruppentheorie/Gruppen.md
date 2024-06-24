@@ -40,7 +40,7 @@ Sei $M \subseteq G$. Dann ist das **Erzeugnis** von $M$ definiert als $$\langle 
 ## Zyklische Gruppen
 Es gilt eine Gruppe $G$ heißt **zyklisch**, falls ein Element $a \in G$ existiert, sodass für jedes $g \in G$ ein $k \in \mathbb{Z}$ existiert mit $g=a^{k}$ also $\langle a\rangle = G$. Dann heißt $a$ *Erzeuger*. 
 ### Ordnung
-Für $x \in G$ ist $\text{ord}(x):= \min\set{n \in \mathbb{N}_{>0}:g^{n}=e}$. 
+Für $x \in G$ ist $\text{ord}(x):= \min\set{n \in \mathbb{N}_{>0}:g^{n}=e}$. Außerdem definieren wir die **Ordnung** von $G$ als $\lvert G\rvert$.
 
 #### Eigenschaften
 Sei $G$ endlich.
@@ -50,7 +50,7 @@ Sei $G$ endlich.
 - Wenn $g^{k}=e$ für ein $k\in \mathbb{N}_{>0}$. Dann gilt $\text{ord}(g)\mid k$ 
 	-> haben wir in VL verwendet, aber nicht bewiesen.
 ###### Beweis
-- folgt direkt mit [[#Satz von Lagrange]].
+- folgt direkt mit [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]].
 - Es gilt $g^{\text{ord}(g)}=e_{G}$. Weil $\text{ord}(g)$ aber $\lvert G\rvert$ teilt, folgt die Behauptung
 - Es gilt wegen Lagrange, dass das [[Gruppen#Erzeugnis|Erzeugnis]] $\langle g\rangle$ eine Untergruppe ist und $\text{ord}(g)\mid \lvert G\rvert$. Da aber $\lvert G\rvert$ prim ist, muss $\text{ord}(g)=1$ oder $\lvert G\rvert$ sein. Aber $\lvert \langle g \rangle\rvert =1 \iff g = e_{G}$. Also muss das Erzeugnis $\langle g \rangle = G$ sein für $g \neq  e_{G}$. Das sagt aber genau, dass $G$ zyklisch ist.
 - Annahme: $\text{ord}(g) \not \mid p$. Dann [[Euklidische Ringe|existieren]] $a \in \mathbb{N}, r\in \mathbb{N}_{>0}$ mit $r<\text{ord}(g)$. Dann ist aber $$e=g^{p}=(g^{\text{ord}(g)})^{a}\cdot g^{r}=e^{a}\cdot g^{r}=g^{r}$$also insbesondere $\text{ord}(g)$ nicht minimal. Widerspruch!

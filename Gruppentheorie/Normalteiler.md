@@ -5,7 +5,7 @@ Ein **Normalteiler** ist eine [[Gruppen#Untergruppen|Untergruppe]] $N \leq G$ ei
 - $N \trianglelefteq G \iff \forall g\in G:$ [[Gruppenwirkung#Rechts und Linksnebenklassen|$gH=Hg$]] 
 
 ###### Beweis
-- Es genügt zu zeigen, dass daraus folgt $gNg^{-1}=N$ bzw. dass die Funktion $n\mapsto gng^{-1}$ surjektiv nach $N$ abbildet. Sei dazu $x\in N$. Dann gilt $g(g^-1xg)g^{-1}=x$ und $g^{-1}xg=g^{-1}x(g^{-1})^{-1}\in N$. Also ist $gNg^{-1}=N$.
+- Es genügt zu zeigen, dass daraus folgt $gNg^{-1}=N$ bzw. dass die Funktion $n\mapsto gng^{-1}$ surjektiv nach $N$ abbildet. Sei dazu $x\in N$. Dann gilt $g(g^{-1}xg)g^{-1}=x$ und $g^{-1}xg=g^{-1}x(g^{-1})^{-1}\in N$. Also ist $gNg^{-1}=N$.
 - ÜB7.3
 
 ## Eigenschaften

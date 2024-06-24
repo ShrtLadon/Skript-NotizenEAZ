@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -148,6 +148,15 @@
   },
   "active": "8e767b105c518ecd",
   "lastOpenFiles": [
+    "Gruppentheorie/Gruppen.md",
+    "README.md",
+    "Gruppentheorie/Symmetrische Gruppe.md",
+    "Gruppentheorie/Operation durch Konjugation.md",
+    "Gruppentheorie/Gruppenwirkung.md",
+    "Gruppentheorie/Auflösbare Gruppen.md",
+    "Diophantische Gleichungen/Chinesischer Restsatz.md",
+    "Gruppentheorie/Faktorgruppen.md",
+    "Gruppentheorie/Normalteiler.md",
     "Arithmetik/kommutative Ringe.md",
     "Arithmetik/Euklidische Ringe.md",
     "Welcome.md"
