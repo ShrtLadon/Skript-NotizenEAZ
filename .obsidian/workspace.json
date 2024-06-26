@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "Gruppentheorie/Symmetrische Gruppe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3a70dcef49bfd25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gruppentheorie/Auflösbare Gruppen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06f1960c4e2b4a8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd01c3fae4b56f2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gruppentheorie/Gruppenwirkung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e43284560e3072b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gruppentheorie/Sylow-Sätze.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Gruppentheorie/Sylow-Sätze.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Gruppentheorie/Sylow-Sätze.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Gruppentheorie/Sylow-Sätze.md"
               }
             }
           }
@@ -146,17 +195,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e767b105c518ecd",
+  "active": "e43284560e3072b1",
   "lastOpenFiles": [
-    "Gruppentheorie/Gruppen.md",
-    "README.md",
-    "Gruppentheorie/Symmetrische Gruppe.md",
-    "Gruppentheorie/Operation durch Konjugation.md",
+    "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
+    "Gruppentheorie/Konjugation/Normalteiler.md",
+    "Gruppentheorie/Konjugation/Normalisator.md",
+    "Gruppentheorie/Sylow-Sätze.md",
     "Gruppentheorie/Gruppenwirkung.md",
     "Gruppentheorie/Auflösbare Gruppen.md",
-    "Diophantische Gleichungen/Chinesischer Restsatz.md",
+    "Gruppentheorie/Gruppen.md",
     "Gruppentheorie/Faktorgruppen.md",
-    "Gruppentheorie/Normalteiler.md",
+    "Ideale/Ideale.md",
+    "Ideale/Faktorringe.md",
+    "Polynomringe/Polynomringe.md",
+    "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
+    "Gruppentheorie/Symmetrische Gruppe.md",
+    "Gruppentheorie/Auflösbarkeit",
+    "Gruppentheorie/Gruppenhomomorphismen.md",
+    "Satz von Abel-Galois.md",
+    "Gruppentheorie/Konjugation",
+    "Diophantische Gleichungen/Diophantische Gleichungssysteme.md",
+    "Pasted image 20240625145824.png",
+    "README.md",
+    "Diophantische Gleichungen/Chinesischer Restsatz.md",
     "Arithmetik/kommutative Ringe.md",
     "Arithmetik/Euklidische Ringe.md",
     "Welcome.md"

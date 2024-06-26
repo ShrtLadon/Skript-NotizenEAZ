@@ -1,4 +1,4 @@
-Wir nennen eine Zahl $a \in \mathbb{R}$ konstruierbar $\iff$ $(0,a) \in \mathbb{R}^2$ ist [["Formalisierung" von Konstruktionen mit Zirkel und Lineal#Allgemeine Frage der Konstruierbarkeit|konstruierbar]]. 
+Wir nennen eine Zahl $a \in \mathbb{R}$ konstruierbar $\iff$ $(0,a) \in \mathbb{R}^2$ ist [[Formalisierung von Konstruktionen mit Zirkel und Lineal#Allgemeine Frage der Konstruierbarkeit|konstruierbar]]. 
 
 Da $(a,b)$ konstruierbar $\iff (0,a), (0,b) \in \mathbb{R}^{2}$ konstruierbar gilt, "verlieren" wir dabei auch keine Punkte.
 ###### Beweis
@@ -30,7 +30,7 @@ Es gilt $r \in \mathbb{K}$ genau dann wenn, es endlich viele [[kommutative Ringe
 
 "$\Rightarrow$" Sei die Menge aller solchen $r$'s gegeben durch $\mathbb{K}'$.
 
-z.Z. Hat eine Menge an Knoten $M$ Koordinaten in $\mathbb{K}'$, dann hat jeder [["Formalisierung" von Konstruktionen mit Zirkel und Lineal|konstruierbare]] Knoten Koordinaten in $\mathbb{K}'$, denn $(0,1), (0,0)$ sind insbesondere immer in $\mathbb{K}'$. 
+z.Z. Hat eine Menge an Knoten $M$ Koordinaten in $\mathbb{K}'$, dann hat jeder [[Formalisierung von Konstruktionen mit Zirkel und Lineal|konstruierbare]] Knoten Koordinaten in $\mathbb{K}'$, denn $(0,1), (0,0)$ sind insbesondere immer in $\mathbb{K}'$. 
 Es genügt zu zeigen, dass die in einem Schritt konstruierbaren Punkte wieder in $\mathbb{K}'$ liegen.
 ###### Schnitt von zwei Geraden
 Eine Gerade $l$ durch Punkte $A,B \in M$ ist gegeben durch $\set{\begin{pmatrix}x \\ y\end{pmatrix} \in \mathbb{R}^{2} : ax+by = c}$ mit $a,b,c \in \mathbb{K}'$. Insbesondere ist für zwei unterschiedliche Geraden entweder die Schnittmenge leer oder eindeutig. Da allerdings die Schnittmenge von zwei Geraden durch ein LGS gegeben ist und dies auch über $\mathbb{K}' \subset \mathbb{R}$ lösbar ist, muss die eindeutige Lösung Koordinaten in $\mathbb{K}'$ haben
