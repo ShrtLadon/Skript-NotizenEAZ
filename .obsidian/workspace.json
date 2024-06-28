@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppentheorie/Sylow-Sätze.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gruppentheorie/Sylow-Sätze.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gruppentheorie/Sylow-Sätze.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gruppentheorie/Sylow-Sätze.md"
+                "file": "README.md"
               }
             }
           }
@@ -185,8 +185,8 @@
   },
   "active": "06f1960c4e2b4a8a",
   "lastOpenFiles": [
-    "Gruppentheorie/Konjugation/Normalteiler.md",
     "Gruppentheorie/Sylow-Sätze.md",
+    "Gruppentheorie/Konjugation/Normalteiler.md",
     "Gruppentheorie/Symmetrische Gruppe.md",
     "Gruppentheorie/Gruppenwirkung.md",
     "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
