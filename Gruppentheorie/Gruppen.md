@@ -66,7 +66,7 @@ Insbesondere ist das wohldefiniert, weil $g_{1}\cdot ... \cdot g_{p} = e$ $\impl
 
 Wegen der [[Gruppenwirkung#Bahnenformel|Bahnenformel]] gilt nun$$p=\lvert H\rvert = \lvert H \cdot x\rvert \cdot \lvert H_{x}\rvert$$für alle $x \in X$. Insbesondere gilt also, weil $p$ prim, dass $\lvert H\cdot x\rvert \in \set{1,p}$ also dass die [[Gruppenwirkung#Bahn und Stabilisator|Bahnen]] Länge 1 oder p haben.
 
-Es gilt $\lvert G\rvert^{p-1} =\lvert X\rvert = 1 \cdot \#(\text{Bahnen der Länge 1}) + p \cdot \#(\text{Bahnen der Länge p})$ wobei wir hier nutzen, dass Bahnen $X$ [[Gruppenwirkung#Bahn und Stabilisator#Eigenschaften|partitionieren]]. Wir müssen dazu auf der rechten Seite noch mit $p$ multiplizieren, weil in den Bahnen der Länge $p$ genau $p$ Elemente enthalten sind.
+Es gilt $\lvert G\rvert^{p-1} =\lvert X\rvert = 1 \cdot \#(\text{Bahnen der Länge 1}) + p \cdot \#(\text{Bahnen der Länge p})$wobei wir hier nutzen, dass Bahnen $X$ [[Gruppenwirkung#Bahn und Stabilisator#Eigenschaften|partitionieren]]. Wir müssen dazu auf der rechten Seite noch mit $p$ multiplizieren, weil in den Bahnen der Länge $p$ genau $p$ Elemente enthalten sind.
 
 Da $p$ teilt $\lvert G\rvert$ gilt, teilt $p$ auch $\lvert G\rvert^{p-1}$ ($p-1 \geq 1$). Dann folgt aber weil $p$ die rechte Seite der Summe teilt, dass $p$ auch $\# (\text{Bahnen der Länge 1})$ teilt.
 

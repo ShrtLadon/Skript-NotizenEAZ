@@ -24,7 +24,7 @@ Sei $G$ eine Gruppe und $*:G\times X \rightarrow X$ eine Wirkung auf die Menge $
 - Der **Stabilisator** von $x \in X$ ist$$\text{Stab}_G(x):=G_{x}:=\set{g \in G : g* x =x}$$
 - Der **Kern** der Wirkung ist gegeben durch $$\ker:=\bigcap_{x\in X} G_{x}=\ker\rho$$wobei $\rho$ die [[#Zusammenhang zu symmetrischer Gruppe|Zuordnung]] zu einem Homomorphismus in die symmetrische Gruppe ist. Die Gleichheit gilt, weil der Kern genau die Elemente enthält, für die für alle $x \in X$ gilt, dass $g*x=x$ also $\rho(g)=Id$.
 
-Der **Bahnenraum** ist die Menge $$G\setminus X:=\set{G\cdot x: x\in X}$$und nach obigen [[#Bahn und Stabilisator#Eigenschaften|Eigenschaften]] eine Partitionierung von $G$.
+Der **Bahnenraum** ist die Menge $$G\setminus X:=\set{G\cdot x: x\in X}$$und nach den unteren [[#Bahn und Stabilisator#Eigenschaften|Eigenschaften]] eine Partitionierung von $X$.
 Für Rechtsoperationen ist der Bahnenraum definiert als $$X/G:=\set{x\cdot G: x\in X}$$
 
 #### Eigenschaften

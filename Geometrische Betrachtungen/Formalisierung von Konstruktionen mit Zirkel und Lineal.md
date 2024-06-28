@@ -1,5 +1,5 @@
-Sei $E$ die [[Affine Ebenen#euklidische Ebene|euklidische Ebene]] $\mathbb{R}^{2}$ und $M \subset E$ eine Menge an Knoten. Dann sind zulässige Konstruktionen:
-- Zeichnen einer [[Indizenzgeometrie|Gerade]] durch 2 Punkte aus $M$.
+Sei $E$ die euklidische Ebene $\mathbb{R}^{2}$ und $M \subset E$ eine Menge an Knoten. Dann sind zulässige Konstruktionen:
+- Zeichnen einer Gerade durch 2 Punkte aus $M$.
 - Zeichnen eines Kreises $K$ mit Zentrum in $M$ und Radius gleich dem Abstand von zwei Punkten in $M$. 
 	-> insbesondere kann man also Radius feststellen und Kreis verschieben.
 - Finden des Durchschnitts (bzw. der Schnittpunkte) von 2 Geraden und/oder Kreisen. 

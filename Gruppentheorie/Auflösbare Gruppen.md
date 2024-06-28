@@ -68,4 +68,80 @@ Dann ist aber nach Induktionsvoraussetzung $G/Z(G)$ auflösbar mit der passenden
 Die [[Gruppen#Diedergruppe|Diedergruppe]] $D_{2n}$ ist auflösbar, auch wenn z.B. $D_{6}\cong S_{3}$ zur [[Gruppen#symmetrische Gruppe|symmetrischen Gruppe]] nicht abelsch ist.
 ###### Beweis
 Betrachte $G_{2}=\langle r\rangle$ die Menge der Drehungen. Das ist ein [[Normalteiler#Diedergruppe|Normalteiler von $D_{2n}$]]. Setze noch $G_{1}=\set{1}$ und $G_{3}=G$. Dann ist $G_{2}/G_{1}=G_{2}$ als zyklische Gruppe [[Gruppenhomomorphismen|isomorph]] nach ÜB6.3.3 zur abelschen Gruppe $\mathbb{Z}_{n}$ also abelsch. Auf ÜB7.1 wurde nachgerechnet, dass $\#G_{3}/G_{2}=2$. Die Gruppe mit 2 Elementen ist aber eindeutig (Verknüpfung mit 0 fest und das andere Element muss selbst-invers sein) als $\mathbb{Z}_2$ also abelsch.
+### Gruppen der Ordnung < 60
+Es gilt jede Gruppe der [[Gruppen#ordnung|Ordnung]] kleiner 60 ist auflösbar.
 
+>[!Note]
+>[[Symmetrische Gruppe|$\lvert S_{5}\rvert$]]$=5!=60$ und $S_{5}$ ist [[Symmetrische Gruppe#$n>4$|nicht auflösbar]]. 
+##### Beweis
+Sei $G$ eine Gruppe und $n=\lvert G\rvert$. 
+Zum Beweis bedienen wir uns massiv bei der Eigenschaft, dass 
+a) [[#Auflösbarkeit von Gruppen der Ordnung $p {m}$|p-Gruppen]] (insbesondere [[#Beispiele|für $n$ prim]] $G$ auflösbar) 
+b) [[Sylow-Sätze#$ lvert G rvert= p {2}q$ mit $q neq p$ Primzahlen|$ \lvert G \rvert= p^{2}q$ mit $p \neq q$ Primzahlen]] 
+c) [[Sylow-Sätze#$ lvert G rvert=pq$ mit $p neq q$ Primzahlen|$ \lvert G \rvert=pq$ mit $p \neq q$ Primzahlen]]
+d) [[Sylow-Sätze#$ lvert G rvert=m cdot p {a}$ mit $m < p$.|$\lvert G \rvert=m \cdot p^{a}$ mit $m < p$]]
+
+auflösbar sind. Für einzelne $n$ müssen wir separat beweisen, dass $G$ auflösbar ist. Dazu werden wir uns jedes einzelne $n\in \set{1,...,60}$ anschauen, hier der Übersichtlichkeit halber in mehreren Spalten:
+
+
+|       n        |    Bew.     |        n        |       Bew.        |        n        |       Bew.        |
+| :------------: | :---------: | :-------------: | :---------------: | :-------------: | :---------------: |
+|      $1$       | $G=\set{1}$ |  $21=7\cdot3$   |        c)         |      $41$       |        a)         |
+|      $2$       |     a)      | $22=2\cdot 11$  |        c)         |  $42=6\cdot 7$  |        d)         |
+|      $3$       |     a)      |      $23$       |        a)         |      $43$       |        a)         |
+|    $4=2^2$     |     a)      |      $24$       | [[#Lemma $n=24$]] | $44=2^2\cdot11$ |        b)         |
+|      $5$       |     a)      |    $25=5^2$     |        a)         | $45=3^2\cdot5$  |        b)         |
+|  $6=2\cdot 3$  |     c)      |  $26=2\cdot13$  |        c)         | $46=2\cdot 23$  |        c)         |
+|      $7$       |     a)      |    $27=3^3$     |        a)         |      $47$       |        a)         |
+|    $8=2^3$     |     a)      | $28=7\cdot 2^2$ |        b)         |      $48$       | [[#Lemma $n=48$]] |
+|    $9=3^3$     |     a)      |      $29$       |        a)         |    $49=7^2$     |        a)         |
+| $10=5\cdot 2$  |     c)      |      $30$       | [[#Lemma $n=30$]] | $50=5^2\cdot2$  |        b)         |
+|      $11$      |     a)      |      $31$       |        a)         | $51=3\cdot 17$  |        c)         |
+| $12=2^2\cdot3$ |     b)      |    $32=2^5$     |        a)         | $52=2^2\cdot13$ |        b)         |
+|      $13$      |     a)      |  $33=3\cdot11$  |        c)         |      $53$       |        a)         |
+|  $14=7\cdot2$  |     c)      | $34=17\cdot 2$  |        c)         |      $54$       | [[#Lemma $n=54$]] |
+|  $15=5\cdot3$  |     c)      |  $35=5\cdot 7$  |        c)         |  $55=5\cdot11$  |        c)         |
+|    $16=2^4$    |     a)      |      $36$       | [[#Lemma $n=36$]] |      $56$       | [[#Lemma $n=56$]] |
+|      $17$      |     a)      |      $37$       |        a)         |  $57=3\cdot19$  |        c)         |
+| $18=3^2\cdot2$ |     b)      | $38=2\cdot 19$  |        c)         |  $58=2\cdot29$  |        c)         |
+|      $19$      |     a)      | $39=3\cdot 13$  |        c)         |      $59$       |        a)         |
+| $20=5\cdot2^2$ |     b)      |      $40$       | [[#Lemma $n=40$]] |        -        |         -         |
+Für die einzelnen Beweise werden wir uns viel auf die [[Sylow-Sätze]] und insbesondere [[Sylow-Sätze#Weitere Eigenschaften von $n_{p}$|Eigenschaften von $n_p$]] beziehen. Außerdem werden wir hin und wieder den [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] verwenden, also $\lvert G/H\rvert=\frac{\lvert G\rvert}{\lvert H\rvert}$.
+Zusätzlich werden wir verwenden, dass [[Normalteiler#Beispiele|der Kern von Homomorphismen]] ein [[Normalteiler]] ist und nach [[#Vererbung|oben]] $G$ auflösbar $\iff H \trianglelefteq G,G/H$ auflösbar.
+
+###### Vorüberlegung / Funktionsdefinition
+Betrachte außerdem für ein $p$ [[Primzahlen|Primzahl]] die Abbildung $$\varphi_p:G \rightarrow \text{Abb}(\text{Syl}_{p}(G),\text{Syl}_{p}(G)), g\mapsto c_{g}$$ wobei $c_{g}(U)=g^{-1}Ug$ die Bilder der [[Operation durch Konjugation]].
+Wir bemerken zunächst, dass $$gUg^{-1}=gU'g^{-1}\implies U=g^{-1}gUg^{-1}g=g^{-1}gU'g^{-1}g=U'$$ $c_{g}$ injektiv ist. Da es eine endliche Menge auf sich selbst abbildet, ist es auch bijektiv und damit bildet $\varphi_{p}$ sogar in [[Symmetrische Gruppe|$S_{(\text{Syl}_{p}(G))}$]] ab, was [[Gruppenhomomorphismen|isomorph]] zu $S_{n_p}$ ist. Man rechnet leicht nach, dass $\varphi_{p}$ ein [[Gruppenhomomorphismen|Homomorphismus]] ist.
+Außerdem gilt weil alle $U_{1},U_{2}\in \text{Syl}_{p}(G)$ [[Sylow-Sätze|zueinander konjugiert]] sind, dass $\text{Bild}(\varphi_p)\supsetneq \set 1$ und damit auch $\ker(\varphi_{p})\neq G$.
+###### Lemma: $n=24$ 
+Es gilt $24=2^{3}\cdot 3$. 
+*Fall*: $n_{2}=1$
+Dann ist $U_{2}\trianglelefteq G$ und $\lvert G/U_{2}\rvert=\frac{24}{2^3}=3$. Also sind $G/U_{2}$, $U_{2}$ nach obiger Tabelle auflösbar und damit auch $G$.
+*Fall* $n_{2}\neq 1$. Dann ist $n_{2}=3$, also $\lvert \text{Syl}_{2}(G)\rvert=3$. Es gilt für die [[#Vorüberlegung / Funktionsdefinition]] dass $\ker\varphi_{3}\neq G$. Außerdem ist $\varphi_{3}$ nicht injektiv, da $24 = \lvert G\rvert>\lvert S_{2}\rvert=2$. Also ist $\ker \varphi_{3}\neq \set{e}$. Wir wissen außerdem, dass $\ker \varphi_{3}\trianglelefteq G$. Da $\lvert \ker \varphi_{3}\rvert, \lvert G/\ker\varphi_3\rvert<24$ wissen wir nach der Tabelle oben schon, dass $\ker \varphi_{3}, G/\ker\varphi_{3}$ auflösbar sind und damit $G$ auch.
+
+###### Lemma $n=30$
+Es gilt $30=2\cdot3\cdot5$.
+Dann ist $n_{3}\in\set{1,2,5,10}$.  Wenn $n_{3}=1$ gehen wir wie bei [[#Lemma $n=24$]] vor und $G$ ist auflösbar.
+Wenn $n_{3}\neq 1$ ist $2,5 \not\equiv 1 \mod 3$, also muss $n_{3}=10$ sein. Da der [[Sylow-Sätze#Schnitt von p-Sylow Untergruppen|Schnitt von p-Sylow Untergruppen trivial]] also $\set{e}$ ist, gilt $\lvert \dot\bigcup_{H\in \text{Syl}_{3}(G)}(H\setminus \set e)\rvert=(3-1)\cdot 10 =20$.
+
+Da alle $U\in \text{Syl}_{3}(G)$ genau $3$ Elemente haben, ist jedes $U$ [[Gruppen#Zyklische Gruppen#Eigenschaften|zyklisch]] und wird von jedem Element außer $e$ [[Gruppen#Erzeugnis|erzeugt]]. D.h. $\forall x\in U\setminus\set{e}: \text{ord}(x)=3$ und wir wissen es gibt mindestens 20 Elemente der [[Gruppen#Ordnung|Ordnung]] 3.
+
+Nun gilt $n_{5}\in \set{1,2,3,6}$. Da $2,3\not\equiv 1 \mod 5$ ist $n_{5}\in \set{1,6}$.
+**Annahme**: $n_{5}=6$ 
+Wir sehen wie oben $\lvert \dot\bigcup_{H\in \text{Syl}_{5}(G)}(H\setminus \set e)\rvert=(5-1)\cdot 6 =24$. Also gibt es mindestens 24 Elemente der Ordnung 5. Da aber $20+25 > 30$ haben wir einen **Widerspruch**.
+Also ist $n_{5}=1$ und wie in [[#Lemma $n=24$]] gilt $G$ auflösbar.
+
+###### Lemma $n=36$
+Es gilt $36=2^{2}\cdot3^{3}$. Also ist $n_{3}\in \set{1,2,4}$. Da $2\not\equiv 1 \mod 3$ ist $n_{3}\in \set{1,4}$. 
+Für $n_{3}=1$ ist $G$ wie vorher auflösbar.
+Sei $n_{3}=4$. Dann ist $\varphi_{3}$ nicht injektiv, denn $\lvert G\rvert=36>24=\lvert S_{4}\rvert$, also ist $\ker \varphi_{3}\neq \set{e}, G$ wie in [[#Lemma $n=24$]] ist $G$ auflösbar. 
+
+###### Lemma $n=40$
+Es gilt $40=5\cdot2^{3}$, also ist $n_{5}\in \set{1,2,4,8}$ und $2,4,8 \not\equiv 1 \mod 5$.  D.h. $n_{5}=1$ und wie oben sehen wir $G$ ist auflösbar.
+###### Lemma $n=48$
+Es gilt $48=2^{4}\cdot 3$. Also ist $n_{2}\in \set{1,3}$. Für $n_{2}=1$ sind wie vorher fertig. Für $n_{2}=3$ gilt $\set{e}\neq \ker \varphi_{2}\neq G$, denn $\lvert G\rvert=48 > 6 =\lvert S_{3}\rvert$ und damit wie in [[#Lemma $n=24$]] $G$ auflösbar. 
+###### Lemma $n=54$
+Es gilt $54=2\cdot 3^{3}$. Also ist $n_{3}\in \set{1,2}$. Da $2 \not\equiv 1\mod 3$ ist $n_{3}=1$ und wie oben ist $G$ auflösbar.
+###### Lemma $n=56$
+Es gilt $56=7\cdot 2^{3}$. Also ist $n_{7}\in \set{1,2,4,8}$, aber da $2,4\not\equiv 1 \mod 7$ ist $n_{7}\in\set{1,8}$. Für $n_{7}=1$ sind wir wie oben fertig.
+Sei also $n_{7}=8$. Dann gibt es wie in [[#Lemma $n=30$]], dass es $8\cdot (7-1)$ Elemente der Ordnung 7 gibt. Die restlichen $2^{3}=8$ Elemente müssen also die einzige 2-Sylowuntergruppe bilden, also gilt $n_{2}=1$ und wie vorher sind wir fertig.
