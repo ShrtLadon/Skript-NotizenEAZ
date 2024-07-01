@@ -106,6 +106,7 @@ auflösbar sind. Für einzelne $n$ müssen wir separat beweisen, dass $G$ auflö
 | $18=3^2\cdot2$ |     b)      | $38=2\cdot 19$  |        c)         |  $58=2\cdot29$  |        c)         |
 |      $19$      |     a)      | $39=3\cdot 13$  |        c)         |      $59$       |        a)         |
 | $20=5\cdot2^2$ |     b)      |      $40$       | [[#Lemma $n=40$]] |        -        |         -         |
+
 Für die einzelnen Beweise werden wir uns viel auf die [[Sylow-Sätze]] und insbesondere [[Sylow-Sätze#Weitere Eigenschaften von $n_{p}$|Eigenschaften von $n_p$]] beziehen. Außerdem werden wir hin und wieder den [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] verwenden, also $\lvert G/H\rvert=\frac{\lvert G\rvert}{\lvert H\rvert}$.
 Zusätzlich werden wir verwenden, dass [[Normalteiler#Beispiele|der Kern von Homomorphismen]] ein [[Normalteiler]] ist und nach [[#Vererbung|oben]] $G$ auflösbar $\iff H \trianglelefteq G,G/H$ auflösbar.
 

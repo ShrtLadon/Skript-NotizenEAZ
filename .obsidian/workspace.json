@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppentheorie/Symmetrische Gruppe.md",
-                "mode": "source",
+                "file": "Gruppentheorie/Auflösbare Gruppen.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Gruppentheorie/Auflösbare Gruppen.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppentheorie/Gruppenwirkung.md",
+                "file": "Gruppentheorie/Gruppen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sylow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Gruppentheorie/Auflösbare Gruppen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Gruppentheorie/Auflösbare Gruppen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Gruppentheorie/Auflösbare Gruppen.md"
               }
             }
           }
@@ -183,19 +183,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06f1960c4e2b4a8a",
+  "active": "d3a70dcef49bfd25",
   "lastOpenFiles": [
     "Gruppentheorie/Sylow-Sätze.md",
-    "Gruppentheorie/Konjugation/Normalteiler.md",
+    "Gruppentheorie/Auflösbare Gruppen.md",
+    "Gruppentheorie/Gruppen.md",
     "Gruppentheorie/Symmetrische Gruppe.md",
+    "Gruppentheorie/Konjugation/Normalteiler.md",
     "Gruppentheorie/Gruppenwirkung.md",
+    "README.md",
     "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
     "Geometrische Betrachtungen/Isometrien.md",
     "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
     "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
     "Diophantische Gleichungen/Satz von Fermat.md",
-    "Gruppentheorie/Gruppen.md",
-    "Gruppentheorie/Auflösbare Gruppen.md",
     "Gruppentheorie/Gruppenhomomorphismen.md",
     "Affine Ebenen.md",
     "Ideale/Faktorringe.md",
@@ -209,7 +210,6 @@
     "Gruppentheorie/Konjugation",
     "Diophantische Gleichungen/Diophantische Gleichungssysteme.md",
     "Pasted image 20240625145824.png",
-    "README.md",
     "Diophantische Gleichungen/Chinesischer Restsatz.md",
     "Arithmetik/kommutative Ringe.md",
     "Arithmetik/Euklidische Ringe.md",
