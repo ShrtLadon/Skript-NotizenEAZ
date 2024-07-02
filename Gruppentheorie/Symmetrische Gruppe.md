@@ -75,8 +75,8 @@ Wir wollen also einen Zykel der Länge 3 finden:
 ###### Beweis der Existenz eines Zykels der Länge 3
 Betrachte dazu für ein $g\in N \setminus \set e$ und die Fixpunktmenge$$\text{Fix}(g):=\set{m\mid g(m)=m}$$und betrachte ein $g$ sodass $\lvert \text{Fix}(g)\rvert$ am größten ist bzw. am wenigsten Elemente durch $g$ "bewegt" werden. Wir werden zeigen, dass $g$ ein 3-Zyklus ist.
 
-**Annahme**: $g$ bewegt mindestens 5 Elemente. Dann gilt einer der Fälle:
-1) $g=(a, b, c, d, e,...) ...$
+**Annahme**: $g$ bewegt mindestens 5 Elemente. Dann gilt einer der Fälle (je nach größter Zykluslänge):
+1) $g=(a, b, c, d, ...) ...$
 2) $g=(a,b,c)(d,e,...)...$
 3) $g=(a,b)(c,d)(e,f)...$
 
@@ -87,7 +87,7 @@ Nummeriere die Zykel in $g$ durch also $c_{1}=(a,b,c,d,...)$, $c_{2}=(x_{1},...,
 Dann wählen wir$$h=c_{1}\quad c_{2}^{-1}\quad...\quad c_{m}^{-1}$$wobei z.B. $c_{2}^{-1}=(x_{k},...,x_{1})$. 
 Dann gilt $g\cdot h =c_{1}\cdot c_{1}$ was insgesamt nur noch die Elemente aus $c_{1}$ bewegt, also weniger als vorher. 
 
-Wenn $\varphi \in \mathcal{A_{n}}$ sind wir also fertig, weil $\lvert \text{Fix}(g\cdot h)\rvert > \lvert \text{Fix}{(g)}\rvert$ was ein **Widerspruch** zur geforderten Minimalität ist, da dann $h \in N$ (wegen Normalität) und $g\cdot h \in N$. (Außerdem ist $g\cdot h\neq e$, weil z.B. $a$ zu $c$ bewegt wird) 
+Wenn $\varphi \in \mathcal{A_{n}}$ sind wir also fertig, weil $\lvert \text{Fix}(g\cdot h)\rvert > \lvert \text{Fix}{(g)}\rvert$ was ein **Widerspruch** zur geforderten Maximalität ist, da dann $h \in N$ (wegen Normalität) und $g\cdot h \in N$. (Außerdem ist $g\cdot h\neq e$, weil z.B. $a$ zu $c$ bewegt wird) 
 
 Wenn $\varphi  \not \in \mathcal{A_{n}}$ betrachten wir $$\tilde\varphi=\varphi\cdot(ab)\in \mathcal{A_{n}}$$Dann bewegt $\tilde g=g\cdot(\tilde\varphi g \tilde\varphi^{-1})=g\cdot(ab)\cdot h\cdot (ab)$, die Elemente außer denen in $c_{1}$ nicht und wir haben wie bei $\varphi \in \mathcal{A_{n}}$ einen **Widerspruch**
 
@@ -96,13 +96,13 @@ Also $g=(a_{1},...,a_{k})$ mit $k\geq 5$. Dann finde $h,\varphi\in S_{n}$ mit $$
 
 Für den zweiten Fall $g=(a,b,c)(d,e,...)...$ geht man analog vor wie bei $m\neq 1$ oben. Für den dritten Fall $g=(a,b)(c,d)(e,f)...$ konjugieren wir mit $$\varphi=(a, b, c)\in \mathcal{A_{n}}$$Dann ist $h:=\varphi g \varphi^{-1}=(a, d)(b, c)(e,f)...$ und $g\cdot h =(a, c)(b, d)$ was wieder zu einem **Widerspruch** führt.
 
-Wir wissen also jetzt $\lvert \text{Fix}(g)\rvert \geq n- 4$, wollen aber zeigen $\lvert \text{Fix}(g)\rvert=3$. ($2$ kann nicht sein, da sonst $g\not \in \mathcal{A_{n}}$).
+Wir wissen also jetzt $\lvert \text{Fix}(g)\rvert \geq n- 4$, wollen aber zeigen $\lvert \text{Fix}(g)\rvert=n-3$. ($2$ kann nicht sein, da sonst $g\not \in \mathcal{A_{n}}$).
 **Annahme:** $\lvert \text{Fix}(g)\rvert=n-4$. Dann ist $g=(a,b,c,d)$ oder $g=(a,b)(c,d)$. Den ersten Fall können wir [[#Signum|als 4-Zyklus]] in $\mathcal{A_{n}}$ ausschließen, da 4 gerade ist. Wir wollen also jetzt aus $g=(a,b)(c,d)$ einen 3-Zyklus in $N$ konstruieren:
 Sei dazu $f\in \set{1,...,n}\setminus\set{a,b,c,d}$ (hier nutzen wir aus, dass $n\geq 5$ ist) und $$\varphi=(f, b, a)\in \mathcal{A_{n}}$$Dann ist $h=\varphi\cdot g\cdot \varphi^{-1}=(a,f)(c,d)$. Dann ist $h\in N$, weil $N \trianglelefteq \mathcal{A_{n}}$ also ist auch $$g\cdot h=(a, f,b)\in N$$und damit haben wir einen **Widerspruch** und einen 3-Zyklus in $N$ und damit bewiesen, dass die einzigen Normalteiler von $\mathcal{A_{n}}$ genau $\set{1}$ und $\mathcal{A_{n}}$ sind.
 
 ##### 1)
 Dass $\mathcal{A_{n}}\trianglelefteq S_{n}$ gilt, sieht man direkt, wenn man die Transpositionszerlegung von einem $g\in S_{n}$ betrachtet. Dann werden von links und von rechts gleich viele Transpositionen dazumultipliziert, also kommt eine gerade Anzahl dazu.
-Sei $\set{1}\neq U \underset{\neq}\triangleleft S_{n}$. Dann ist $H:=U \cap \mathcal{A_{n}}$ eine [[Gruppen#Untergruppen|Untergruppe]] von $\mathcal{A}_{n}$ und es gilt für alle $g\in \mathcal{A}_{n}:g(U\cap \mathcal{A}_{n})g^{-1}=U\cap\mathcal{A}_{n}=H$ also $H\trianglelefteq \mathcal{A}_{n}$, also muss mit [[#2)]] gelten, dass $U=S_{n}\setminus\mathcal{A}_n$ oder $U\supseteq \mathcal{A_{n}}$. Der erste Fall ist aber keine Untergruppe, denn $\text{sgn}(x)=-1\implies \text{sgn}(x\cdot x)=(-1)\cdot(-1)=1$, also $x^{2}\not \in U$. Also muss $U\supseteq \mathcal{A}_{n}$ sein. Da aber wegen [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] $\frac{n!}{2}=\lvert \mathcal{A_{n}}\rvert\leq \lvert U\rvert\mid S_{n}=n!$ [[kommutative Ringe#Teiler|Teiler]] von $n!$ ist, muss $\lvert U=\frac{n!}2$ also $U=\mathcal{A}_n$ sein.
+Sei $\set{1}\neq U \underset{\neq}\triangleleft S_{n}$. Dann ist $H:=U \cap \mathcal{A_{n}}$ eine [[Gruppen#Untergruppen|Untergruppe]] von $\mathcal{A}_{n}$ und es gilt für alle $g\in \mathcal{A}_{n}:g(U\cap \mathcal{A}_{n})g^{-1}=U\cap\mathcal{A}_{n}=H$ also $H\trianglelefteq \mathcal{A}_{n}$, also muss mit [[#2)]] gelten, dass $U\subseteq(S_{n}\setminus\mathcal{A}_{n})\cup{\{1\}}$ oder $U\supseteq \mathcal{A_{n}}$. Der erste Fall ist aber keine Untergruppe, denn $\text{sgn}(x)=-1\implies \text{sgn}(x\cdot x)=(-1)\cdot(-1)=1$, also $x^{2}\not \in U$. Also muss $U\supseteq \mathcal{A}_{n}$ sein. Da aber wegen [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] $\frac{n!}{2}=\lvert \mathcal{A_{n}}\rvert\leq \lvert U\rvert\mid \lvert S_{n} \rvert=n!$ [[kommutative Ringe#Teiler|Teiler]] von $n!$ ist, muss $\lvert U\rvert=\frac{n!}2$ also $U=\mathcal{A}_n$ sein.
 
 ##### 3)
 Es genügt wegen [[#1)]] einzusehen, dass $\mathcal{A}_{n}$[[Gruppenhomomorphismen|$\cong$]] [[Faktorgruppen|$\mathcal{A}_{n}/\set{1}$]] nicht abelsch ist. Es gilt $$\begin{gathered}(1,2,3)\cdot(2,3,4)=(1,2)(4,3)\\(2,3,4)\cdot(1,2,3)=(1,3)(2,4)\end{gathered}$$also kann $S_{n}$ nicht [[Auflösbare Gruppen|auflösbar]] sein.
