@@ -99,7 +99,7 @@ Es gilt die Untergruppen von $(\mathbb{Z},+)$ sind genau durch $(n \mathbb{Z}, +
 	*Angenommen* es ex. ein $x \in S \setminus n \mathbb{Z}$. Dann existiert ein $k \in \mathbb{Z}$, sodass $kn<x<(k+1)n$. 
 	$\implies$ $0<x-kn<n$ und $x -kn \in S$. Das ist allerdings ein *Widerspruch* zu Minimalität von $n$. 
 #### Diedergruppe
-Sei $n \geq 3$. Dann ist die Menge der Symmetrien (also [[Isometrien]], die Ecken auf Ecken abbilden) des regulären $n$-Ecks eine Gruppe $D_{2n}$ bezüglich der Komposition und hat $2n$ Elemente. 
+Sei $n \geq 3$. Dann ist die Menge der Symmetrien (also [[Bewegungen|Isometrien]], die Ecken auf Ecken abbilden) des regulären $n$-Ecks eine Gruppe $D_{2n}$ bezüglich der Komposition und hat $2n$ Elemente. 
 ##### Beweis
 Es gilt ein n-Eck hat genau die Ecken $1, e^{\frac{2 \pi i \cdot 1}{n}}, e^{\frac{2 \pi i \cdot n-1}{n}}$. Außerdem gilt, dass die Komposition in $D_{2n}$ abgeschlossen ist.
 

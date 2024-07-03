@@ -87,7 +87,7 @@ Nummeriere die Zykel in $g$ durch also $c_{1}=(a,b,c,d,...)$, $c_{2}=(x_{1},...,
 Dann wählen wir$$h=c_{1}\quad c_{2}^{-1}\quad...\quad c_{m}^{-1}$$wobei z.B. $c_{2}^{-1}=(x_{k},...,x_{1})$. 
 Dann gilt $g\cdot h =c_{1}\cdot c_{1}$ was insgesamt nur noch die Elemente aus $c_{1}$ bewegt, also weniger als vorher. 
 
-Wenn $\varphi \in \mathcal{A_{n}}$ sind wir also fertig, weil $\lvert \text{Fix}(g\cdot h)\rvert > \lvert \text{Fix}{(g)}\rvert$ was ein **Widerspruch** zur geforderten Maximalität ist, da dann $h \in N$ (wegen Normalität) und $g\cdot h \in N$. (Außerdem ist $g\cdot h\neq e$, weil z.B. $a$ zu $c$ bewegt wird) 
+Wenn $\varphi \in \mathcal{A_{n}}$ sind wir also fertig, weil $\lvert \text{Fix}(g\cdot h)\rvert > \lvert \text{Fix}{(g)}\rvert$ was ein **Widerspruch** zur geforderten Maximalität von $\lvert \text{Fix}(g)\rvert$ ist, da dann $h \in N$ (wegen Normalität) und $g\cdot h \in N$. (Außerdem ist $g\cdot h\neq e$, weil z.B. $a$ zu $c$ bewegt wird) 
 
 Wenn $\varphi  \not \in \mathcal{A_{n}}$ betrachten wir $$\tilde\varphi=\varphi\cdot(ab)\in \mathcal{A_{n}}$$Dann bewegt $\tilde g=g\cdot(\tilde\varphi g \tilde\varphi^{-1})=g\cdot(ab)\cdot h\cdot (ab)$, die Elemente außer denen in $c_{1}$ nicht und wir haben wie bei $\varphi \in \mathcal{A_{n}}$ einen **Widerspruch**
 

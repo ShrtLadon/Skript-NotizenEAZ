@@ -35,9 +35,11 @@ Führe (starke) Induktion nach $\lvert G\rvert$.
 
 *IS*: 
 Nach Annahme ist $G$ auflösbar also gibt es $$\set 1 =G_{1} \trianglelefteq G_{2} \trianglelefteq ... \trianglelefteq G_{m}=G$$die $G$ auflösen.
-Insbesondere kann man o.B.d.A fordern, dass $G_{m-1}\subsetneq G_m$ ist (sonst streiche die gleichen Elemente). D.h. es gilt $\lvert G_{m-1}\rvert < \lvert G_m\rvert$ und mit Induktionsvoraussetzung gibt es$$\set 1 =H_{1} \trianglelefteq H_{2} \trianglelefteq ... \trianglelefteq H_{k}=G_{m-1}$$die $G_{m-1}$ auflösen und für die $\lvert H_{i}/H_{i-1}\rvert$ prim ist. 
-Außerdem ist wenn $G_{m-1}\subsetneq G_m$ auch $\lvert G_{m}/G_{m-1}\rvert < \lvert G\rvert$ wegen dem [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]]. 
-TODO: "... *echt* kleiner $|G|$" ist falsch genau dann, wenn Zerlegung "nur" ${1}\trianglelefteq G$ ist. Dann ist aber G abelsch, und man kann bel. echten Normalteiler nehmen (ex. nach Cauchy, da $|G|$ nicht prim).
+Insbesondere kann man o.B.d.A fordern, dass $G_{m-1}\subsetneq G_m$ ist (sonst streiche die gleichen Elemente). D.h. es gilt $\lvert G_{m-1}\rvert < \lvert G_m\rvert$ und mit Induktionsvoraussetzung gibt es$$\set 1 =H_{1} \trianglelefteq H_{2} \trianglelefteq ... \trianglelefteq H_{k}=G_{m-1}$$die $G_{m-1}$ auflösen und für die $\lvert H_{i}/H_{i-1}\rvert$ prim ist.
+*Fall* $G_{m-1}=\set{1}$ ist $G/G_{m-1}\cong G$ [[Gruppen|abelsch]]. Wenn $\lvert G\rvert$ prim (oder 1) ist, sind wir fertig. Sei also $G$ nicht prim, dann existiert mit [[Gruppen#Theorem von Cauchy|Theorem von Cauchy]] ein nicht-triviale Untergruppe $\set{1}<U<G$. Da $G$ abelsch ist, ist jede Untergruppe ein Normalteiler von $G$ und $G/U$ auch abelsch. Wir können also o.B.d.A. vom folgenden Fall ausgehen:
+
+*Fall* $G_{m-1}\neq\set 1$:
+Nun ist wenn $G_{m-1}\subsetneq G_m$ auch $\lvert G_{m}/G_{m-1}\rvert < \lvert G\rvert$ wegen dem [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]]. 
 Also gibt es nach Induktionsvoraussetzung$$\set {1_{G_{m}/G_{m-1}}} =N_{1} \trianglelefteq N_{2} \trianglelefteq ... \trianglelefteq N_{l}=G_{m}/G_{m-1}$$die $G_{m}/G_{m-1}$ auflösen und für die $\lvert N_{i}/N_{i-1}\rvert$ prim ist. 
 Definiere für $2 \leq j \leq l$ $$H_{k+j}:=p^{-1}(N_{j})=\dot\bigcup_{x\in N_{j}}x$$wobei $p:G_{m} \rightarrow G_{m}/G_{m-1},x\mapsto xG_{m-1}$ ist. Die rechte Seite überlegt man sich schnell weil die $x$ genau die Mengen sind die von $p$ auf die selbe Menge geworfen werden. 
 Anmerkung: Die 2 ist korrekt, weil $H_{k}=G_{m-1}=p^{-1}(\set 1)=p^{-1}(N_{1})$.

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppentheorie/Auflösbare Gruppen.md",
+                "file": "Geometrische Betrachtungen/Bewegungen.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,12 +85,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sylow",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gruppentheorie/Auflösbare Gruppen.md",
+                "file": "Geometrische Betrachtungen/Bewegungen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gruppentheorie/Auflösbare Gruppen.md",
+                "file": "Geometrische Betrachtungen/Bewegungen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gruppentheorie/Auflösbare Gruppen.md"
+                "file": "Geometrische Betrachtungen/Bewegungen.md"
               }
             }
           }
@@ -185,10 +185,11 @@
   },
   "active": "d3a70dcef49bfd25",
   "lastOpenFiles": [
-    "Gruppentheorie/Sylow-Sätze.md",
     "Gruppentheorie/Auflösbare Gruppen.md",
-    "Gruppentheorie/Gruppen.md",
+    "Gruppentheorie/einfache Gruppen.md",
     "Gruppentheorie/Symmetrische Gruppe.md",
+    "Gruppentheorie/Sylow-Sätze.md",
+    "Gruppentheorie/Gruppen.md",
     "Gruppentheorie/Konjugation/Normalteiler.md",
     "Gruppentheorie/Gruppenwirkung.md",
     "README.md",
