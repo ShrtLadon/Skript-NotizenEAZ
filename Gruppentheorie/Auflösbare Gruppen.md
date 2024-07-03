@@ -116,7 +116,7 @@ Zusätzlich werden wir verwenden, dass [[Normalteiler#Beispiele|der Kern von Hom
 ###### Vorüberlegung / Funktionsdefinition
 Betrachte außerdem für ein $p$ [[Primzahlen|Primzahl]] die Abbildung $$\varphi_p:G \rightarrow \text{Abb}(\text{Syl}_{p}(G),\text{Syl}_{p}(G)), g\mapsto c_{g}$$ wobei $c_{g}(U)=g^{-1}Ug$ die Bilder der [[Operation durch Konjugation]].
 Wir bemerken zunächst, dass $$gUg^{-1}=gU'g^{-1}\implies U=g^{-1}gUg^{-1}g=g^{-1}gU'g^{-1}g=U'$$ $c_{g}$ injektiv ist. Da es eine endliche Menge auf sich selbst abbildet, ist es auch bijektiv und damit bildet $\varphi_{p}$ sogar in [[Symmetrische Gruppe|$S_{(\text{Syl}_{p}(G))}$]] ab, was [[Gruppenhomomorphismen|isomorph]] zu $S_{n_p}$ ist. Man rechnet leicht nach, dass $\varphi_{p}$ ein [[Gruppenhomomorphismen|Homomorphismus]] ist.
-Außerdem gilt weil alle $U_{1},U_{2}\in \text{Syl}_{p}(G)$ [[Sylow-Sätze|zueinander konjugiert]] sind, dass $\text{Bild}(\varphi_p)\supsetneq \set 1$ und damit auch $\ker(\varphi_{p})\neq G$.
+Wenn $n_p>1$, gilt weil alle $U_{1},U_{2}\in \text{Syl}_{p}(G)$ [[Sylow-Sätze|zueinander konjugiert]] sind, dass $\text{Bild}(\varphi_p)\supsetneq \set 1$ und damit auch $\ker(\varphi_{p})\neq G$.
 ###### Lemma: $n=24$ 
 Es gilt $24=2^{3}\cdot 3$. 
 *Fall*: $n_{2}=1$
@@ -136,7 +136,7 @@ Wir sehen wie oben $\lvert \dot\bigcup_{H\in \text{Syl}_{5}(G)}(H\setminus \set 
 Also ist $n_{5}=1$ und wie in [[#Lemma $n=24$]] gilt $G$ auflösbar.
 
 ###### Lemma $n=36$
-Es gilt $36=2^{2}\cdot3^{3}$. Also ist $n_{3}\in \set{1,2,4}$. Da $2\not\equiv 1 \mod 3$ ist $n_{3}\in \set{1,4}$. 
+Es gilt $36=2^{2}\cdot3^{2}$. Also ist $n_{3}\in \set{1,2,4}$. Da $2\not\equiv 1 \mod 3$ ist $n_{3}\in \set{1,4}$. 
 Für $n_{3}=1$ ist $G$ wie vorher auflösbar.
 Sei $n_{3}=4$. Dann ist $\varphi_{3}$ nicht injektiv, denn $\lvert G\rvert=36>24=\lvert S_{4}\rvert$, also ist $\ker \varphi_{3}\neq \set{e}, G$ wie in [[#Lemma $n=24$]] ist $G$ auflösbar. 
 
@@ -148,4 +148,4 @@ Es gilt $48=2^{4}\cdot 3$. Also ist $n_{2}\in \set{1,3}$. Für $n_{2}=1$ sind wi
 Es gilt $54=2\cdot 3^{3}$. Also ist $n_{3}\in \set{1,2}$. Da $2 \not\equiv 1\mod 3$ ist $n_{3}=1$ und wie oben ist $G$ auflösbar.
 ###### Lemma $n=56$
 Es gilt $56=7\cdot 2^{3}$. Also ist $n_{7}\in \set{1,2,4,8}$, aber da $2,4\not\equiv 1 \mod 7$ ist $n_{7}\in\set{1,8}$. Für $n_{7}=1$ sind wir wie oben fertig.
-Sei also $n_{7}=8$. Dann gibt es wie in [[#Lemma $n=30$]], dass es $8\cdot (7-1)$ Elemente der Ordnung 7 gibt. Die restlichen $2^{3}=8$ Elemente müssen also die einzige 2-Sylowuntergruppe bilden, also gilt $n_{2}=1$ und wie vorher sind wir fertig.
+Sei also $n_{7}=8$. Dann gilt wie in [[#Lemma $n=30$]], dass es $8\cdot (7-1)$ Elemente der Ordnung 7 gibt. Die restlichen $2^{3}=8$ Elemente müssen also die einzige 2-Sylowuntergruppe bilden, also gilt $n_{2}=1$ und wie vorher sind wir fertig.
