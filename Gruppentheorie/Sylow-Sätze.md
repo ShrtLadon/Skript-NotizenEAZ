@@ -17,7 +17,7 @@ Nach [[Gruppen#Theorem von Cauchy|Theorem von Cauchy]] gilt es existiert ein $x 
 $\lvert$[[Faktorgruppen|$G/K$]]$\rvert=p^{a-1}\cdot m$, also existiert nach Induktionsannahme ein $U < G/K$ mit $\lvert U\rvert=p^{a-1}$. 
 
 Betrachte $$\pi:G \rightarrow G/K,x\mapsto xK$$den kanonischen [[Gruppenhomomorphismen|Homomorphismus]]. Betrachte nun $V:=\pi^{-1}(U)$. Es gilt $\pi(e)=eG\in U$ also $e\in V$ und für $a,b\in V$, dass $\pi(a\cdot b^{-1})=\pi(a)\cdot \pi(b)^{-1}\in U$, da $U$ Untergruppe. Also ist nach [[Gruppen#Untergruppenkriterium|Untergruppenkriterium]] $V$ eine Untergruppe von $G$. 
-Außerdem gilt die Einschränkung $\pi\lvert_{V}^U$ hat immer noch $\ker \pi\lvert_{V}^{U=\ker}\pi=K$ und es gilt mit [[Faktorgruppen#Isomorphiesatz|Isomorphiesatz]] und Satz von Lagrange:$$\lvert V\rvert=\lvert K\rvert\cdot  \lvert U\rvert=p^{a-1}\cdot p=p^{a}$$und wir haben die gesuchte Untergruppe.
+Außerdem gilt die Einschränkung $\pi\lvert_{V}^U$ hat immer noch $\ker \pi\lvert_{V}^{U}=\ker\pi=K$ und es gilt mit [[Faktorgruppen#Isomorphiesatz|Isomorphiesatz]] und Satz von Lagrange:$$\lvert V\rvert=\lvert K\rvert\cdot  \lvert U\rvert=p^{a-1}\cdot p=p^{a}$$und wir haben die gesuchte Untergruppe.
 
 *Fall* $\lvert Z(G)\rvert$ ist nicht durch $p$ teilbar.
 Dann gilt mit der [[Operation durch Konjugation#Klassengleichung|Klassengleichung]] - da $p \mid G\rvert$ - dass $p\not\mid \sum\limits_{x\in X, \lvert G:Z_G(x)\rvert \neq 1}\lvert G:Z_G(x)$. Also muss es ein $g\in G$ geben, sodass $p \not \mid \lvert G:Z_{G}(g)\rvert\neq 1$. (Es kann keine leere Summe sein, sonst ist $\lvert Z(G)\rvert=\lvert G\rvert=p^{a}m$). Dann gilt mit Satz von Lagrange $$\lvert Z_G(g)\rvert=\frac{\lvert G\rvert}{\lvert G:Z_G(g)\rvert}=p^{a}\cdot m'<\lvert G\rvert$$ Mit Induktionsannahme existiert also ein $U<Z_G(g)<G$ mit $\lvert U\rvert=p^a$. 
@@ -42,7 +42,7 @@ Sei $n_{p}=\lvert \text{Syl}_{p}(G)\rvert$. Dann gilt mit dem zweiten Punkt der 
 Außerdem gilt [[Normalisator#Wichtige Eigenschaften|$n_{p}=\lvert G: N_{G}(U_p)\rvert$]]. Da [[Normalisator#Wichtige Eigenschaften|$U < N_G(U_p)$]] und wegen Anwendung des [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] auch, dass $\lvert U_p\rvert \cdot \lvert N_{G}(U_p) : U_p\rvert= \lvert N_{G}(U_p)\rvert$ (wir beziehen uns hier wirklich auf $U_p < N_{G}(U_p)$). Da wegen Satz von Lagrange aber ebenfalls gilt $n_{p}=\frac{\lvert G\rvert}{\lvert N_{G}(U_p\rvert}=\frac{\lvert G\rvert}{\frac{\lvert N_G(U_p) \rvert \cdot \lvert U_p\rvert}{\lvert U_p\rvert}}=\frac{\lvert G\rvert}{\lvert N_{G}(U_p) : U_p\rvert \cdot \lvert U_p\rvert}$. Daraus folgt $n_{p}\cdot \lvert N_{G}(U_p):U_p\rvert=\frac{\lvert G\rvert}{\lvert U_p\rvert}$ also ist $n_{p}$ ein [[kommutative Ringe#Teiler|Teiler]] von $\frac{\lvert G\rvert}{p^{a}}$.   
 
 #### Schnitt von p-Sylow Untergruppen
- Seien $U\neq H \in \text{Syl}_{q}(G)$. Dann gilt $U \cap H<U$ und nach [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] also, dass $\lvert U\cap H\rvert \mid \lvert U\rvert$ und damit $U\cap H=\set{e}$, da $\lvert U\rvert=q$ prim. 
+ Seien $U\neq H \in \text{Syl}_{q}(G)$ und $\lvert U\rvert=\lvert H\rvert=q$. Dann gilt $U \cap H\lneq U$ und nach [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] also, dass $\lvert U\cap H\rvert \mid \lvert U\rvert$ und damit $U\cap H=\set{e}$, da $\lvert U\rvert=q$ prim. 
 
 # Folgerungen
 ##### $\lvert G\rvert=m\cdot p^{a}$ mit $m < p$.
