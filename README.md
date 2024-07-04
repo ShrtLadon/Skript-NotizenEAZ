@@ -10,6 +10,7 @@ und navigiert zum runtergeladenen Repo. Dort dann einfach zum runtergeladenen Re
 Achtet insbesondere darauf, dass ihr im Ordner `Skript-Notizen-EAZ` seid oder diesen ausgewählt habt - gerade wenn ihr nicht cloned, sondern die zip runterladet. Wenn alles richtig verlaufen ist, solltet ihr einen Prompt bekommen, dass Plugins verwendet werden und ein leicht anderes Theme als das Standardtheme sehen.
 ###### Nutzung auf dem Tablet
 Auf dem Tablet gibt es leider ohne weiteres keine Command-Line - es sei denn ihr richtet euch das ein - ihr müsst also oben beim grünen Code Button `Download ZIP` auswählen und das manuell entpacken. Beachtet danach die generellen Hinweise.
+Eine alternative Methode ist die Nutzung von `Obsidian-Git`. Dafür kann [diese Anleitung](ios.md) genutzt werden.
 
 ## Anmerkungen zur Offline-Nutzung
 Ich habe insbesondere bei Konstruktion mit Zirkel und Lineal massiv mit HTML Geogebra Darstellungen eingebettet. Diese sind interaktiv und dementsprechend mMn schöner als einfache Gifs oder Bilder, aber nur online nutzbar. Solange ihr nicht auf diese zugreifen wollt, ist natürlich alles offline nutzbar.
