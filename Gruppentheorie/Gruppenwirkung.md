@@ -8,7 +8,7 @@ Analog kann man auch eine **Rechtswirkung** $*:X\times G \rightarrow X$ definier
 #### Zusammenhang zu symmetrischer Gruppe
 Wirkungen $*:G\times X \rightarrow G$ stehen in 1 zu 1 Korrespondenz zu [[Gruppenhomomorphismen|Homomorphismen]] $$\rho:G \rightarrow S_{(X)}$$ von $G$ zur [[Symmetrische Gruppe|symmetrischen Grupe]]
 ###### Beweis
-Sei $*:G \times X \rightarrow X$. Dann definiere $\rho:G \rightarrow S_{(X)},x \mapsto g*x$. Das ist wohldefiniert, da $x\mapsto g^{-1}*x$Inverse von $\rho(g)$ ist und damit $\rho(g)$ bijektiv also in $S_{(X)}$. 
+Sei $*:G \times X \rightarrow X$. Dann definiere $\rho:G \rightarrow S_{(X)}, g \mapsto (x \mapsto g*x)$. Das ist wohldefiniert, da $x\mapsto g^{-1}*x$ Inverse von $\rho(g)$ ist und damit $\rho(g)$ bijektiv also in $S_{(X)}$. 
 
 Außerdem ist $\rho(g\cdot g')(x)=(g\cdot g')*x\overset{A1}=g*(g'*x)=(\rho(g)\circ \rho(g'))(x)$. Also gilt $\rho(g\cdot g')=\rho(g) \circ \rho(g')$ und damit ist $\rho$ ein [[Gruppenhomomorphismen|Homomorphismus]]. 
 

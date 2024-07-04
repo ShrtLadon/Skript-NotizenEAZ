@@ -2,8 +2,8 @@ Sei $U < G$ eine [[Gruppen#Untergruppen|Untergruppe]]. Dann ist der **Normalisat
 #### Wichtige Eigenschaften
 - $N_{G}(U)$ ist eine [[Gruppen#Untergruppen|Untergruppe]] von $G$ und es gilt [[Normalteiler|$U \trianglelefteq N_{G}(U)$]].
 - $N_{G}(U)$ ist die größte Untergruppe von $G$ in der $U$ normal ist.
-- [[Gruppenwirkung#Index|$\lvert G:N_{G}(U)\rvert$]] ist die Anzahl der zu $U$ konjugierten Untergruppen
-- $\lvert N_{G}(U)\rvert=1 \iff N_G(U)=G$
+- [[Gruppenwirkung#Index|$\lvert G:N_{G}(U)\rvert$]] ist die Anzahl der zu $U$ konjugierten Untergruppen (falls G endlich)
+- [[Gruppenwirkung#Index|$\lvert G:N_{G}(U)\rvert$]] $=1 \iff N_G(U)=G$
 ###### Beweis
 Es gilt $1 \in N_G(U)$ und für $a,b \in N_{G}(U)$, dass $a^{-1}\in N_{G}(U)$, da [[Operation durch Konjugation|$c_{a}^{-1}$]] genau durch $c_{a^{-1}}$ gegeben ist und $c_{a}(U)=U$ und damit $c_{a^{-1}}(c_a(U))=U$. Außerdem gilt $a\cdot b U b^{-1}a^{-1}=U$ also $a\cdot b\in N_G(U)$ und damit ist es eine Untergruppe. Offensichtlich gilt $U \subseteq N_{G}(U)$, also ist $U$ eine Untergruppe von $N_G(U)$. Dass $U\trianglelefteq N_G(U)$ folgt direkt mit der Definition und auch, dass es die größte Untergruppe ist, die das erfüllt.
 
