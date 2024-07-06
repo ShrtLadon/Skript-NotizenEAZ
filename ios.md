@@ -5,26 +5,33 @@ Ein alternativer Weg um die Notizen zu nutzen ist mit dem [Obsidian-Git](https:/
 ## Guide
 
 Als erstes ein neues Vault erstellen - dies sollte das erste sein, was zu sehen ist, wenn Obsidian neu installiert wurde.
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/1251aa5c-a837-4434-aed5-1dcbfbc1ee6b)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/83e7c07e-b314-4861-8dc5-c5a15bbff358)
+
 
 Dieses neue Vault kann beliebig benannt werden. Hier wurde "EAZ" gewählt. Wichtig: nicht die Synchronisation mittels iCloud auswählen!
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/a2c6fe0a-a751-4ad4-b5c4-0e13e85ea6dd)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/58c2b651-644f-4d1e-9ddb-51eb83061d13)
+
 
 Wurde das neue Vault erstellt, muss das Obsidian-Git Plugin hinzugefügt werden.
 
 ### Installation von Obsidian-Git
 
 Navigiere zu den Einstellungen.
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/5207d8d7-7ce8-47d0-8831-298c04effde1)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/b63f0737-e278-49ee-8af2-8c98f6aa1feb)
+
 
 
 Navigiere zu "Community Plugins" und aktiviere diese.
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/2d5a43cb-6fe0-4d5c-8a0d-d65b5d23f7dd)
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/2a4caf1a-c0b6-4f96-8cfc-3d1037cff893)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/4ff4abb5-0b9e-4644-9b34-27a22dcef4f4)
+
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/1d55d8ca-d71f-4dd0-9663-bb7668336e93)
+
 
 Finde das "Obsidian-Git" Plugin.
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/93acf2f4-0d5b-44a3-a14d-49f64ff9c01f)
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/a8788506-0f22-4365-811b-5dee6c978772)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/d23f583c-76d4-4646-b4c9-ea1b486652df)
+
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/25ec64f5-fc26-4c0c-a8d6-af1bc69f32a7)
+
 
 Nach dem Klick auf das Plugin, muss dieses installiert *und* aktiviert werden. Dafür die jeweiligen Buttons benutzen.
 
@@ -33,27 +40,35 @@ Nun ist Obsidian-Git installiert, und es muss nur noch dieses Repository geklont
 ### Repository Klonen
 
 Ein Repository zu klonen ist ein Kommando in Obsidian. Öffne also die Kommandozeile:
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/fbaa93e7-cffe-481e-a480-c23ad6fd143c)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/832faec3-eb00-4c03-a3c8-f7c9023490c3)
+
 
 Suche nach "clone". Hier sollte das Kommando gefunden werden:
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/6f143ae4-5f64-4a8b-9ae4-ce5eaf95bfe2)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/60abaa0e-1e73-46f2-b236-5128aab51ed3)
+
 
 Gebe den Link zu diesem Repository ein. Hier wurde der Weblink verwendet, es müsste aber auch mit dem Git-Link funktionieren. Der Weblink ist dieser: `https://github.com/ShrtLadon/Skript-NotizenEAZ`
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/d21e6a5a-f9e2-4b64-b77c-8cf0224e4f02)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/3f5b10a5-a92e-4f4a-90c5-9ad99967ca63)
+
 
 Als nächstes werden einige Optionen abgefragt. Als erstes der Ordner, in den geklont wird. Wurde ein neues Vault erstellt, sollte nur der Hauptordner verfügbar sein!
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/8f41e613-4738-4311-a18d-e666a8718b46)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/fe42a24f-e2e5-4580-ae81-a76e4b202182)
+
 
 Jetzt wird abgefragt, ob die `.obsidian` Datei als solche übernommen werden soll. Um die benötigten Plugins zu erhalten ist dies nötig.
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/7bc9eadd-3200-4638-986b-ea9cef7f2e01)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/8c8ff7cd-21ed-463f-b038-57be3f6e6f55)
+
 
 Hier bitte sicherstellen, dass wirklich ein neues Vault erstellt wurde. Ansonsten werden alle exisierenden Konfigurationen gelöscht.
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/003f4a1f-2856-4a5b-a1ad-beba8f0c376f)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/e57df916-474c-4726-87a7-3c243cd2c7af)
+
 
 Nun wird das Repository geklont. Sobald dies angezeigt wird, muss Obsidian neugestartet werden.
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/bbe8ce21-a24e-41c6-97d7-2a8b6c276a04)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/a6301784-abd2-4b5f-947d-3783ecc6ced7)
+
 
 Ist alles richtig verlaufen, wurde das neue Theme angewendet. Die Dateien können wie immer links ausgewählt werden.
-![image](https://github.com/Galliumhydroxid/Skript-NotizenEAZ/assets/97060233/074f9b31-e939-4a28-943f-e3a4e37dc1dc)
+![image](https://github.com/ShrtLadon/Skript-NotizenEAZ/assets/119618221/2f47ee67-6b7a-467d-9f64-f7834ed198fb)
+
 
 Viel Erfolg beim Lernen!
