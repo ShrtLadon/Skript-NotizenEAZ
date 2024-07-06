@@ -6,7 +6,7 @@ Analog kann man auch eine **Rechtswirkung** $*:X\times G \rightarrow X$ definier
 
 ### Eigenschaften
 #### Zusammenhang zu symmetrischer Gruppe
-Wirkungen $*:G\times X \rightarrow G$ stehen in 1 zu 1 Korrespondenz zu [[Gruppenhomomorphismen|Homomorphismen]] $$\rho:G \rightarrow S_{(X)}$$ von $G$ zur [[Symmetrische Gruppe|symmetrischen Grupe]]
+Wirkungen $*:G\times X \rightarrow G$ stehen in 1 zu 1 Korrespondenz zu [[Gruppenhomomorphismen|Homomorphismen]] $$\rho:G \rightarrow S_{(X)}$$ von $G$ zur [[Symmetrische Gruppe|symmetrischen Gruppe]]
 ###### Beweis
 Sei $*:G \times X \rightarrow X$. Dann definiere $\rho:G \rightarrow S_{(X)}, g \mapsto (x \mapsto g*x)$. Das ist wohldefiniert, da $x\mapsto g^{-1}*x$ Inverse von $\rho(g)$ ist und damit $\rho(g)$ bijektiv also in $S_{(X)}$. 
 

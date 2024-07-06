@@ -1,4 +1,4 @@
-Sei $R$ ein [[kommutative Ringe|kommutativer Ring]]. Dann heißt $I \subset R$ **Ideal**, wenn 
+Sei $R$ ein [[Kommutative Ringe|kommutativer Ring]]. Dann heißt $I \subset R$ **Ideal**, wenn 
 - $(I,+)$ eine Untergruppe von $(R,+)$ ist und
 - $\forall r \in R, a \in I: r \cdot a \in I$. 
 
@@ -24,17 +24,17 @@ Ein Ideal $I\subsetneq R$ heißt
 - **maximal**, wenn es kein Ideal $I \subsetneq J \neq R$ gibt. Also kein Ideal "zwischen" $I$ und $R$ existiert.
 
 #### Eigenschaften
-- $\{0\}$ Primideal $\iff R$ [[kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereiche]].
-- Hauptideal $(p), p\neq 0$ ist Primideal $\iff$ p [[kommutative Ringe#Prim- und irreduzible Elemente|prim]].
-- Ideal $I$ ist ein Primideal $\iff$ [[Faktorringe|$R/I$]] [[kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] 
-- Ideal $I$ maximal $\iff$ $R / I$ [[kommutative Ringe#Körper|Körper]]
+- $\{0\}$ Primideal $\iff R$ [[Kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereiche]].
+- Hauptideal $(p), p\neq 0$ ist Primideal $\iff$ p [[Kommutative Ringe#Prim- und irreduzible Elemente|prim]].
+- Ideal $I$ ist ein Primideal $\iff$ [[Faktorringe|$R/I$]] [[Kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] 
+- Ideal $I$ maximal $\iff$ $R / I$ [[Kommutative Ringe#Körper|Körper]]
 - In einem Hauptidealring ist $I$ maximal $\iff I \neq \{0\}$ und $I$ ein Primideal.
 	- Generell gilt jedes maximale Ideal ist prim.
 
 ## Beispiele
 - $\{0\}, R$ sind immer Ideale
 - Für $R = \mathbb{Z}$ ist $I = 2\mathbb{Z}$ ein Ideal. 
-- $R \neq \{0\}$ und $\{0\}$ sind die einzigen Ideale $\iff R$ ist ein [[kommutative Ringe#Körper|Körper]]. 
+- $R \neq \{0\}$ und $\{0\}$ sind die einzigen Ideale $\iff R$ ist ein [[Kommutative Ringe#Körper|Körper]]. 
 
 
 - in $\mathbb{Z}[x]$ ist $(X,2)$ kein Hauptideal, insbesondere also auch kein [[Hauptidealringe|Hauptidealring]], aber maximal.

@@ -1,7 +1,7 @@
 Der chinesische Restsatz ermöglicht es (mithilfe von [[Diophantische Gleichungssysteme#Kongruenzen|Kongruenzeigenschaften]]) [[Diophantische Gleichungssysteme]] zu lösen.
 
 # Aussage
-Sei $k\in \mathbb{N}$ und $m_{1},...,m_{k}\in \mathbb{N}$ paarweise [[kommutative Ringe#Teilerfremde Elemente|teilerfremd]] in $\mathbb{Z}$. Seien $a_1,...,a_{k}\in \mathbb{Z}$. Dann ist $$x\equiv a_{i}\mod m_{i}, \quad i=1,...,k$$lösbar in $\mathbb{Z}$ und die Lösungsmenge ist eine Restklasse modulo $m_{1}\cdot ... \cdot m_{k}$.
+Sei $k\in \mathbb{N}$ und $m_{1},...,m_{k}\in \mathbb{N}$ paarweise [[Kommutative Ringe#Teilerfremde Elemente|teilerfremd]] in $\mathbb{Z}$. Seien $a_1,...,a_{k}\in \mathbb{Z}$. Dann ist $$x\equiv a_{i}\mod m_{i}, \quad i=1,...,k$$lösbar in $\mathbb{Z}$ und die Lösungsmenge ist eine Restklasse modulo $m_{1}\cdot ... \cdot m_{k}$.
 
 #### Beweis / Lösungsmethode
 Induktion nach $k$

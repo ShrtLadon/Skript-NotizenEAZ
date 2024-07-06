@@ -16,7 +16,7 @@ Damit ist $G/U$ einfach und wir sind fertig.
 
 ###### Beweis
 "$\Rightarrow$"
-**Annahme**: $\lvert G\rvert$ ist nicht prim, also $\lvert G\rvert=p\cdot m$ mit $p$ prim aufgrund der [[kommutative Ringe#Primfaktoren|Primfaktorzerlegung]]. Dann existiert nach [[Gruppen#Theorem von Cauchy|Theorem von Cauchy]] eine [[Gruppen#Zyklische Gruppen|zyklische]] Untergruppe $U$ der [[Gruppen#Ordnung|Ordnung]] $p$. Außerdem ist, da $G$ abelsch ist [[Normalteiler#Äquivalente Formulierungen|auf jeden Fall $U$ normal]], was ein **Widerspruch** ist. 
+**Annahme**: $\lvert G\rvert$ ist nicht prim, also $\lvert G\rvert=p\cdot m$ mit $p$ prim aufgrund der [[Kommutative Ringe#Primfaktoren|Primfaktorzerlegung]]. Dann existiert nach [[Gruppen#Theorem von Cauchy|Theorem von Cauchy]] eine [[Gruppen#Zyklische Gruppen|zyklische]] Untergruppe $U$ der [[Gruppen#Ordnung|Ordnung]] $p$. Außerdem ist, da $G$ abelsch ist [[Normalteiler#Äquivalente Formulierungen|auf jeden Fall $U$ normal]], was ein **Widerspruch** ist. 
 
 "$\Leftarrow$"
 $G$ hat nach [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] nur Untergruppen der Ordnung $1$ oder $p$. 

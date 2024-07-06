@@ -1,4 +1,4 @@
-Seien $a_{1}, ..., a_{k} \in \mathbb{Z}$ und $c \in \mathbb{Z}$. Sei außerdem $t:=$ [[kommutative Ringe#Nullteiler und Integritätsbereiche|$ggT(a_{1},...,a_{k})$]]. 
+Seien $a_{1}, ..., a_{k} \in \mathbb{Z}$ und $c \in \mathbb{Z}$. Sei außerdem $t:=$ [[Kommutative Ringe#Nullteiler und Integritätsbereiche|$ggT(a_{1},...,a_{k})$]]. 
 
 ##### Existenz
 Dann existiert eine Lösung $(x_{1},...,x_{k}) \in \mathbb{Z}^{k}$ für $$a_{1}\cdot x_{1}+...+a_{k}\cdot x_{k} = c $$genau dann wenn $t \mid c$. 

@@ -1,4 +1,4 @@
-Sei $R$ ein [[kommutative Ringe|kommutativer Ring]]. 
+Sei $R$ ein [[Kommutative Ringe|kommutativer Ring]]. 
 
 # Modulo
 Sei $I\subseteq R$ [[Ideale|Ideal]] und $a,b \in R$ ist $a\equiv_{I}b$ bzw. $a$ und $b$ **kongruent modulo I**, wenn$$a-b\in I$$Das ist eine Äquivalenzrelation. Wir bezeichnen die Äquivalenzklasse von $a$ als **Restklasse** von $a$ und schreiben $\bar{a}$ oder $a+I$ 

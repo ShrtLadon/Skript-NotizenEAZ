@@ -15,7 +15,7 @@ Sei $G$ eine [[Gruppen|Gruppe]], dann [[Gruppenwirkung|operiert]] $G$ mit $$c_{g
 ###### Beweis
 Dann gilt wegen der [[#Klassengleichung]], dass $p^{m}=\lvert Z(G)\rvert +\sum\limits_{x\in X, \lvert G:Z_G(x)\rvert \neq 1}\lvert G:Z_G(x)\rvert$, aber außerdem $\forall x \in G\setminus Z(G)$, dass wegen dem [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] $$p^{m}=\lvert Z_G(x)\rvert \cdot \lvert G:Z_G(x)\rvert$$und da $\lvert G:Z_G(x)\rvert \neq 1$, dass $Z_{G}(x)\neq G$. Daraus folgt $\lvert G:Z_G(x)\rvert =p^{t_{x}}$ mit $t_{x} \geq 1$.
 
-Dadurch erhalten wir, dass [[kommutative Ringe#Teilbarkeit|$p \mid \lvert Z(G)\rvert$]]. Da $e \in Z(G)$ ist, ist $\lvert Z(G)\rvert \neq 0$ also mindestens $p$. Daraus folgt die Behauptung. 
+Dadurch erhalten wir, dass [[Kommutative Ringe#Teilbarkeit|$p \mid \lvert Z(G)\rvert$]]. Da $e \in Z(G)$ ist, ist $\lvert Z(G)\rvert \neq 0$ also mindestens $p$. Daraus folgt die Behauptung. 
 #### Klassengleichung
 Sei $G$ eine endliche [[Gruppen|Gruppe]] und $X$ ein Repräsentantensystem der Konjugationsklassen (also eine Auswahl von je einem Element aus jeder Konjugationsklasse). Dann gilt $$\lvert G\rvert =\sum\limits_{x\in X}\frac{\lvert G\rvert}{\lvert Z_G(x)\rvert}=\lvert Z(G)\rvert +\sum\limits_{x\in X, \lvert G:Z_G(x)\rvert \neq 1}\lvert G:Z_G(x)\rvert$$
 ###### Beweis

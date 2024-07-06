@@ -57,7 +57,7 @@ Sei $G$ endlich.
 
 
 #### Theorem von Cauchy
-Sei $G$ eine endliche Gruppe, $p$ eine [[kommutative Ringe#Prim- und irreduzible Elemente|Primzahl]] die $\lvert G\rvert$ [[kommutative Ringe#Teiler|teilt]]. Dann existiert ein $g \in G$ mit $$\text{ord}(g)=p$$
+Sei $G$ eine endliche Gruppe, $p$ eine [[Kommutative Ringe#Prim- und irreduzible Elemente|Primzahl]] die $\lvert G\rvert$ [[Kommutative Ringe#Teiler|teilt]]. Dann existiert ein $g \in G$ mit $$\text{ord}(g)=p$$
 ##### Beweis
 Betrachte $Y:=G^{p}=\set{(g_{1},...,g_{p}) : g_{1},...,g_{p} \in G}$. Es gilt $\lvert Y\rvert = \lvert G\rvert^{p}$ und die Teilmenge $$X:= \set{(g_{1},...,g_{p})\in Y:g_{1}\cdot ... \cdot g_p=e_{G}}$$Da wir die ersten $p-1$ Elemente frei wählen können und das letzte durch das Inverse des Produktes [[#Eigenschaften|eindeutig]] festgelegt ist, ist $\lvert X\rvert =\lvert G\rvert^{p-1}$. 
 
@@ -81,11 +81,11 @@ In diesem Fall sei $g:= g_{1}=...=g_{p}$. Dann gilt $g^{p}=e$. Es [[#Ordnung#Eig
 Es gilt $\text{ord}(g)=1 \iff g=e$ also ist $\#(\text{Bahnen der Länge 1})=\#(\text{Anzahl der Elemente von Ordnung p}) + 1$
 
 ### Beispiele
-Insbesondere ist jeder [[kommutative Ringe|Ring]] eine Gruppe mit der Addition, also sind z.B.
+Insbesondere ist jeder [[Kommutative Ringe|Ring]] eine Gruppe mit der Addition, also sind z.B.
 - $(\mathbb{Z}, +), (\mathbb{Q}, +), (\mathbb{R}, +), (\mathbb{C}, +)$ Gruppen
 - $(\mathbb{Z}/n \mathbb{Z}, +_{n})$ bzw. $\mathbb{Z}_{n}=({0,...,n-1}, +_{n})$ sind Gruppen (beim Zweiten wird direkt Wahl von Repräsentant getroffen)
 
-Wenn man sich in einem [[kommutative Ringe|Ring]] auf die Einheiten einschränkt erhält man eine Gruppe bzgl. der Multiplikation also z.B. $(\mathbb{R}\setminus \set {0},\cdot)$ oder auch $GL_{n}(\mathbb{R})=(\set{A\in \mathbb{R}^{N\times N} : \det{A}\neq 0},\cdot)$.
+Wenn man sich in einem [[Kommutative Ringe|Ring]] auf die Einheiten einschränkt erhält man eine Gruppe bzgl. der Multiplikation also z.B. $(\mathbb{R}\setminus \set {0},\cdot)$ oder auch $GL_{n}(\mathbb{R})=(\set{A\in \mathbb{R}^{N\times N} : \det{A}\neq 0},\cdot)$.
 
 Man kann davon auch [[#Untergruppen]] betrachten wie z.B. $(\mathbb{R}_{>0},\cdot)$ und $SL_{n}(\mathbb{R})=(\set{A \in \mathbb{R}^{N\times N} : \det{A}=1},\cdot)$ 
 

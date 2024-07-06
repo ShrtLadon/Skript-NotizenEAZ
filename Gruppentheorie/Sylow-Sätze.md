@@ -1,4 +1,4 @@
-Sei $G$ eine endliche [[Gruppen|Gruppe]], $p$ eine [[Primzahlen|Primzahl]] und $p^{a}$ [[kommutative Ringe#Teiler|Teiler]] $\lvert G\rvert$ mit maximalem $a$. d.h. $p^{a}\cdot m = \lvert G\rvert$ und $p\not\mid m$. Dann gilt:
+Sei $G$ eine endliche [[Gruppen|Gruppe]], $p$ eine [[Primzahlen|Primzahl]] und $p^{a}$ [[Kommutative Ringe#Teiler|Teiler]] $\lvert G\rvert$ mit maximalem $a$. d.h. $p^{a}\cdot m = \lvert G\rvert$ und $p\not\mid m$. Dann gilt:
 1) Es gibt $U < G$ [[Gruppen#Untergruppen|Untergruppe]] mit $\lvert U\rvert=p^{a}$.
 2) Je zwei Untergruppen $U_{1},U_{2}$ der [[Gruppen#Ordnung|Ordnung]] $p^{a}$ sind [[Operation durch Konjugation#Konjugation zueinander|konjugiert zueinander]].
 3) $\lvert \text{Syl}_{p}(G)\rvert =:n_{p}$ ist gleich [[Normalisator|$\lvert G:N_{G}(U)\rvert$]] und kongruent zu $1$ modulo $p$.
@@ -12,7 +12,7 @@ Wir machen starke Induktion nach $n=\lvert G\rvert=p^{a}\cdot m$.
 
 *Induktionsschluss:* Sei die Aussage für kleinere $n$ richtig. 
 
-*Fall* [[Operation durch Konjugation#Konjugationsklassen, Zentralisator und Kern|$\lvert Z(G)\rvert$]] ist [[kommutative Ringe#Teiler|teilbar]] durch $p$:
+*Fall* [[Operation durch Konjugation#Konjugationsklassen, Zentralisator und Kern|$\lvert Z(G)\rvert$]] ist [[Kommutative Ringe#Teiler|teilbar]] durch $p$:
 Nach [[Gruppen#Theorem von Cauchy|Theorem von Cauchy]] gilt es existiert ein $x \in Z(G)$ mit $\text{ord}(g)=p$. Sei $K:=\langle g\rangle$ die erzeugte  [[Gruppen#Zyklische Gruppen|zyklische Untergruppe]] von $G$ von [[Gruppen#Ordnung|Ordnung]] $p$.  Dann gilt $K\subseteq Z(G)$ kommutiert $K$ mit allen Elementen aus $G$. Insbesondere ist dann auch [[Gruppenwirkung#Rechts und Linksnebenklassen|$gK=Kg$]] für jedes $g\in G$ und damit [[Normalteiler#Äquivalente Formulierungen|$K \trianglelefteq G$]]. Außerdem gilt nach [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]], dass
 $\lvert$[[Faktorgruppen|$G/K$]]$\rvert=p^{a-1}\cdot m$, also existiert nach Induktionsannahme ein $U < G/K$ mit $\lvert U\rvert=p^{a-1}$. 
 
@@ -24,7 +24,7 @@ Dann gilt mit der [[Operation durch Konjugation#Klassengleichung|Klassengleichun
 
 ###### 2)
 Seien $H_{1},H_{2}\in \text{Syl}_{p}(G)$. Betrachte die [[Gruppenwirkung#Rechts und Linksnebenklassen|Linksnebenklassen]] $$G/H_{1}=\set{gH_{1}\mid g\in G}=: M$$
-Es [[Gruppenwirkung|wirkt]] $G$ auf $M$ durch $$h*gH_{1}=hgH_{1}$$Also wirkt auch $H_{2}< G$ auf $M$ und der [[Gruppenwirkung#Bahn und Stabilisator|Bahnenraum]] $H_{2}/M$ partitioniert $M$. Außerdem hat jede Bahn wegen [[Gruppenwirkung#Bahnenformel|der Bahnenformel]] als [[Gruppen#Ordnung|Ordnung]] einen [[kommutative Ringe#Teiler|Teiler]] von $\lvert H_2\rvert$ also $1$ oder $p^{k},k\geq 1$.  
+Es [[Gruppenwirkung|wirkt]] $G$ auf $M$ durch $$h*gH_{1}=hgH_{1}$$Also wirkt auch $H_{2}< G$ auf $M$ und der [[Gruppenwirkung#Bahn und Stabilisator|Bahnenraum]] $H_{2}/M$ partitioniert $M$. Außerdem hat jede Bahn wegen [[Gruppenwirkung#Bahnenformel|der Bahnenformel]] als [[Gruppen#Ordnung|Ordnung]] einen [[Kommutative Ringe#Teiler|Teiler]] von $\lvert H_2\rvert$ also $1$ oder $p^{k},k\geq 1$.  
 
 Es gilt $p\not\mid \lvert M\rvert$, wegen Lagrange, also insbesondere weil $H_{2}/M$ eine Partition von $M$ ist, dass es eine Bahn mit genau einem Element geben muss. Das bedeutet es existiert ein $gH_{1}\in M$, sodass für alle $h_{2}\in H_{2}$ gilt $$h_{2}gH_{1}=gH_{1}\iff g^{-1}h_{2}gH_{1}=H_{1}$$D.h. insbesondere $g^{-1}h_{2}g\cdot e=g^{-1}h_{2}g\in H_{1}$ und damit gilt $g^{-1}H_{2}g\subseteq H_{1}$.
 Wegen der [[Operation durch Konjugation#Isomorphieeigenschaft|Isomorphieeigenschaft der Konjugation]] und weil wir uns endliche Gruppen anschauen muss gelten $\lvert g^{-1}H_{2}g\rvert=\lvert H_{2}\rvert=\lvert H_1\rvert$ und damit $g^{-1}H_{2}g=H_{1}$ also $H_{1},H_{2}$ konjugiert zueinander. 
@@ -34,12 +34,12 @@ noch nicht behandelt.
 
 #### Weitere Eigenschaften von $n_{p}$
 - $n_{p} =1 \iff$ Es existiert eine [[Normalteiler|normale]] p-Sylow Untergruppe. Diese ist dann auch eindeutig und wir bezeichnen sie mit $U_{p}$.
-- $n_{p}$ ist ein [[kommutative Ringe#Teiler|Teiler]] von $\frac{\lvert G\rvert}{p^{a}}\in \mathbb{Z}$. 
+- $n_{p}$ ist ein [[Kommutative Ringe#Teiler|Teiler]] von $\frac{\lvert G\rvert}{p^{a}}\in \mathbb{Z}$. 
 
 ###### Beweis
 Sei $n_{p}=\lvert \text{Syl}_{p}(G)\rvert$. Dann gilt mit dem zweiten Punkt der Sylow-Sätze und der [[Operation durch Konjugation#Isomorphieeigenschaft|Isomorphieeigenschaft]] insbesondere, dass $\text{Syl}_{p}(G)$ genau die zu $U_p$ konjugierten Untergruppen sind. Daraus folgt auch [[Normalisator#Wichtige Eigenschaften|direkt]], dass genau für $n_{p}=1$ die p-Sylow Gruppe eindeutig ist.
 
-Außerdem gilt [[Normalisator#Wichtige Eigenschaften|$n_{p}=\lvert G: N_{G}(U_p)\rvert$]]. Da [[Normalisator#Wichtige Eigenschaften|$U < N_G(U_p)$]] und wegen Anwendung des [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] auch, dass $\lvert U_p\rvert \cdot \lvert N_{G}(U_p) : U_p\rvert= \lvert N_{G}(U_p)\rvert$ (wir beziehen uns hier wirklich auf $U_p < N_{G}(U_p)$). Da wegen Satz von Lagrange aber ebenfalls gilt $n_{p}=\frac{\lvert G\rvert}{\lvert N_{G}(U_p\rvert}=\frac{\lvert G\rvert}{\frac{\lvert N_G(U_p) \rvert \cdot \lvert U_p\rvert}{\lvert U_p\rvert}}=\frac{\lvert G\rvert}{\lvert N_{G}(U_p) : U_p\rvert \cdot \lvert U_p\rvert}$. Daraus folgt $n_{p}\cdot \lvert N_{G}(U_p):U_p\rvert=\frac{\lvert G\rvert}{\lvert U_p\rvert}$ also ist $n_{p}$ ein [[kommutative Ringe#Teiler|Teiler]] von $\frac{\lvert G\rvert}{p^{a}}$.   
+Außerdem gilt [[Normalisator#Wichtige Eigenschaften|$n_{p}=\lvert G: N_{G}(U_p)\rvert$]]. Da [[Normalisator#Wichtige Eigenschaften|$U < N_G(U_p)$]] und wegen Anwendung des [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] auch, dass $\lvert U_p\rvert \cdot \lvert N_{G}(U_p) : U_p\rvert= \lvert N_{G}(U_p)\rvert$ (wir beziehen uns hier wirklich auf $U_p < N_{G}(U_p)$). Da wegen Satz von Lagrange aber ebenfalls gilt $n_{p}=\frac{\lvert G\rvert}{\lvert N_{G}(U_p\rvert}=\frac{\lvert G\rvert}{\frac{\lvert N_G(U_p) \rvert \cdot \lvert U_p\rvert}{\lvert U_p\rvert}}=\frac{\lvert G\rvert}{\lvert N_{G}(U_p) : U_p\rvert \cdot \lvert U_p\rvert}$. Daraus folgt $n_{p}\cdot \lvert N_{G}(U_p):U_p\rvert=\frac{\lvert G\rvert}{\lvert U_p\rvert}$ also ist $n_{p}$ ein [[Kommutative Ringe#Teiler|Teiler]] von $\frac{\lvert G\rvert}{p^{a}}$.   
 
 #### Schnitt von p-Sylow Untergruppen
  Seien $U\neq H \in \text{Syl}_{q}(G)$ und $\lvert U\rvert=\lvert H\rvert=q$. Dann gilt $U \cap H\lneq U$ und nach [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] also, dass $\lvert U\cap H\rvert \mid \lvert U\rvert$ und damit $U\cap H=\set{e}$, da $\lvert U\rvert=q$ prim. 

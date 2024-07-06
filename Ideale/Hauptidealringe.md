@@ -1,4 +1,4 @@
-Wir bezeichen einen [[kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich $R$]] als **Hauptidealring**, falls jedes [[Ideale|Ideal]] ein [[Ideale#Hauptideale|Hauptideal]] ist.
+Wir bezeichen einen [[Kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich $R$]] als **Hauptidealring**, falls jedes [[Ideale|Ideal]] ein [[Ideale#Hauptideale|Hauptideal]] ist.
 
 
 ### Eigenschaften
@@ -15,15 +15,15 @@ Es gilt jeder [[Euklidische Ringe|Euklidischer Ring]] ist ein Hauptidealring
 ##### Beweisskizze
 Wähle minimales $N(a)\in I$ und zeige für $b\in I$ dass Teilen mit Rest, Rest 0 haben muss mithilfe eines Widerspruchs. 
 #### Größten Gemeinsamen Teiler
-Finde für $a,b$ das ein $d$ mit $(d) = (a,b)$. Dann ist $d$ der [[kommutative Ringe#Nullteiler und Integritätsbereiche|größte gemeinsame Teiler]] und es gibt $r,s \in R$ mit $d = r\cdot a + s \cdot b$. 
+Finde für $a,b$ das ein $d$ mit $(d) = (a,b)$. Dann ist $d$ der [[Kommutative Ringe#Nullteiler und Integritätsbereiche|größte gemeinsame Teiler]] und es gibt $r,s \in R$ mit $d = r\cdot a + s \cdot b$. 
 ##### Begründung
 $a,b\in (d)\implies d\mid a, d\mid b$. Da aber jedes $d'$ mit $d' \mid a,b$  auch $d = ra+sb$ teilt und wir wegen $d \in (a,b)$ es als Linearkombination darstellen können folgt die Aussage.
 
 #### Faktorielle Ringe
-Es gilt jeder Hauptidealring ist ein [[kommutative Ringe#faktorielle Ringe|faktorieller Ring]]. 
+Es gilt jeder Hauptidealring ist ein [[Kommutative Ringe#faktorielle Ringe|faktorieller Ring]]. 
 
 ##### Beweisidee:
-z.Z. das jedes [[kommutative Ringe#Prim- und irreduzible Elemente|irreduzible]] Element auch prim ist, funktioniert wie bei [[Euklidische Ringe#Beweis das Euklidische Ringe faktoriell sind|Euklidischen Ringen]], da wir in Hauptidealringen die gleiche Eigenschaft wegen Abschnitt: [[#Größten Gemeinsamen Teiler]] haben.
+z.Z. das jedes [[Kommutative Ringe#Prim- und irreduzible Elemente|irreduzible]] Element auch prim ist, funktioniert wie bei [[Euklidische Ringe#Beweis das Euklidische Ringe faktoriell sind|Euklidischen Ringen]], da wir in Hauptidealringen die gleiche Eigenschaft wegen Abschnitt: [[#Größten Gemeinsamen Teiler]] haben.
 
 z.Z. jedes $a \in R \setminus \{0\}$ ist Produkt $a\cdot p_{1}\cdot ... \cdot p_{k}$ mit $e$ Einheit und $p_{i}$ irreduzibel $(*)$
 

@@ -8,7 +8,7 @@ Die Rückrichtung ist quasi identisch, nur aus umgekehrter Richtung. Der Kreis h
 
 # Algebraische Eigenschaften
 ### Körpereigenschaft
-Es gilt $\mathbb{K} := \set{a \in \mathbb{R} : \text{a konstruierbar}}$ ist ein [[kommutative Ringe#Körper|Körper]].
+Es gilt $\mathbb{K} := \set{a \in \mathbb{R} : \text{a konstruierbar}}$ ist ein [[Kommutative Ringe#Körper|Körper]].
 #### Beweis
 Wir müssen zeigen, dass $\mathbb{K}$ ein Unterkörper von $\mathbb{R}$ ist. Da $(0,0),(0,1)$ direkt gegeben sind, sind $0,1$ konstruierbar also in $\mathbb{K}$. 
 

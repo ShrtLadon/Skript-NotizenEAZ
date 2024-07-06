@@ -84,7 +84,7 @@ Das klassische Beispiel für einen Ring mit 1 sind die ganzen Zahlen $\mathbb{Z}
 ### Restklassen
  $\mathbb{Z}n\mathbb{Z} := \mathbb{Z}/_{\equiv}$   mit $[a]+[b] := [a+b]$ und $[a]\cdot [b] := [a\cdot b]$ ist ein kommutativer Ring. Es ist nur ein Körper, wenn $n$ eine Primzahl ist.
 ### Körper
-Ein Körper $\mathbb{K}$ ist ein [[kommutative Ringe|kommutativer Ring]] für den gilt, dass $(\mathbb{K}\setminus \{0\}, \cdot, 1)$ eine Gruppe ist. Alternativ kann man auch sagen, dass $\mathbb{K}^{*}= \mathbb{K}\setminus \{0\}$ 
+Ein Körper $\mathbb{K}$ ist ein [[Kommutative Ringe|kommutativer Ring]] für den gilt, dass $(\mathbb{K}\setminus \{0\}, \cdot, 1)$ eine Gruppe ist. Alternativ kann man auch sagen, dass $\mathbb{K}^{*}= \mathbb{K}\setminus \{0\}$ 
 Jeder Körper ist ein [[#Nullteiler und Integritätsbereiche|Integritätsbereich]], darunter fallen z.B.
 - $\mathbb{R}$
 - $\mathbb{C}$ 

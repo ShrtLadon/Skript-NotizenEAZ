@@ -66,7 +66,7 @@ Wenn $Z(G) \subsetneq G$, dann ist $\lvert G/Z(G)\rvert= p^{k}$ nach [[Operation
 Dann ist aber nach Induktionsvoraussetzung $G/Z(G)$ auflösbar mit der passenden "Auflösung". Da $Z(G)$ und $G/Z(G)$ auflösbar sind, ist auch $G$ auflösbar mit einer Kette$$\set 1=G_{1} \triangleleft G_{2}\triangleleft ...\triangleleft G_{m+1}=G$$die nach [[#Auflösbarkeit endlicher Gruppen]] alle zyklisch sind und $G_{i+1}/G_{i}$ prim viele Elemente haben. Außerdem gilt wegen [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] $\lvert G_{1}/G_{2}\rvert, \lvert G_{2}/G_{3}\rvert,... \lvert G_{m}/G_{m+1}\rvert\mid \lvert G\rvert$ also sind $\lvert G_{i+1}/G_{i} \rvert =p$. 
 # Beispiele
 - jede abelsche Gruppe ist auflösbar mit $G_{1}=\set{1}$ und $G_{2}=G$. 
-- Wenn $\lvert G\rvert$ [[kommutative Ringe#Prim- und irreduzible Elemente|prim]], so ist $G$ [[Gruppen#Zyklische Gruppen#Eigenschaften|zyklisch]] also nach ÜB6.3.3 [[Gruppenhomomorphismen|isomorph]] zur abelschen Gruppe $\mathbb{Z}_{p}$ also auflösbar
+- Wenn $\lvert G\rvert$ [[Kommutative Ringe#Prim- und irreduzible Elemente|prim]], so ist $G$ [[Gruppen#Zyklische Gruppen#Eigenschaften|zyklisch]] also nach ÜB6.3.3 [[Gruppenhomomorphismen|isomorph]] zur abelschen Gruppe $\mathbb{Z}_{p}$ also auflösbar
 
 ### Diedergruppe
 Die [[Gruppen#Diedergruppe|Diedergruppe]] $D_{2n}$ ist auflösbar, auch wenn z.B. $D_{6}\cong S_{3}$ zur [[Gruppen#symmetrische Gruppe|symmetrischen Gruppe]] nicht abelsch ist.
