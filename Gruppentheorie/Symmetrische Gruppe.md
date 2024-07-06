@@ -47,7 +47,7 @@ Für einen Zyklus $(x_{1},...,x_{k})$ betrachten wir den Zyklus von $ghg^{-1}$ d
 ## $n\leq 4$
 Für $n\leq 4$ ist $S_{n}$ [[Auflösbare Gruppen|auflösbar]]. 
 #### Beweis
-Für $S_{1},S_{2}$ sind die [[Gruppen|Gruppen abelsch]], also [[Auflösbare Gruppen#Beispiele|auflösbar]]. Für $S_{3}$ gilt $S_{3}\cong D_{6}$ zur [[Gruppen#Diedergruppe|Diedergruppe]], die nach dem [[Auflösbare Gruppen#Diedergruppe#Beweis|Beweis]] auflösbar ist. Es verbleibt also zu zeigen, dass $S_{4}$ auflösbar ist.
+Für $S_{1},S_{2}$ sind die [[abelsche Gruppen|Gruppen abelsch]], also [[Auflösbare Gruppen#Beispiele|auflösbar]]. Für $S_{3}$ gilt $S_{3}\cong D_{6}$ zur [[Gruppen#Diedergruppe|Diedergruppe]], die nach dem [[Auflösbare Gruppen#Diedergruppe#Beweis|Beweis]] auflösbar ist. Es verbleibt also zu zeigen, dass $S_{4}$ auflösbar ist.
 
 Dazu gilt die [[#Signum|alternierende Gruppe]] $\mathcal{A}_{4}$ ist ein [[Normalteiler]] von $S_{4}$ und $\lvert A_{4}\rvert=12$. Außerdem gilt für einen Zyklus $(i, j, k, l)$ dass $(i,j,k,l)=(i, j)\cdot (j, k)\cdot (k,l)$ also sind Zyklen der Länge 4 nicht in $A_{n}$, aber $(i, j)(k,l)=(i, j)(k,l)$ wenn $i, j, k$ und $l$ alle paarweise verschieden sind. Wenn $(i,j)=(k,l)$, dann ist das Produkt die Identität (hier ist mit = Gleichheit der Funktionen gemeint!) und wenn o.B.d.A $j=k$ dann ist das Produkt $(i,j,l)$. 
 

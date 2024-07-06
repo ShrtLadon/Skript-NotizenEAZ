@@ -12,7 +12,7 @@ Dann existiert eine nichttriviale normale Untergruppe $H\triangleleft G/U$, also
 Damit ist $G/U$ einfach und wir sind fertig.
 ### Beispiele
 - Es gilt [[Symmetrische Gruppe#$n>4$|$\mathcal{A}_5$]] ist eine einfache Gruppe
-- Eine (nicht triviale) [[Gruppen|abelsche Gruppe]] ist genau dann einfach, wenn $\lvert G\rvert$ [[Primzahlen|prim]] ist.
+- Eine (nicht triviale) [[Abelsche Gruppen|abelsche Gruppe]] ist genau dann einfach, wenn $\lvert G\rvert$ [[Primzahlen|prim]] ist.
 
 ###### Beweis
 "$\Rightarrow$"

@@ -2,7 +2,7 @@ Eine [[Gruppen|Gruppe]] $G$ heißt **auflösbar**, wenn es [[Gruppen#Untergruppe
 - $G_{1}=\set{1}$
 - $G_{m}=G$
 - Für $1\leq i \leq n-1$ gilt [[Normalteiler|$G_{i}\trianglelefteq G_{i+1}$]] 
-- Für $1 \leq i \leq n-1$ ist die [[Faktorgruppen|Faktorgruppe]] $G_{i+1}/G_i$ [[Gruppen|abelsch]]. 
+- Für $1 \leq i \leq n-1$ ist die [[Faktorgruppen|Faktorgruppe]] $G_{i+1}/G_i$ [[abelsche Gruppen|abelsch]]. 
 
 ## Eigenschaften
 ### Vererbung
@@ -36,7 +36,7 @@ Führe (starke) Induktion nach $\lvert G\rvert$.
 *IS*: 
 Nach Annahme ist $G$ auflösbar also gibt es $$\set 1 =G_{1} \trianglelefteq G_{2} \trianglelefteq ... \trianglelefteq G_{m}=G$$die $G$ auflösen.
 Insbesondere kann man o.B.d.A fordern, dass $G_{m-1}\subsetneq G_m$ ist (sonst streiche die gleichen Elemente). D.h. es gilt $\lvert G_{m-1}\rvert < \lvert G_m\rvert$ und mit Induktionsvoraussetzung gibt es$$\set 1 =H_{1} \trianglelefteq H_{2} \trianglelefteq ... \trianglelefteq H_{k}=G_{m-1}$$die $G_{m-1}$ auflösen und für die $\lvert H_{i}/H_{i-1}\rvert$ prim ist.
-*Fall* $G_{m-1}=\set{1}$ ist $G/G_{m-1}\cong G$ [[Gruppen|abelsch]]. Wenn $\lvert G\rvert$ prim (oder 1) ist, sind wir fertig. Sei also $G$ nicht prim, dann existiert mit [[Gruppen#Theorem von Cauchy|Theorem von Cauchy]] ein nicht-triviale Untergruppe $\set{1}<U<G$. Da $G$ abelsch ist, ist jede Untergruppe ein Normalteiler von $G$ und $G/U$ auch abelsch. Wir können also o.B.d.A. vom folgenden Fall ausgehen:
+*Fall* $G_{m-1}=\set{1}$ ist $G/G_{m-1}\cong G$ [[abelsche Gruppen|abelsch]]. Wenn $\lvert G\rvert$ prim (oder 1) ist, sind wir fertig. Sei also $G$ nicht prim, dann existiert mit [[Gruppen#Theorem von Cauchy|Theorem von Cauchy]] ein nicht-triviale Untergruppe $\set{1}<U<G$. Da $G$ abelsch ist, ist jede Untergruppe ein Normalteiler von $G$ und $G/U$ auch abelsch. Wir können also o.B.d.A. vom folgenden Fall ausgehen:
 
 *Fall* $G_{m-1}\neq\set 1$:
 Nun ist wenn $G_{m-1}\subsetneq G_m$ auch $\lvert G_{m}/G_{m-1}\rvert < \lvert G\rvert$ wegen dem [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]]. 

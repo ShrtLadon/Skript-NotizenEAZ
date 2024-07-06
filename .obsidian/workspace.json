@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geometrische Betrachtungen/Bewegungen.md",
+                "file": "Gruppentheorie/Abelsche Gruppen.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Geometrische Betrachtungen/Bewegungen.md",
+                "file": "Gruppentheorie/Abelsche Gruppen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Geometrische Betrachtungen/Bewegungen.md",
+                "file": "Gruppentheorie/Abelsche Gruppen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Geometrische Betrachtungen/Bewegungen.md"
+                "file": "Gruppentheorie/Abelsche Gruppen.md"
               }
             }
           }
@@ -185,20 +185,22 @@
   },
   "active": "d3a70dcef49bfd25",
   "lastOpenFiles": [
+    "Gruppentheorie/Konjugation/Sylow-Sätze.md",
+    "Gruppentheorie/Abelsche Gruppen.md",
+    "Gruppentheorie/Gruppenhomomorphismen.md",
+    "Arithmetik/Euklidische Ringe.md",
+    "Arithmetik/Kommutative Ringe.md",
+    "Gruppentheorie/Gruppen.md",
+    "Gruppentheorie/Auflösbare Gruppen.md",
     "Gruppentheorie/Symmetrische Gruppe.md",
-    "Gruppentheorie/Sylow-Sätze.md",
-    "Gruppentheorie/Gruppenwirkung.md",
     "Gruppentheorie/Einfache Gruppen.md",
+    "Gruppentheorie/Faktorgruppen.md",
     "Geometrische Betrachtungen/Bewegungen.md",
+    "Gruppentheorie/Gruppenwirkung.md",
     "Gruppentheorie/Konjugation/Normalteiler.md",
     "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
-    "Gruppentheorie/Gruppenhomomorphismen.md",
     "Geometrische Betrachtungen/Untitled.md",
-    "Gruppentheorie/Faktorgruppen.md",
-    "Gruppentheorie/Gruppen.md",
     "ios.md",
-    "Arithmetik/Kommutative Ringe.md",
-    "Gruppentheorie/Auflösbare Gruppen.md",
     "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
     "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
     "Gruppentheorie/Konjugation/Normalisator.md",
@@ -210,10 +212,8 @@
     "Ideale/Faktorringe.md",
     "Untitled.canvas",
     "Ideale/Ideale.md",
-    "Polynomringe/Polynomringe.md",
     "Gruppentheorie/Auflösbarkeit",
     "Gruppentheorie/Konjugation",
-    "Diophantische Gleichungen/Diophantische Gleichungssysteme.md",
     "Pasted image 20240625145824.png"
   ]
 }

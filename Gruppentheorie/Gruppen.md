@@ -3,11 +3,6 @@ Eine **Gruppe** $(G,\cdot)$ ist eine Menge $G$ mit einer Verknüpfung $\cdot:G \
 - (G2) $\exists e \in G : \forall a \in G : a\cdot e=a$ *Existenz eines neutralen Elements*
 - (G3) $\forall a \in G \exists b \in G: a \cdot b = e$, wobei $e$ neutrales Element sei. *Existenz eines Inversen*
 
-Wir nennen eine Gruppe **abelsch** bzw. **kommutativ**, wenn 
-- $\forall a,b \in G: a\cdot b=b\cdot a$ 
-
-> [!Note] neutrales Element
-> In abelschen Gruppen bezeichnet man das neutrale Element oft als $0$ in allgemeinen Gruppen als $1$. In der Vorlesung wurden sowohl $1$ als auch $e$ verwendet, was hier ebenso getan wurde, damit in der Klausur beide Notationen geläufig sind.
 
 #### Eigenschaften
 - Für $a,b \in G$ mit $a\cdot b=e$ gilt $b\cdot a=e$

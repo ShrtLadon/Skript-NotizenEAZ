@@ -1,5 +1,5 @@
 # Definition
-Ein kommutativer Ring (mit Eins) ist eine [[Gruppen|abelsche Gruppe]] $(R,+,0)$ mit einer Verknüpfung $\cdot:R \times R \rightarrow R$, mit:
+Ein kommutativer Ring (mit Eins) ist eine [[Abelsche Gruppen|abelsche Gruppe]] $(R,+,0)$ mit einer Verknüpfung $\cdot:R \times R \rightarrow R$, mit:
 1) $\exists 1\in R \forall a \in R : 1\cdot a = a$ 
 2) $\forall a,b,c \in R: (a\cdot b)\cdot c = a \cdot (b\cdot c)$ 
 3) $\forall a,b,c \in R:  a \cdot (b+c) = (a\cdot b) + (a \cdot c)$ 
