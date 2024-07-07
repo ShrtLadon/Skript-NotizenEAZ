@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Gruppentheorie/Abelsche Gruppen.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -185,8 +185,9 @@
   },
   "active": "d3a70dcef49bfd25",
   "lastOpenFiles": [
-    "Gruppentheorie/Gruppen.md",
+    "ios.md",
     "Gruppentheorie/Abelsche Gruppen.md",
+    "Gruppentheorie/Gruppen.md",
     "Gruppentheorie/Konjugation/Normalteiler.md",
     "Gruppentheorie/Konjugation/Sylow-Sätze.md",
     "Gruppentheorie/Gruppenwirkung.md",
@@ -201,7 +202,6 @@
     "Gruppentheorie/Faktorgruppen.md",
     "Geometrische Betrachtungen/Bewegungen.md",
     "Geometrische Betrachtungen/Untitled.md",
-    "ios.md",
     "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
     "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
     "Satz von Abel-Galois.md",
