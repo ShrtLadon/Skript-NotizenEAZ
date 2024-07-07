@@ -30,8 +30,9 @@ Es gilt $p\not\mid \lvert M\rvert$, wegen Lagrange, also insbesondere weil $H_{2
 Wegen der [[Operation durch Konjugation#Isomorphieeigenschaft|Isomorphieeigenschaft der Konjugation]] und weil wir uns endliche Gruppen anschauen muss gelten $\lvert g^{-1}H_{2}g\rvert=\lvert H_{2}\rvert=\lvert H_1\rvert$ und damit $g^{-1}H_{2}g=H_{1}$ also $H_{1},H_{2}$ konjugiert zueinander. 
 
 ###### 3)
-noch nicht behandelt.
+Dass $n_{p}=$[[Normalisator|$\lvert G:N_{G}(U)\rvert$]] folgt direkt, denn wegen der [[Operation durch Konjugation#Isomorphieeigenschaft|Isomorphieeigenschaft]] von zueinander konjugierten Untergruppen haben alle zu $U$ konjugierten Untergruppen die Ordnung $\lvert U\rvert$. Außerdem sind alle $U,H\in \text{Syl}_{p}(G)$ zueinander konjugiert.
 
+Den modulo Teil haben wir nicht behandelt.
 #### Weitere Eigenschaften von $n_{p}$
 - $n_{p} =1 \iff$ Es existiert eine [[Normalteiler|normale]] p-Sylow Untergruppe. Diese ist dann auch eindeutig und wir bezeichnen sie mit $U_{p}$.
 - $n_{p}$ ist ein [[Kommutative Ringe#Teiler|Teiler]] von $\frac{\lvert G\rvert}{p^{a}}\in \mathbb{Z}$. 

@@ -34,6 +34,8 @@ Sei $M \subseteq G$. Dann ist das **Erzeugnis** von $M$ definiert als $$\langle 
 
 ## Zyklische Gruppen
 Es gilt eine Gruppe $G$ heißt **zyklisch**, falls ein Element $a \in G$ existiert, sodass für jedes $g \in G$ ein $k \in \mathbb{Z}$ existiert mit $g=a^{k}$ also $\langle a\rangle = G$. Dann heißt $a$ *Erzeuger*. 
+
+Es gilt nach ÜB 6.3. dass jede zyklische Gruppe isomorph zu $\mathbb{Z}$ oder $\mathbb{Z}/n \mathbb{Z}$ ist.
 ### Ordnung
 Für $x \in G$ ist $\text{ord}(x):= \min\set{n \in \mathbb{N}_{>0}:g^{n}=e}$. Außerdem definieren wir die **Ordnung** von $G$ als $\lvert G\rvert$.
 

@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Gruppentheorie/Abelsche Gruppen.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppentheorie/Auflösbare Gruppen.md",
+                "file": "Gruppentheorie/Gruppenwirkung.md",
                 "mode": "source",
                 "source": false
               }
@@ -185,25 +185,25 @@
   },
   "active": "d3a70dcef49bfd25",
   "lastOpenFiles": [
-    "Gruppentheorie/Konjugation/Sylow-Sätze.md",
+    "Gruppentheorie/Gruppen.md",
     "Gruppentheorie/Abelsche Gruppen.md",
+    "Gruppentheorie/Konjugation/Normalteiler.md",
+    "Gruppentheorie/Konjugation/Sylow-Sätze.md",
+    "Gruppentheorie/Gruppenwirkung.md",
+    "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
+    "Gruppentheorie/Auflösbare Gruppen.md",
+    "Gruppentheorie/Konjugation/Normalisator.md",
     "Gruppentheorie/Gruppenhomomorphismen.md",
     "Arithmetik/Euklidische Ringe.md",
     "Arithmetik/Kommutative Ringe.md",
-    "Gruppentheorie/Gruppen.md",
-    "Gruppentheorie/Auflösbare Gruppen.md",
     "Gruppentheorie/Symmetrische Gruppe.md",
     "Gruppentheorie/Einfache Gruppen.md",
     "Gruppentheorie/Faktorgruppen.md",
     "Geometrische Betrachtungen/Bewegungen.md",
-    "Gruppentheorie/Gruppenwirkung.md",
-    "Gruppentheorie/Konjugation/Normalteiler.md",
-    "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
     "Geometrische Betrachtungen/Untitled.md",
     "ios.md",
     "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
     "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
-    "Gruppentheorie/Konjugation/Normalisator.md",
     "Satz von Abel-Galois.md",
     "README.md",
     "Geometrische Betrachtungen/Isometrien.md",
