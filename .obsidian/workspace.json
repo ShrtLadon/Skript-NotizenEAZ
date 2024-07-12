@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppentheorie/Konjugation/Normalteiler.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3a70dcef49bfd25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gruppentheorie/Abelsche Gruppen.md",
+                "file": "Körper/Körper.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gruppentheorie/Abelsche Gruppen.md",
+                "file": "Körper/Körper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gruppentheorie/Abelsche Gruppen.md",
+                "file": "Körper/Körper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gruppentheorie/Abelsche Gruppen.md"
+                "file": "Körper/Körper.md"
               }
             }
           }
@@ -183,35 +170,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3a70dcef49bfd25",
+  "active": "8e767b105c518ecd",
   "lastOpenFiles": [
-    "ios.md",
-    "Gruppentheorie/Abelsche Gruppen.md",
-    "Gruppentheorie/Gruppen.md",
-    "Gruppentheorie/Konjugation/Normalteiler.md",
+    "Ideale/Faktorringe.md",
+    "Ideale/Ideale.md",
+    "Körper/Körper.md",
+    "Polynomringe/Polynomringe.md",
+    "Ideale/Hauptidealringe.md",
+    "Arithmetik/Euklidische Ringe.md",
+    "Körper/Quotientenkörper.md",
+    "Arithmetik/Ringhomomorphismen.md",
     "Gruppentheorie/Konjugation/Sylow-Sätze.md",
+    "Gruppentheorie/Auflösbare Gruppen.md",
+    "Diophantische Gleichungen/Satz von Fermat.md",
+    "Arithmetik/Kommutative Ringe.md",
+    "Gruppentheorie/Abelsche Gruppen.md",
+    "Körper/Körperhomomorphismus.md",
+    "Gruppentheorie/Konjugation/Normalteiler.md",
+    "Pasted image 20240709170859.png",
+    "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
+    "Arithmetik/Primzahlen.md",
+    "ios.md",
+    "Gruppentheorie/Gruppen.md",
     "Gruppentheorie/Gruppenwirkung.md",
     "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
-    "Gruppentheorie/Auflösbare Gruppen.md",
     "Gruppentheorie/Konjugation/Normalisator.md",
     "Gruppentheorie/Gruppenhomomorphismen.md",
-    "Arithmetik/Euklidische Ringe.md",
-    "Arithmetik/Kommutative Ringe.md",
     "Gruppentheorie/Symmetrische Gruppe.md",
     "Gruppentheorie/Einfache Gruppen.md",
     "Gruppentheorie/Faktorgruppen.md",
-    "Geometrische Betrachtungen/Bewegungen.md",
-    "Geometrische Betrachtungen/Untitled.md",
-    "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
-    "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
-    "Satz von Abel-Galois.md",
-    "README.md",
-    "Geometrische Betrachtungen/Isometrien.md",
-    "Diophantische Gleichungen/Satz von Fermat.md",
-    "Affine Ebenen.md",
-    "Ideale/Faktorringe.md",
     "Untitled.canvas",
-    "Ideale/Ideale.md",
     "Gruppentheorie/Auflösbarkeit",
     "Gruppentheorie/Konjugation",
     "Pasted image 20240625145824.png"

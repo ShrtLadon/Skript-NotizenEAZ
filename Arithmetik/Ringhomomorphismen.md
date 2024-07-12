@@ -5,6 +5,7 @@ Seien $(R_{1}, +_{1}, \cdot_{1}), (R_{2}, +_{2}, \cdot_{2})$ zwei [[Kommutative 
 Falls $\varphi$ bijektiv, so heißt $\varphi$ **Isomorphismus**.
 Insbesondere ist jeder Ringhomomorphismus ein [[Gruppenhomomorphismen|Gruppenhomomorphismus bezüglich der Addition]]. 
 
+Wenn $R_{1},R_{2}$ [[Körper]] sind heißt $\varphi$ **Körperhomomorphismus** bzw. **-isomorphismus**.
 ##### Eigenschaften
 - Die Komposition von Ringhomomorphismen ist wieder ein Ringhomomorphismus.
 - $\varphi(0)=0$
@@ -20,4 +21,4 @@ Für einen Ringhomomorphismus $\varphi:R_{1} \rightarrow R_{2}$ ist der **Kern**
 ### Eigenschaften
 - Der Kern ist ein [[Ideale|Ideal]]
 - $\varphi$ injektiv $\iff Ker(\varphi) = \{0\}$
-- Ist $R_{1}$ ein Körper so ist $\varphi = 0$ oder injektiv.
+- Ist $R_{1}$ ein [[Körper]] so ist $\varphi = 0$ oder injektiv.

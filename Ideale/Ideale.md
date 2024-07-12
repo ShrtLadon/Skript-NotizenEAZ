@@ -27,14 +27,14 @@ Ein Ideal $I\subsetneq R$ heißt
 - $\{0\}$ Primideal $\iff R$ [[Kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereiche]].
 - Hauptideal $(p), p\neq 0$ ist Primideal $\iff$ p [[Kommutative Ringe#Prim- und irreduzible Elemente|prim]].
 - Ideal $I$ ist ein Primideal $\iff$ [[Faktorringe|$R/I$]] [[Kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] 
-- Ideal $I$ maximal $\iff$ $R / I$ [[Kommutative Ringe#Körper|Körper]]
+- Ideal $I$ maximal $\iff$ $R / I$ [[Körper]]
 - In einem Hauptidealring ist $I$ maximal $\iff I \neq \{0\}$ und $I$ ein Primideal.
 	- Generell gilt jedes maximale Ideal ist prim.
 
 ## Beispiele
 - $\{0\}, R$ sind immer Ideale
 - Für $R = \mathbb{Z}$ ist $I = 2\mathbb{Z}$ ein Ideal. 
-- $R \neq \{0\}$ und $\{0\}$ sind die einzigen Ideale $\iff R$ ist ein [[Kommutative Ringe#Körper|Körper]]. 
+- $R \neq \{0\}$ und $\{0\}$ sind die einzigen Ideale $\iff R$ ist ein [[Körper]]. 
 
 
 - in $\mathbb{Z}[x]$ ist $(X,2)$ kein Hauptideal, insbesondere also auch kein [[Hauptidealringe|Hauptidealring]], aber maximal.

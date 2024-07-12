@@ -8,7 +8,7 @@ Das ist im Endeffekt ein Ring, in dem man "mit Rest teilen" kann.
 - $a,b$ [[Kommutative Ringe#Assoziiertheit|assoziiert]] $\implies N(a) = N(b)$ 
 - $a$ [[Kommutative Ringe#Einheit|Einheit]] $\implies N(e) = N(1)$ 
 - $\min N(R) = N(1)$ 
-- $a \not \in R^{*} \implies N(a) > 1$ 
+- $a \not \in R^{*} \implies N(a) > N(1)$ 
 - $a \mid b$ und $a,b$ nicht assoziiert $\implies N(b) > N(a)$ 
 - Jeder Euklidische Ring ist [[Kommutative Ringe#faktorielle Ringe|faktoriell]]. 
 - Es gilt $a,b$ sind [[Kommutative Ringe#Teilerfremde Elemente|teilerfremd]] $\iff$ $s,t\in R$ existieren mit $s\cdot a + t \cdot b = 1$
@@ -66,6 +66,6 @@ Sei also $c$ ein gemeinsamer Teiler von $a,b$. Dann ist $c$ in diesem Algorithmu
 ## Beispiele
 Das klassische Beispiel für einen euklidischen Ring ist $\mathbb{Z}$ mit $N(a) := \vert a \vert$.
 
-Ein weiteres Beispiel ist jeder Körper $\mathbb{K}$ mit einer konstanten Funktion als Normfunktion.
+Ein weiteres Beispiel ist jeder [[Körper]] $\mathbb{K}$ mit einer konstanten Funktion als Normfunktion.
 
 Auch die [[Kommutative Ringe#Gaußsche Zahlen|Gaußschen Zahlen]] sind mit der komplexen Betragsfunktion ein euklidischer Ring.

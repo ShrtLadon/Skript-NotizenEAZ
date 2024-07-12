@@ -10,7 +10,7 @@ Die Rückrichtung ist quasi identisch, nur aus umgekehrter Richtung. Der Kreis h
 ### Körpereigenschaft
 Es gilt $\mathbb{K} := \set{a \in \mathbb{R} : \text{a konstruierbar}}$ ist ein [[Kommutative Ringe#Körper|Körper]].
 #### Beweis
-Wir müssen zeigen, dass $\mathbb{K}$ ein Unterkörper von $\mathbb{R}$ ist. Da $(0,0),(0,1)$ direkt gegeben sind, sind $0,1$ konstruierbar also in $\mathbb{K}$. 
+Wir müssen zeigen, dass $\mathbb{K}$ ein [[Körper#Teilkörper|Teilkörper]] von $\mathbb{R}$ ist. Da $(0,0),(0,1)$ direkt gegeben sind, sind $0,1$ konstruierbar also in $\mathbb{K}$. 
 
 Seien $a,b \in \mathbb{K}$. 
 ###### $a-b \in \mathbb{K}$
@@ -24,7 +24,7 @@ Es gilt, falls $a \in \mathbb{K}$ positiv, dann ist auch $\sqrt a \in \mathbb{K}
 #### Beweis
 <iframe scrolling="no" title="Konstruktion von Quadratwurzeln" src="https://www.geogebra.org/material/iframe/id/k9gcgdpw/width/1911/height/859/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="800px" height="360px" style="border:0px;"> </iframe>
 ## Vollständige Charakterisierung
-Es gilt $r \in \mathbb{K}$ genau dann wenn, es endlich viele [[kommutative Ringe#Körper|Körper]] $K_{i}$ gibt mit$$\mathbb{Q}=K_{0}\subset K_{1}\subset ... \subset K_{m}$$und positive Zahlen $d_{i} \in K_{i}$, sodass $r \in K_{m}$ und $$K_{i+1}=K_{i}[\sqrt{d_{i}}]=\set{a+b\cdot\sqrt{d_{i}}:a,b \in K_{i}}$$
+Es gilt $r \in \mathbb{K}$ genau dann wenn, es endlich viele [[Körper]] $K_{i}$ gibt mit$$\mathbb{Q}=K_{0}\subset K_{1}\subset ... \subset K_{m}$$und positive Zahlen $d_{i} \in K_{i}$, sodass $r \in K_{m}$ und $$K_{i+1}=K_{i}[\sqrt{d_{i}}]=\set{a+b\cdot\sqrt{d_{i}}:a,b \in K_{i}}$$
 #### Beweis
 "$\Leftarrow$" ist wegen [[#Algebraische Eigenschaften#Quadratwurzeln|der Konstruierbarkeit von Wurzeln]] und der [[#Körpereigenschaft]] klar.
 

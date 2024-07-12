@@ -13,7 +13,7 @@ Für ein Polynom $p = \{\sum\limits_{i=0}^{\infty}a_{i}X^{i}$ ist der **Grad** v
 - $grad(f+g) \leq \max\set{grad(f),grad(g)}$ 
 
 ### Einsetzungshomomorphismus
-Man sieht formal Polynome nicht als Funktionen an, denn auf endlichen Körpern gibt es zwar unendlich viele Polynome, aber nur endlich viele Körper. Trotzdem ist mit den folgenden Dingen ein Polynom auch als Funktion "benutzbar":
+Man sieht formal Polynome nicht als Funktionen an, denn auf endlichen [[Körper|Körpern]] gibt es zwar unendlich viele Polynome, aber nur endlich viele Funktionen. Trotzdem ist mit den folgenden Dingen ein Polynom auch als Funktion "benutzbar":
 
 Für einen [[Kommutative Ringe#Teilringe|Teilring]] $R$ eines [[Kommutative Ringe|kommutativen Rings]] $L$ und $a \in L$ ist die **Einsetzung von a** $$\varphi ^{a}:R[X] \rightarrow L, \varphi^{a}\left(\sum\limits b_{i}X^{i}\right):= p(a):=\sum\limits b_{i}a^{i}$$ein [[Ringhomomorphismen|Ringhomomorphismus]].
 
@@ -103,7 +103,7 @@ Wir nennen $p\in \mathbb{Z}[X]$ **primitiv**, wenn 1 der [[[kommutative Ringe#Nu
 "$\Rightarrow$" Kontraposition. Sei o.B.d.A. $r$ nicht primitiv, also $r=\lambda \hat r$ mit $\lambda \in \mathbb{Z}$ keine Einheit. Dann ist teilt aber $\lambda$ auch alle Koeffizienten in $p=\lambda \cdot\hat r\cdot q$ also ist $p$ nicht primitiv.
 
 "$\Leftarrow$" Kontraposition. Sei $p$ nicht primitiv. Dann existiert eine Primzahl $a\in \mathbb{Z}$, sodass $a\mid p$. Betrachte $p = \sum\limits_{k=0}^{m+n}p_{k}X^{k}=r\cdot q \mod a$, wobei $r = \sum\limits_{i=0}^{m}r_{i}X^{i}$ und $q =\sum\limits_{j=0}^{m}q_{j}X^{j}$ . Da [[Faktorringe|die Projektion auf den Faktorring $\mathbb{Z}/a\mathbb{Z}$]] ein [[Ringhomomorphismen|Ringhomomorphismus]] ist, ist $\mathbb{Z}[X] \rightarrow \mathbb{Z}/a\mathbb{Z}[X], \sum\limits_{i=0}^{n}b_{i}X^{i} \mapsto \sum\limits_{i=0}^{n}\overline{b_{i}}X^{i}$ 
-auch eine, also ist:$$0=\sum\limits_{k=0}^{m+n}\overline{c_{k}}X^{k}=\overline p_{1} \overline p_{2}$$Da allerdings $\mathbb{Z}/a\mathbb{Z}$ ein [[Kommutative Ringe#Körper|Körper]], also insbesondere ein [[[kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] ist, ist der zugehörige Polynomring auch ein Integritätsbereich, also $\overline p_{1}=0$ oder $\overline p_{2}=0$. D.h. $a$ teilt alle Koeffizienten von $p_{1}$ oder von $p_{2}$ also ist $p_{1}$ oder $p_{2}$ nicht primitiv.
+auch eine, also ist:$$0=\sum\limits_{k=0}^{m+n}\overline{c_{k}}X^{k}=\overline p_{1} \overline p_{2}$$Da allerdings $\mathbb{Z}/a\mathbb{Z}$ ein [[Körper]], also insbesondere ein [[[kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] ist, ist der zugehörige Polynomring auch ein Integritätsbereich, also $\overline p_{1}=0$ oder $\overline p_{2}=0$. D.h. $a$ teilt alle Koeffizienten von $p_{1}$ oder von $p_{2}$ also ist $p_{1}$ oder $p_{2}$ nicht primitiv.
 #### Zusammenhang zu $\mathbb{Q}[X]$ 
 $p\in \mathbb{Z}[X]$ primitiv ist [[Kommutative Ringe#Prim- und irreduzible Elemente|irreduzibel]] $\iff$ $p$ in $\mathbb{Q}[X]$ irreduzibel. 
 
