@@ -33,7 +33,7 @@ Es gilt eine Teilmenge $\varnothing \neq H \subseteq G$  ist eine Untergruppe ge
 Sei $M \subseteq G$. Dann ist das **Erzeugnis** von $M$ definiert als $$\langle M\rangle:=\bigcap_{M\subseteq U \leq G}U$$das ist die kleinste Untergruppe von $G$ die auch $M$ enthält. In der Übung wurde das definiert als $\langle M \rangle := \set{g_1\cdot...\cdot g_{k} \mid g_{i}\in M \lor g_{i}^{-1}\in M}$ 
 
 ## Zyklische Gruppen
-Es gilt eine Gruppe $G$ heißt **zyklisch**, falls ein Element $a \in G$ existiert, sodass für jedes $g \in G$ ein $k \in \mathbb{Z}$ existiert mit $g=a^{k}$ also $\langle a\rangle = G$. Dann heißt $a$ *Erzeuger*. 
+Eine Gruppe $G$ heißt **zyklisch**, falls ein Element $a \in G$ existiert, sodass für jedes $g \in G$ ein $k \in \mathbb{Z}$ existiert mit $g=a^{k}$ also $\langle a\rangle = G$. Dann heißt $a$ *Erzeuger*. 
 
 Es gilt nach ÜB 6.3. dass jede zyklische Gruppe isomorph zu $\mathbb{Z}$ oder $\mathbb{Z}/n \mathbb{Z}$ ist.
 ### Ordnung
