@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Körper/Körper.md",
+                "file": "Gruppentheorie/Auflösbare Gruppen.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Körper/Körper.md",
+                "file": "Gruppentheorie/Auflösbare Gruppen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Körper/Körper.md",
+                "file": "Gruppentheorie/Auflösbare Gruppen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Körper/Körper.md"
+                "file": "Gruppentheorie/Auflösbare Gruppen.md"
               }
             }
           }
@@ -172,9 +172,11 @@
   },
   "active": "8e767b105c518ecd",
   "lastOpenFiles": [
+    "Arithmetik/Kommutative Ringe.md",
+    "Diophantische Gleichungen/Diophantische Gleichungssysteme.md",
+    "Körper/Körper.md",
     "Ideale/Faktorringe.md",
     "Ideale/Ideale.md",
-    "Körper/Körper.md",
     "Polynomringe/Polynomringe.md",
     "Ideale/Hauptidealringe.md",
     "Arithmetik/Euklidische Ringe.md",
@@ -183,7 +185,6 @@
     "Gruppentheorie/Konjugation/Sylow-Sätze.md",
     "Gruppentheorie/Auflösbare Gruppen.md",
     "Diophantische Gleichungen/Satz von Fermat.md",
-    "Arithmetik/Kommutative Ringe.md",
     "Gruppentheorie/Abelsche Gruppen.md",
     "Körper/Körperhomomorphismus.md",
     "Gruppentheorie/Konjugation/Normalteiler.md",
@@ -198,7 +199,6 @@
     "Gruppentheorie/Gruppenhomomorphismen.md",
     "Gruppentheorie/Symmetrische Gruppe.md",
     "Gruppentheorie/Einfache Gruppen.md",
-    "Gruppentheorie/Faktorgruppen.md",
     "Untitled.canvas",
     "Gruppentheorie/Auflösbarkeit",
     "Gruppentheorie/Konjugation",

@@ -88,28 +88,28 @@ d) [[Sylow-Sätze#$ lvert G rvert=m cdot p {a}$ mit $m < p$.|$\lvert G \rvert=m 
 auflösbar sind. Für einzelne $n$ müssen wir separat beweisen, dass $G$ auflösbar ist. Dazu werden wir uns jedes einzelne $n\in \set{1,...,60}$ anschauen, hier der Übersichtlichkeit halber in mehreren Spalten:
 
 
-|       n        |    Bew.     |        n        |       Bew.        |        n        |           Bew.            |
-| :------------: | :---------: | :-------------: | :---------------: | :-------------: | :-----------------------: |
-|      $1$       | $G=\set{1}$ |  $21=7\cdot3$   |        c)         |      $41$       |            a)             |
-|      $2$       |     a)      | $22=2\cdot 11$  |        c)         |  $42=6\cdot 7$  |     [[#Lemma $n=42$]]     |
-|      $3$       |     a)      |      $23$       |        a)         |      $43$       |            a)             |
-|    $4=2^2$     |     a)      |      $24$       | [[#Lemma $n=24$]] | $44=2^2\cdot11$ |            b)             |
-|      $5$       |     a)      |    $25=5^2$     |        a)         | $45=3^2\cdot5$  |            b)             |
-|  $6=2\cdot 3$  |     c)      |  $26=2\cdot13$  |        c)         | $46=2\cdot 23$  |            c)             |
-|      $7$       |     a)      |    $27=3^3$     |        a)         |      $47$       |            a)             |
-|    $8=2^3$     |     a)      | $28=7\cdot 2^2$ |        b)         |      $48$       |     [[#Lemma $n=48$]]     |
-|    $9=3^3$     |     a)      |      $29$       |        a)         |    $49=7^2$     |            a)             |
-| $10=5\cdot 2$  |     c)      |      $30$       | [[#Lemma $n=30$]] | $50=5^2\cdot2$  |            b)             |
-|      $11$      |     a)      |      $31$       |        a)         | $51=3\cdot 17$  |            c)             |
-| $12=2^2\cdot3$ |     b)      |    $32=2^5$     |        a)         | $52=2^2\cdot13$ |            b)             |
-|      $13$      |     a)      |  $33=3\cdot11$  |        c)         |      $53$       |            a)             |
-|  $14=7\cdot2$  |     c)      | $34=17\cdot 2$  |        c)         |      $54$       | d) oder [[#Lemma $n=54$]] |
-|  $15=5\cdot3$  |     c)      |  $35=5\cdot 7$  |        c)         |  $55=5\cdot11$  |            c)             |
-|    $16=2^4$    |     a)      |      $36$       | [[#Lemma $n=36$]] |      $56$       |     [[#Lemma $n=56$]]     |
-|      $17$      |     a)      |      $37$       |        a)         |  $57=3\cdot19$  |            c)             |
-| $18=3^2\cdot2$ |     b)      | $38=2\cdot 19$  |        c)         |  $58=2\cdot29$  |            c)             |
-|      $19$      |     a)      | $39=3\cdot 13$  |        c)         |      $59$       |            a)             |
-| $20=5\cdot2^2$ |     b)      |      $40$       | [[#Lemma $n=40$]] |        -        |             -             |
+|       n        |    Bew.     |        n        |       Bew.        |        n        |       Bew.        |
+| :------------: | :---------: | :-------------: | :---------------: | :-------------: | :---------------: |
+|      $1$       | $G=\set{1}$ |  $21=7\cdot3$   |        c)         |      $41$       |        a)         |
+|      $2$       |     a)      | $22=2\cdot 11$  |        c)         |  $42=6\cdot 7$  | [[#Lemma $n=42$]] |
+|      $3$       |     a)      |      $23$       |        a)         |      $43$       |        a)         |
+|    $4=2^2$     |     a)      |      $24$       | [[#Lemma $n=24$]] | $44=2^2\cdot11$ |        b)         |
+|      $5$       |     a)      |    $25=5^2$     |        a)         | $45=3^2\cdot5$  |        b)         |
+|  $6=2\cdot 3$  |     c)      |  $26=2\cdot13$  |        c)         | $46=2\cdot 23$  |        c)         |
+|      $7$       |     a)      |    $27=3^3$     |        a)         |      $47$       |        a)         |
+|    $8=2^3$     |     a)      | $28=7\cdot 2^2$ |        b)         |      $48$       | [[#Lemma $n=48$]] |
+|    $9=3^3$     |     a)      |      $29$       |        a)         |    $49=7^2$     |        a)         |
+| $10=5\cdot 2$  |     c)      |      $30$       | [[#Lemma $n=30$]] | $50=5^2\cdot2$  |        b)         |
+|      $11$      |     a)      |      $31$       |        a)         | $51=3\cdot 17$  |        c)         |
+| $12=2^2\cdot3$ |     b)      |    $32=2^5$     |        a)         | $52=2^2\cdot13$ |        b)         |
+|      $13$      |     a)      |  $33=3\cdot11$  |        c)         |      $53$       |        a)         |
+|  $14=7\cdot2$  |     c)      | $34=17\cdot 2$  |        c)         |      $54$       |        d)         |
+|  $15=5\cdot3$  |     c)      |  $35=5\cdot 7$  |        c)         |  $55=5\cdot11$  |        c)         |
+|    $16=2^4$    |     a)      |      $36$       | [[#Lemma $n=36$]] |      $56$       | [[#Lemma $n=56$]] |
+|      $17$      |     a)      |      $37$       |        a)         |  $57=3\cdot19$  |        c)         |
+| $18=3^2\cdot2$ |     b)      | $38=2\cdot 19$  |        c)         |  $58=2\cdot29$  |        c)         |
+|      $19$      |     a)      | $39=3\cdot 13$  |        c)         |      $59$       |        a)         |
+| $20=5\cdot2^2$ |     b)      |      $40$       | [[#Lemma $n=40$]] |        -        |         -         |
 Für die einzelnen Beweise werden wir uns viel auf die [[Sylow-Sätze]] und insbesondere [[Sylow-Sätze#Weitere Eigenschaften von $n_{p}$|Eigenschaften von $n_p$]] beziehen. Außerdem werden wir hin und wieder den [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] verwenden, also $\lvert G/H\rvert=\frac{\lvert G\rvert}{\lvert H\rvert}$.
 Zusätzlich werden wir verwenden, dass [[Normalteiler#Beispiele|der Kern von Homomorphismen]] ein [[Normalteiler]] ist und nach [[#Vererbung|oben]] $G$ auflösbar $\iff H \trianglelefteq G,G/H$ auflösbar.
 
@@ -145,8 +145,6 @@ Es gilt $40=5\cdot2^{3}$, also ist $n_{5}\in \set{1,2,4,8}$ und $2,4,8 \not\equi
 Nach [[Sylow-Sätze#$ lvert G rvert=m cdot p {a}$ mit $m < p$.|diesem Lemma]] gilt, dass $n_{7} = 1$. Damit ist $U_{7}$ Normalteiler und auflösbar und $G/U_7$ eine Gruppe der Ordnung 6 und damit auflösbar. Mit der [[#Vererbung]] folgt, dass $G$ auflösbar ist.
 ###### Lemma $n=48$
 Es gilt $48=2^{4}\cdot 3$. Also ist $n_{2}\in \set{1,3}$. Für $n_{2}=1$ sind wie vorher fertig. Für $n_{2}=3$ gilt $\set{e}\neq \ker \varphi_{2}\neq G$, denn $\lvert G\rvert=48 > 6 =\lvert S_{3}\rvert$ und damit wie in [[#Lemma $n=24$]] $G$ auflösbar. 
-###### Lemma $n=54$
-Es gilt $54=2\cdot 3^{3}$. Also ist $n_{3}\in \set{1,2}$. Da $2 \not\equiv 1\mod 3$ ist $n_{3}=1$ und wie oben ist $G$ auflösbar.
 ###### Lemma $n=56$
 Es gilt $56=7\cdot 2^{3}$. Also ist $n_{7}\in \set{1,2,4,8}$, aber da $2,4\not\equiv 1 \mod 7$ ist $n_{7}\in\set{1,8}$. Für $n_{7}=1$ sind wir wie oben fertig.
 Sei also $n_{7}=8$. Dann gilt wie in [[#Lemma $n=30$]], dass es $8\cdot (7-1)$ Elemente der Ordnung 7 gibt. Die restlichen $2^{3}=8$ Elemente müssen also die einzige 2-Sylowuntergruppe bilden, also gilt $n_{2}=1$ und wie vorher sind wir fertig.
