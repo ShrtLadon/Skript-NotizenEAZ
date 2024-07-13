@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e767b105c518ecd",
+            "id": "ac787dcb32dfb189",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppentheorie/Auflösbare Gruppen.md",
+                "file": "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,8 +109,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gruppentheorie/Auflösbare Gruppen.md",
-                "collapseAll": false,
+                "file": "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gruppentheorie/Auflösbare Gruppen.md",
+                "file": "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gruppentheorie/Auflösbare Gruppen.md"
+                "file": "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md"
               }
             }
           }
@@ -170,35 +170,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e767b105c518ecd",
+  "active": "ac787dcb32dfb189",
   "lastOpenFiles": [
-    "Arithmetik/Kommutative Ringe.md",
-    "Diophantische Gleichungen/Diophantische Gleichungssysteme.md",
+    "Körper/Körpererweiterungen.md",
+    "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
+    "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
+    "Geometrische Betrachtungen/Bewegungen.md",
     "Körper/Körper.md",
+    "Gruppentheorie/Gruppen.md",
+    "Polynomringe/Polynomringe.md",
+    "[kommutative Ringe.md",
+    "Arithmetik/Kommutative Ringe.md",
+    "Körper/Zerfällungskörper.md",
+    "Gruppentheorie/Auflösbare Gruppen.md",
+    "Körper/Quotientenkörper.md",
+    "Diophantische Gleichungen/Diophantische Gleichungssysteme.md",
     "Ideale/Faktorringe.md",
     "Ideale/Ideale.md",
-    "Polynomringe/Polynomringe.md",
     "Ideale/Hauptidealringe.md",
     "Arithmetik/Euklidische Ringe.md",
-    "Körper/Quotientenkörper.md",
     "Arithmetik/Ringhomomorphismen.md",
     "Gruppentheorie/Konjugation/Sylow-Sätze.md",
-    "Gruppentheorie/Auflösbare Gruppen.md",
     "Diophantische Gleichungen/Satz von Fermat.md",
     "Gruppentheorie/Abelsche Gruppen.md",
     "Körper/Körperhomomorphismus.md",
     "Gruppentheorie/Konjugation/Normalteiler.md",
     "Pasted image 20240709170859.png",
-    "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
     "Arithmetik/Primzahlen.md",
     "ios.md",
-    "Gruppentheorie/Gruppen.md",
     "Gruppentheorie/Gruppenwirkung.md",
-    "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
-    "Gruppentheorie/Konjugation/Normalisator.md",
-    "Gruppentheorie/Gruppenhomomorphismen.md",
-    "Gruppentheorie/Symmetrische Gruppe.md",
-    "Gruppentheorie/Einfache Gruppen.md",
     "Untitled.canvas",
     "Gruppentheorie/Auflösbarkeit",
     "Gruppentheorie/Konjugation",

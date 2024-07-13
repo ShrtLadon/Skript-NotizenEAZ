@@ -37,7 +37,26 @@ Eine Gerade $l$ durch Punkte $A,B \in M$ ist gegeben durch $\set{\begin{pmatrix}
 
 ###### Schnitt von Kreisen
 Sei $(a,b) \in M$ der Mittelpunkt und $r \in \mathbb{K}'$ der Radius eines Kreises $\mathcal{K}$. Dann ist der Kreis gegeben durch $\mathcal{K} = \set{\begin{pmatrix}x \\ y\end{pmatrix} : (x-a)^{2}+ (y-b)^{2} = r^{2}}$. Die Schnittmenge ist gegeben durch die Lösungsmenge des Gleichungssystems in $\mathbb{R}^2$$$\begin{cases}(x-a)^{2}+(y-b)^{2}=r^{2} \\(x-c)^{2}+(y-d)^{2}=r'^{2}\end{cases}$$Wenn man die zweite von der ersten Zeile abzieht, kann man nach $x$ oder $y$ umstellen (potentiell nur nach einem davon) und in die zweite Gleichung einsetzen. Das liefert uns eine quadratische Gleichung die mit pq-Formel die Lösungen (wenn existent)$$\lambda \pm \sqrt{\mu}$$hat, mit $\lambda, \mu \in \mathbb{K}'$. Also sind auch die Koordinaten von dem Schnittpunkt in $\mathbb{K}'$. 
-
-FALSCH potentiell wurzel
 ###### Schnitt von Kreisen und Gerade
 Mit [[#Schnitt von Kreisen]] und [[#Schnitt von zwei Geraden]] wissen wir dass der Schnitt eines Kreises und einer Gerade gegeben ist durch $$\begin{cases}(x-a)^{2}+(y-b)^{2}=r^{2} \\cx+dy=e\end{cases}$$Wenn man die erste Zeile nach $x$ oder $y$ umstellt (je nachdem ob $d = 0$) und in die erste Gleichung einsetzt erhält man mit der pq-Formel, dass die Lösungen (wenn existent) die Form $$\lambda \pm \sqrt{\mu}$$mit $\lambda, \mu \in \mathbb{K}'$ haben. Insbesondere ist aber aufgrund der Beschaffenheit von $\mathbb{K}'$ auch $x \in \mathbb{K}'$ und damit auch $y \in \mathbb{K}'$   
+
+
+### Zusammenhang zu Körpererweiterungen
+Sei $a \in \mathbb{R}$ konstruierbar. Dann gibt es ein $m\in \mathbb{N}_{0}$ und einen [[Körper]] $K\subset \mathbb{R}$ mit $a\in K$ und [[Körpererweiterungen#Grad|$[K:\mathbb{Q}]$]]$=2^{m}$. 
+Insbesondere bedeutet das $a$ ist [[Körpererweiterungen#algebraische und transzendente Elemente|algebraisch]] über $\mathbb{Q}$ und $\mathbb{Q}(a)=\mathbb{Q}=2^{l}$.
+###### Beweis
+Nach obiger [[#Körpereigenschaft|Charakterisierung]] existieren $$\mathbb{Q}=K_{0}\subset K_{1}\subset ... \subset K_{m}\ni a$$und positive Zahlen $d_{i} \in K_{i}$ mit $K_{i}[\sqrt{d_{i}}]=K_{i+1}$.
+Außerdem gilt $K_{i}[\sqrt{d_{i}}]=$[[Körpererweiterungen#einfache Körpererweiterungen|$K_{i}(\sqrt{d_{i}})$]] und $[K_{i+1}:K_{i}]\leq 2$ (1 ist auch möglich, wenn $\sqrt{d_{i}} \in K_{i}$). Wegen [[Körpererweiterungen#Gradsatz|Gradsatz]] existiert also ein $m'\in \mathbb{N}_{0}$ mit $$[K_{m}:\mathbb{Q}]=[K_{m}:K_{m-1}]\cdot...\cdot[K_{1}: \mathbb{Q}]=2^{m'}$$Wegen dem Gradsatz ist außerdem $[\mathbb{Q}(a):\mathbb{Q}]$ ein [[Kommutative Ringe#Teiler|Teiler]] von $[K_{m}:\mathbb{Q}]$ also existiert ein $l'\in \mathbb{N}_{0}$, sodass $[\mathbb{Q}(a):\mathbb{Q}]=2^{l}$. 
+
+# nicht konstruierbare Knoten
+### Quadratur des Kreises
+Die Frage nach der Quadratur des Kreises, ist ob man ausgehend von einem Kreis ein Quadrat mit dem selben Flächeninhalt [[Formalisierung von Konstruktionen mit Zirkel und Lineal|konstruieren]] kann. Also:
+<iframe scrolling="no" title="Quadratur des Kreises" src="https://www.geogebra.org/material/iframe/id/gp5bcauw/width/1911/height/859/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="800px" height="360px" style="border:0px;"> </iframe>Es gilt ein solches Quadrat müsste die Seitenlänge $\sqrt{\pi}\cdot r$ haben, wobei $r$ der Radius vom Kreis ist. Wegen der Abgeschlossenheit unter Multiplikation ([[#Körpereigenschaft]]) ist es ausreichend zu zeigen, dass $\sqrt \pi$ nicht konstruierbar ist.
+
+Es gilt nach [[Körpererweiterungen#algebraische und transzendente Elemente#Beispiele|Satz von Lindemann]], dass $\pi$ nicht algebraisch ist. Wenn $\sqrt \pi$ algebraisch wäre, so wäre [[Körpererweiterungen#algebraische Teilkörper und Verknüpfungen von algebraischen Elementen|$\sqrt \pi \cdot \sqrt\pi$]]$=\pi$ auch algebraisch, was ein Widerspruch ist. Also ist wegen dem [[#Zusammenhang zu Körpererweiterungen]] $\sqrt \pi$ nicht konstruierbar.
+
+### Verdopplung des Würfels
+Die Verdopplung des Würfels ist die Frage ob man für eine Seitenlänge $a$ eine Seitenlänge $b$ konstruieren kann, sodass das Volumen des Würfels mit Seitenlänge $b$ doppelt so groß ist, wie das Volumen des Würfels mit Seitenlänge $a$. Also $b^{3}=2a^{3}$.
+<iframe scrolling="no" title="Verdopplung des Würfels" src="https://www.geogebra.org/material/iframe/id/cstc8db3/width/1922/height/879/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="800px" height="360px" style="border:0px;"> </iframe>
+
+Wie bei der [[#Quadratur des Kreises]] kann man das auf die algebraische Frage zurückführen, ob $\sqrt[3]{2}$ konstruierbar ist. Da [[Körpererweiterungen#Erzeugte Körper|$[\mathbb{Q}(\sqrt[3]{2}):\mathbb{Q}]=3$]] folgt mit der obigen [[#Zusammenhang zu Körpererweiterungen|Bemerkung]], dass $\sqrt[3]{2}$ nicht konstruierbar ist, also die Verdopplung des Würfels nicht konstruierbar ist.

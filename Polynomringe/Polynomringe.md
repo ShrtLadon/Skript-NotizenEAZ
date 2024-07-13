@@ -94,7 +94,7 @@ Da $p$ irreduzibel und die [[Kommutative Ringe#Einheiten|Einheiten]] genau $f$ m
 
 ## Ganzzahlige Polynome
 ### Primitive Polynome
-Wir nennen $p\in \mathbb{Z}[X]$ **primitiv**, wenn 1 der [[[kommutative Ringe#Nullteiler und Integritätsbereiche|größte gemeinsame Teiler]] der Koeffizienten von $p$ ist. 
+Wir nennen $p\in \mathbb{Z}[X]$ **primitiv**, wenn 1 der [[kommutative Ringe#Nullteiler und Integritätsbereiche|größte gemeinsame Teiler]] der Koeffizienten von $p$ ist. 
 ##### Eigenschaften
 - Jedes Polynom $0\neq p \in \mathbb{Z}[X]$ ist ein Produkt von $d\in \mathbb{Z}$ und einem primitiven $p_{0}\in \mathbb{Z}[X]$, wenn man $d$ als den $ggT$ der Koeffizienten von $p$ wählt.
 - $p$ ist primitiv $\iff$ $p$ wird durch keine Primzahl geteilt (wegen Eigenschaften von faktoriellen Ringen)
@@ -103,7 +103,7 @@ Wir nennen $p\in \mathbb{Z}[X]$ **primitiv**, wenn 1 der [[[kommutative Ringe#Nu
 "$\Rightarrow$" Kontraposition. Sei o.B.d.A. $r$ nicht primitiv, also $r=\lambda \hat r$ mit $\lambda \in \mathbb{Z}$ keine Einheit. Dann ist teilt aber $\lambda$ auch alle Koeffizienten in $p=\lambda \cdot\hat r\cdot q$ also ist $p$ nicht primitiv.
 
 "$\Leftarrow$" Kontraposition. Sei $p$ nicht primitiv. Dann existiert eine Primzahl $a\in \mathbb{Z}$, sodass $a\mid p$. Betrachte $p = \sum\limits_{k=0}^{m+n}p_{k}X^{k}=r\cdot q \mod a$, wobei $r = \sum\limits_{i=0}^{m}r_{i}X^{i}$ und $q =\sum\limits_{j=0}^{m}q_{j}X^{j}$ . Da [[Faktorringe|die Projektion auf den Faktorring $\mathbb{Z}/a\mathbb{Z}$]] ein [[Ringhomomorphismen|Ringhomomorphismus]] ist, ist $\mathbb{Z}[X] \rightarrow \mathbb{Z}/a\mathbb{Z}[X], \sum\limits_{i=0}^{n}b_{i}X^{i} \mapsto \sum\limits_{i=0}^{n}\overline{b_{i}}X^{i}$ 
-auch eine, also ist:$$0=\sum\limits_{k=0}^{m+n}\overline{c_{k}}X^{k}=\overline p_{1} \overline p_{2}$$Da allerdings $\mathbb{Z}/a\mathbb{Z}$ ein [[Körper]], also insbesondere ein [[[kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] ist, ist der zugehörige Polynomring auch ein Integritätsbereich, also $\overline p_{1}=0$ oder $\overline p_{2}=0$. D.h. $a$ teilt alle Koeffizienten von $p_{1}$ oder von $p_{2}$ also ist $p_{1}$ oder $p_{2}$ nicht primitiv.
+auch eine, also ist:$$0=\sum\limits_{k=0}^{m+n}\overline{c_{k}}X^{k}=\overline p_{1} \overline p_{2}$$Da allerdings $\mathbb{Z}/a\mathbb{Z}$ ein [[Körper]], also insbesondere ein [[kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] ist, ist der zugehörige Polynomring auch ein Integritätsbereich, also $\overline p_{1}=0$ oder $\overline p_{2}=0$. D.h. $a$ teilt alle Koeffizienten von $p_{1}$ oder von $p_{2}$ also ist $p_{1}$ oder $p_{2}$ nicht primitiv.
 #### Zusammenhang zu $\mathbb{Q}[X]$ 
 $p\in \mathbb{Z}[X]$ primitiv ist [[Kommutative Ringe#Prim- und irreduzible Elemente|irreduzibel]] $\iff$ $p$ in $\mathbb{Q}[X]$ irreduzibel. 
 
