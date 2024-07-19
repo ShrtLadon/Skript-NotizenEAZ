@@ -33,3 +33,31 @@ Sei $\mathbb{K}$ ein Körper der Charakteristik $p\neq 0$. Dann gilt $\forall x,
 Es gilt $(x+y)^{p}=\sum\limits_{j=0}^{p}\binom{p}{j}x^{j}y^{p-j}$. 
 Allerdings gilt für $j\neq0,p$, dass $\binom{p}{j}=\frac{p!}{j!(p-j)!}$  dass in dem Nenner nur Faktoren echt kleiner als $p$ sind und im Zähler $p$ als Faktor steht. Damit teilt kein Faktor im Nenner das $p$ im Zähler und $\binom{p}{j}$ durch $p$ teilbar. 
 Insbesondere gilt aber $p\cdot 1=0$ also $(x+y)^{p}=x^{p}+y^{p}$.
+
+
+### Endliche Multiplikative Untergruppen
+Sei $K$ ein Körper,  $G$ eine [[Gruppen#Untergruppen|Untergruppe]] der multiplikativen [[Gruppen|Gruppe]] $(K\setminus\set 0, \cdot)$ und $n:= \lvert G\rvert< \infty$. Dann gilt:
+- $G$ ist [[Gruppen#Zyklische Gruppen|zyklisch]]
+- $G$ ist die Menge der Nullstellen von $X^{n}-1\in$[[Polynomringe|$K[X]$]] in $K$.
+###### Beweis
+1) Es gilt $G$ ist [[Abelsche Gruppen|abelsch]]. Insbesondere gilt nach [[Abelsche Gruppen#Klassifikation abelscher Gruppen|Klassifikation endlicher abelscher Gruppen]], dass $$G\cong G_{1}\times...\times G_{k}$$wobei $G_{1},...,G_{k}$ die [[Sylow-Sätze|Sylow-Untergruppen]] sind. Außerdem gilt, dass wenn alle $G_{i}$ zyklisch sind, auch $G$ zyklisch ist, denn dann ist $G_{i}\cong \mathbb{Z}/p_{i}^{l_{i}}\mathbb{Z}$, und $G$ nach [[Chinesischer Restsatz|Chinesischem Restsatz]] - da die Sylow-Untergruppen teilerfremde Ordnungen haben - isomorph zu $\mathbb{Z}/p_{1}^{l_{1}}\cdot ... \cdot p_{k}^{l_{k}}\mathbb{Z}$.
+	Wir werden nachfolgend also zeigen, dass alle $G_i$ zyklisch sind. Da [[Abelsche Gruppen#Anzahl der Untergruppen der Ordnung $p$.|wissen]] wir, dass $G_{i}$ zyklisch ist genau dann, wenn es nur eine Untergruppe $T_{i} <G_{i}$ gibt, die Ordnung $p_{i}$ hat. Das ist äquivalent dazu, dass $\#\set{g\in G_{i} \mid g^{p_{i}}=1}=p_{i}$ ist, denn in einer [[Gruppen#Zyklische Gruppen#Eigenschaften|zyklischen Gruppe primer Ordnung]], sind alle Elemente außer $1$ Erzeuger. Insbesondere sind alle solche $g$ eine Nullstelle von $X^{p_{i}}-1$, was allerdings höchstens $p_{i}$ Nullstellen hat, womit die Behauptung folgt.
+
+3) Es gilt für alle $a\in G$: [[Gruppen#Ordnung#Eigenschaften|$a^{n}=1$]]. Insbesondere sind alle $a\in G$ also Nullstellen von $X^{n}-1$. Da ein Polynom vom [[Polynomringe#Grad|Grad]] $n$ [[Polynomringe#Teilbarkeit|höchstens $n$ Nullstellen hat]] und $G$ nun $n$ Nullstellen enthält, ist $G$ die Menge der Nullstellen von $X^{n}-1\in K[X]$. 
+
+## Klassifikation endlicher Körper
+Sei $K$ ein endlicher Körper mit $q=\lvert K\rvert<\infty$. Dann gilt:
+- $q$ ist eine [[Primzahlen|Primzahlpotenz]], also $q=p^{n}$
+- $K$ ist eine [[Körpererweiterungen#einfache Körpererweiterungen|einfache Erweiterung]] $\mathbb{F}_{p}(\alpha)$
+- $K$ ist der [[Körpererweiterungen#Zerfällungskörper|Zerfällungskörper]] von $X^{q-1}-1 \in \mathbb{F}_{p}[x]$.
+- $K$ ist durch $q$ bis auf [[Ringhomomorphismen|Isomorphie]] eindeutig bestimmt.
+
+###### Beweis
+1) Sei $p$ die [[#Charakteristik]] von $K$. Dann ist [[#kleinster Teilkörper|Satz über den kleinsten Teilkörper]] $K$ isomorph zu einem Körper, der $\mathbb{F}_{p}$ als Teilkörper enthält, denn $p$ muss $\neq 0$ sein, sonst würde es $\mathbb{Z}$ also unendlich viele Elemente enthalten.
+	o.B.d.A. können wir also im Folgenden sagen $\mathbb{F}_{p}\subset K$ und aufgrund der Endlichkeit von $K$, dass [[Körpererweiterungen#Grad|$[K:\mathbb{F}_p]$]]$=n<\infty$. Außerdem gilt jeder Vektorraum der Dimension $n$ über $\mathbb{F}_{p}$ hat $\lvert \mathbb{F}_{p}\rvert^{n}=p^{n}$ Elemente.
+
+2) Es gilt $\lvert K^*\rvert=\lvert K\setminus\set 0\rvert=q-1$. Insbesondere ist $K^*$ die [[Gruppen|Gruppe]] der [[Kommutative Ringe#Einheiten|Einheiten]] und eine [[Gruppen#Untergruppen|Untergruppe]] von sich selbst. Damit ist $K^*$ nach [[#Endliche Multiplikative Untergruppen|obigem Lemma]] zyklisch, d.h. es existiert ein $\alpha \in K\setminus \set 0$, sodass $\set{\alpha, \alpha^{2},...,\alpha^{q-1}=1}=K\setminus\set{0}$. Also gilt, dass $K=\mathbb{F}_{p}(\alpha)$, denn $\mathbb{F}_{p}(\alpha)$, muss mindestens $\alpha, \alpha^{2},...$ enthalten und der kleinste Körper sein, der dies tut.
+3) Sei $m\in\set{1,...,q-1}$. Dann gilt alle alle $\alpha^{m}$ sind paarweise verschieden (da es genau $q-1$ solche gibt nach 2)). Außerdem ist $$(\alpha^{m})^{q-1}=(\alpha^{q-1})^{m}=1^{m}=1$$Damit ist $X^{q-1}-1=(X-\alpha)(X-\alpha^{2})...(X-\alpha^{q-1})$, denn wir haben genau $q-1$ Nullstellen und $X^{q-1}-1$ hat höchstens $q-1$ Nullstellen. Insbesondere gilt also $K$ ist der Zerfällungskörper von $X^{q-1}-1 \in \mathbb{F}_p$.
+4) Weil der Zerfällungskörper [[Körpererweiterungen#Zerfällungskörper#Grad und Eindeutigkeit von Zerfällungskörpern|bis auf Isomorphie eindeutig ist]].
+
+

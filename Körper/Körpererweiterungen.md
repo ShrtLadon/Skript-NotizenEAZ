@@ -172,3 +172,13 @@ Sei $\alpha$ eine (abstrakte) Nullstelle von $P$ und $L:= K(\alpha)$. Dann [[#Mi
 Nach Induktionsvoraussetzung existiert ein Zerfällungskörper $A=L(\alpha_{2},...,\alpha_n)$ von $q$ mit $[A:L]\leq(n-1)!$, wobei $\alpha_{1},...,\alpha_{n}$ die Nullstellen von $q$ also von $P$ sind. Insbesondere zerfällt $P$ in $A$ in Linearfaktoren. Dann gilt wegen [[#Gradsatz]]$$[A:K]=[A:L]\cdot[L:K]\leq(n-1)!\cdot n=n!$$
 **Fall**: $P$ ist reduzibel:
  Sei $\alpha$ eine Nullstelle von $P$ und $L:= K(\alpha)$. Dann [[#Minimalpolynom|gilt]] $[L:K]<n$, denn $grad(P)> grad(p_\min)$, da $P$ reduzibel. Damit folgt der Rest wie im ersten Fall.
+
+## Satz vom primitiven Element
+Sei $L/K$ eine Körpererweiterung. Dann gilt:
+- Wenn $\lvert L\rvert< \infty$, dann ist die Erweiterung [[#einfache Körpererweiterungen|einfach]]. 
+- Wenn $L/K$ eine [[#Endliche Erweiterungen|endliche Erweiterung]] ist und $K$ [[Körper#Charakteristik|Charakteristik]] 0 hat, so ist die Erweiterung einfach.
+
+###### Beweis
+1) folgt aus der [[Körper#Klassifikation endlicher Körper|Klassifikation endlicher Körper]], denn $L=\mathbb{F}_{p}(\alpha)$ impliziert $L=K(\alpha)$.
+2) werden wir hier nicht beweisen.
+

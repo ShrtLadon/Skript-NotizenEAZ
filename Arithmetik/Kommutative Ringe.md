@@ -29,12 +29,14 @@ In einem Integritätsbereich nennen wir ein $d\in R$ mit $c\mid a \land c \mid b
 
 ##### Eigenschaften
 In Integritätsbereichen gilt, dass man kürzen darf, d.h. für $a,b\in R$ und $c \neq 0 \in R$ gilt $$a\cdot c \equiv b \cdot c \implies a \equiv b \text{ für } \equiv \in \{=, \sim\}$$
+Es gilt für ein $0 \neq x \in R$, dass es kein Nullteiler ist $\iff$ $x\cdot : R \rightarrow R, y \mapsto x\cdot y$ injektiv.
 ##### Teilerfremde Elemente
 Wir nennen in einem Integritätsbereich $a,b\in R$ **teilerfremd**, falls jeder gemeinsame Teiler eine Einheit ist.
 ### Einheiten
 $a\in R$ heißt **Einheit**, falls $a \big \vert 1$. Das ist äquivalent dazu, dass $a$ invertierbar bezüglich der Multiplikation ist. Wir bezeichnen $R^{*} := \{a \in R : a \text{ ist Einheit}\}$ als die Menge der Einheiten. Das bildet insbesondere eine Gruppe bezüglich der Multiplikation.
 ##### Eigenschaften
 - Ist eine Einheit ein [[#Nullteiler und Integritätsbereiche|Nullteiler]], so ist $R$ der [[#Nullring]] 
+- $x\in R$ ist eine Einheit $\iff$ $x\cdot : R \rightarrow R, y \mapsto x\cdot y$ bijektiv $\iff x\cdot$ surjektiv
 
 ### Assoziiertheit
 Wir nennen zwei Elemente **assoziiert**, falls es eine [[#Einheiten|Einheit]] $c \in R^{*}$gibt, sodass $a=b\cdot c$. Wir schreiben dann auch $a \sim b$.

@@ -19,4 +19,4 @@ Sei $x_{0} \in \mathcal{L}(0)$. Dann gilt wegen der Linearität $x_{0}+z_{0}\in 
 
 
 ###### Beispiel k = 2
-Für $k=2$ ist $\mathcal{L}(0)=\set{(s\cdot \frac{a_{2}}{t}, s\cdot \frac{a_{1}}{t}):s \in \mathbb{Z}}$ 
+Für $k=2$ ist $\mathcal{L}(0)=\set{(s\cdot \frac{a_{2}}{t}, -s\cdot \frac{a_{1}}{t}):s \in \mathbb{Z}}$ 

@@ -1,0 +1,4 @@
+Sei $L/K$ eine [[Körpererweiterungen#einfache Körpererweiterungen|einfache Körpererweiterung]] $L=K(\alpha)$ und $L$ ein [[Körpererweiterungen#Zerfällungskörper|Zerfällungskörper]] von $\alpha$.  Dann gilt:
+- Jede [[Gruppen#Untergruppen|Untergruppe]] $H$ von [[Galois-Gruppen|$\text{Gal}(L/K)$]] entspricht dem [[Körper]]$$K\subset L^H=\set{a \in L\mid \forall \varphi \in H:  \varphi(a)=a}$$d.h. $H\mapsto L^{H}$ bildet bijektiv die Menge der Untergruppen von $\text{Gal}(L/K)$ auf die Menge der Zwischenkörper ab.
+- $H$ ist [[Normalteiler#normal]] in $G\iff$  $L^{H}$ [[Körpererweiterungen|Zerfällungskörper]] über $K$. 
+- $G$ ist [[Auflösbare Gruppen|auflösbar]] $\iff$ es existiert eine Folge von Körpern $$K=K_{0}\subset K_{1} \subset ... \subset K_{m}=L$$mit $K_{i+1}/K$ Zerfällungskörper mit [[Körpererweiterungen#Grad|Grad]] eine [[Primzahlen|Primzahl]]. In dem Fall gibt es ein $d_{i}\in K_{i}$, sodass $K_{i+1}=K_{i}(\sqrt[p_i]{d_{i}})$. 

@@ -153,7 +153,7 @@ Wie in [[#Primitive Polynome#Eigenschaften#Beweis| dem Beweis von Produkten prim
 Dann gilt $\sum\limits_{i=0}^{n}\overline c_{i} X^{i} = \overline c_{n}X^{n}=\overline c_{n}\cdot X\cdot \cdot \dots \cdot X$ Zerlegung in Primelemente und Einheit, die eindeutig ist, da wir uns als [[Euklidische Ringe|Euklidischer Ring]] $\mathbb{Z}/r \mathbb{Z}[X]$ in einem [[Kommutative Ringe#faktorielle Ringe|faktoriellem Ring]] befinden. Wegen der Eindeutigkeit folgt $\overline p_{1}=\overline a_{m} X^{m}$ und $\overline p_{2} = \overline b_{n}X^{n}$. Wären sowohl $n,m \neq 0$ also $p_{1},p_{2}$ keine Einheiten in $\mathbb{Q}[X]$, dann gilt $r\mid a_{0}, b_{0}$ und damit $r^{2} \mid a_{0}\cdot b_{0}= c_{0}$, was ein Widerspruch wäre. Also muss $p_{1}$ oder $p_{2}$ eine Einheit in $\mathbb{Q}[X]$ sein und damit $p$ irreduzibel.
 
 #### Beispiel
-Sei $p$ eine Primzahl und $P = X^{p}-1 \in \mathbb{Z}[X]$. Dann gilt $P =T \cdot (X-1)$ mit $$T = X^{p-1}+X^{p-2}+\dots+1$$Dann ist aber $T\cdot (X-1)$ schon die Zerlegung in irreduzible Elemente.
+Sei $p$ eine Primzahl und $P = X^{p}-1 \in \mathbb{Z}[X]$. Dann gilt $P =T \cdot (X-1)$ mit $$T = X^{p-1}+X^{p-2}+\dots+1$$Dann ist aber $T\cdot (X-1)$ schon die Zerlegung in irreduzible Elemente in $\mathbb{Q}[X]$.
 ###### Beweis
 Da $(X-1)$ irreduzibel verbleibt zu zeigen, dass $T$ irreduzibel ist. Dazu genügt es zu zeigen, dass $\tilde T := (X+1)^{p-1} + \dots + 1$ also $\tilde T(x) = T(X+1)$ irreduzibel ist. Denn wäre $\tilde T = QV$ eine Zerlegung in nicht-Einheiten, so wäre $Q(X-1)\cdot V(X-1)$ eine Zerlegung für $T$ aus nicht-Einheiten, da sich der Grad durch einsetzen hier nicht verändert.
 
@@ -167,7 +167,7 @@ Sei $p=X^{n}+\sum\limits_{i=0}^{n-1}c_{i}X^{i}\in \mathbb{Z}[X]$. Dann gilt:
 
 ###### Beweis
 Sei $\frac{a}{b} \in \mathbb{Q}\setminus \mathbb{Z}$ eine Nullstelle von $p$ und o.B.d.A. $\frac{a}{b}$ maximal gekürzt.
-Dann gilt $\mathbb{Z} \ni 0 = p(\frac{a}{b})= p(\frac{a}{b})(b^{n-1}) = \frac{a^{n}}{b} + b^{n-1}\left(\sum\limits_{i=0}^{n-1} c_{i}\left(\frac{a}{b}\right)i \right)$
+Dann gilt $\mathbb{Z} \ni 0 = p(\frac{a}{b})= p(\frac{a}{b})(b^{n-1}) = \frac{a^{n}}{b} + b^{n-1}\left(\sum\limits_{i=0}^{n-1} c_{i}\left(\frac{a}{b}\right)^i \right)$
 Da der rechte Summand in $\mathbb{Z}$, aber $\frac{a^{n}}{b}\not\in \mathbb{Z}$ entsteht ein Widerspruch.
 
 
