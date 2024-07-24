@@ -27,7 +27,7 @@ Sei $L/K$ eine Körpererweiterung und $U \subset L$ eine Teilmenge. Dann ist der
 - $\mathbb{Q}(\sqrt{2},\sqrt{8})=\set{q_1+q_{2}\sqrt 2 \mid q_1,q_{2} \in \mathbb{Q}}=\mathbb{Q}(\sqrt 2)$, denn $\sqrt{8}=2\cdot\sqrt{2}$
 - $\mathbb{Q}(\sqrt[3]{2})=\set{q_1+q_{2}\sqrt[3] 2 +q_{3}\sqrt[3] 2^{2}\mid q_1,q_{2},q_{3} \in \mathbb{Q}}$.
 ### einfache Körpererweiterungen
-Sei $L/K$ eine [[#Körpererweiterungen|Körpererweiterung]]. Dann heißt $L/K$ **einfache** Körpererweiterung, wenn ein $a\in L$ existiert mit $L=K(a)$ der erzeugte Körper von $\set{a}$ ist.
+Sei $L/K$ eine [[#Körpererweiterungen|Körpererweiterung]]. Dann heißt $L/K$ **einfache** Körpererweiterung, wenn ein $a\in L$ existiert, sodass $L=K(a)$ der erzeugte Körper von $\set{a}$ ist.
 
 #### Beispiel: Körper der Polynomrestklassen modulo p
 Sei $K$ ein Körper und $p \in K[X]$ ein [[Kommutative Ringe#Prim- und irreduzible Elemente|irreduzibles]] [[Polynomringe|Polynom]] von [[Polynomringe#Grad|Grad]] $n$. Dann gilt:
@@ -171,7 +171,7 @@ Sei $\alpha$ eine (abstrakte) Nullstelle von $P$ und $L:= K(\alpha)$. Dann [[#Mi
 
 Nach Induktionsvoraussetzung existiert ein Zerfällungskörper $A=L(\alpha_{2},...,\alpha_n)$ von $q$ mit $[A:L]\leq(n-1)!$, wobei $\alpha_{1},...,\alpha_{n}$ die Nullstellen von $q$ also von $P$ sind. Insbesondere zerfällt $P$ in $A$ in Linearfaktoren. Dann gilt wegen [[#Gradsatz]]$$[A:K]=[A:L]\cdot[L:K]\leq(n-1)!\cdot n=n!$$
 **Fall**: $P$ ist reduzibel:
- Sei $\alpha$ eine Nullstelle von $P$ und $L:= K(\alpha)$. Dann [[#Minimalpolynom|gilt]] $[L:K]<n$, denn $grad(P)> grad(p_\min)$, da $P$ reduzibel. Damit folgt der Rest wie im ersten Fall.
+ Sei $\alpha\not\in K$ eine Nullstelle von $P$ und $L:= K(\alpha)$. Dann [[#Minimalpolynom|gilt]] $[L:K]<n$, denn $grad(P)> grad(p_\min)$, da $P$ reduzibel. Damit folgt der Rest wie im ersten Fall.
 
 ## Satz vom primitiven Element
 Sei $L/K$ eine Körpererweiterung. Dann gilt:

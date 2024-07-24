@@ -53,7 +53,7 @@ Sei $K$ ein endlicher Körper mit $q=\lvert K\rvert<\infty$. Dann gilt:
 - $K$ ist durch $q$ bis auf [[Ringhomomorphismen|Isomorphie]] eindeutig bestimmt.
 
 ###### Beweis
-1) Sei $p$ die [[#Charakteristik]] von $K$. Dann ist [[#kleinster Teilkörper|Satz über den kleinsten Teilkörper]] $K$ isomorph zu einem Körper, der $\mathbb{F}_{p}$ als Teilkörper enthält, denn $p$ muss $\neq 0$ sein, sonst würde es $\mathbb{Z}$ also unendlich viele Elemente enthalten.
+1) Sei $p$ die [[#Charakteristik]] von $K$. Dann ist mit dem [[#kleinster Teilkörper|Satz über den kleinsten Teilkörper]] $K$ isomorph zu einem Körper, der $\mathbb{F}_{p}$ als Teilkörper enthält, denn $p$ muss $\neq 0$ sein, sonst würde es $\mathbb{Z}$ also unendlich viele Elemente enthalten.
 	o.B.d.A. können wir also im Folgenden sagen $\mathbb{F}_{p}\subset K$ und aufgrund der Endlichkeit von $K$, dass [[Körpererweiterungen#Grad|$[K:\mathbb{F}_p]$]]$=n<\infty$. Außerdem gilt jeder Vektorraum der Dimension $n$ über $\mathbb{F}_{p}$ hat $\lvert \mathbb{F}_{p}\rvert^{n}=p^{n}$ Elemente.
 
 2) Es gilt $\lvert K^*\rvert=\lvert K\setminus\set 0\rvert=q-1$. Insbesondere ist $K^*$ die [[Gruppen|Gruppe]] der [[Kommutative Ringe#Einheiten|Einheiten]] und eine [[Gruppen#Untergruppen|Untergruppe]] von sich selbst. Damit ist $K^*$ nach [[#Endliche Multiplikative Untergruppen|obigem Lemma]] zyklisch, d.h. es existiert ein $\alpha \in K\setminus \set 0$, sodass $\set{\alpha, \alpha^{2},...,\alpha^{q-1}=1}=K\setminus\set{0}$. Also gilt, dass $K=\mathbb{F}_{p}(\alpha)$, denn $\mathbb{F}_{p}(\alpha)$, muss mindestens $\alpha, \alpha^{2},...$ enthalten und der kleinste Körper sein, der dies tut.

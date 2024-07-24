@@ -16,7 +16,7 @@ Ein **Normalteiler** ist eine [[Gruppen#Untergruppen|Untergruppe]] $N \leq G$ ei
 
 ## Motivation
 Die Motivation für die Definition von Normalteilern sind [[Faktorgruppen]]. Denn für $H \leq G$ eine [[Gruppen#Untergruppen|Untergruppe]] gilt [[Gruppenwirkung#Rechts und Linksnebenklassen|$G/H$]] ist eine Menge, die wir gerne mit einer (einfachen) Verknüpfung zu einer Gruppe machen würden. Der naheliegenste Versuch wäre es die Verknüpfung als $$(g_{1}H)\cdot(g_{2}H):=g_{1}g_{2}H$$zu definieren und zu untersuchen, wann diese wohldefiniert ist:
-Seien also $g_1 H=g_1'H$ und $g_{2}H=g'_{2}H$. Dann existieren $h_{1},h_{2}$ mit $g_1'=g_1h_1$ und $g_2'=g_2'h_2$ also wenn man das in die Verknüpfung einsetzt $$g_1'g_2'H=g_1h_1g_2h_2H\overset{h_1H=H}=g_1h_{1}g_2H=g_1g_2g_{2}^{-1}h_1g_2$$Das ist also genau dann gleich $g_{1}g_{2}H$, wenn $g_{2}^{-1}h_{1}g_{2}\in H$ bzw. wohldefiniert, wenn das für alle $g\in G$ und $h\in H$ gilt, also genau $H \trianglelefteq G$ gilt.
+Seien also $g_1 H=g_1'H$ und $g_{2}H=g'_{2}H$. Dann existieren $h_{1},h_{2}$ mit $g_1'=g_1h_1$ und $g_2'=g_2h_2$ also wenn man das in die Verknüpfung einsetzt $$g_1'g_2'H=g_1h_1g_2h_2H\overset{h_2H=H}=g_1h_{1}g_2H=g_1g_2g_{2}^{-1}h_1g_2H$$Das ist also genau dann gleich $g_{1}g_{2}H$, wenn $g_{2}^{-1}h_{1}g_{2}\in H$ bzw. wohldefiniert, wenn das für alle $g\in G$ und $h\in H$ gilt, also genau $H \trianglelefteq G$ gilt.
 # Beispiele
 - $\set e, G \trianglelefteq G$ 
 - Für einen [[Gruppenhomomorphismen|Homomorphismus]] $\Phi:H \rightarrow G$ gilt $\ker \Phi \trianglelefteq G$

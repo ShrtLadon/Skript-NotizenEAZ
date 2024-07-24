@@ -31,6 +31,8 @@ Sei $H\leq G$ eine [[Gruppen#Untergruppen|Untergruppe]] und $g \in G$. Dann ist 
 Es gilt $geg^{-1}=e \in gHg^{-1}$ also $gHg^{-1}\neq \varnothing$.
 Seien $gh_{1}g^{-1}, gh_{2}g^{-1}\in gHg^{-1}$. Dann gilt $$(gh_{1}g^{-1})(gh_{2}g^{-1})^{-1}=gh_{1}g^{-1}gh_{2}^{-1}g^{-1}=gh_{1}h_{2}^{-1}g^{-1}\in gHg^-1$$wobei genutzt wird, dass $h_{1}h_{2}^{-1}\in H$ weil $H$ eine Untergruppe ist. Wegen dem [[Gruppen#Untergruppenkriterium|Untergruppenkriterium]] ist $gHg^{-1}$ also eine Gruppe.
 
+Alternativ ist es als Bild einer Untergruppe $H$ von $c_{g}$ direkt eine Untergruppe.
+
 ### Definition
 Seien $U,V \leq G$ zwei [[Gruppen#Untergruppen|Untergruppen]]. Wir nennen $U,V$ **konjugiert zueinander**, falls$$\exists g\in G:U=gVg^{-1}$$Insbesondere ist das eine Äquivalenzrelation.
 

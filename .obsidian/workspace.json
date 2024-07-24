@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppentheorie/Konjugation/Sylow-Sätze.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06f1960c4e2b4a8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Körper/Körpererweiterungen.md",
+                "file": "Gruppentheorie/Gruppenwirkung.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,6 +38,18 @@
               "type": "markdown",
               "state": {
                 "file": "Exkurs Galois Theorie/Galois-Theorie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2a1bdb447d41b97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exkurs Galois Theorie/Satz von Abel-Galois.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exkurs Galois Theorie/Galois-Theorie.md",
+                "file": "Exkurs Galois Theorie/Satz von Abel-Galois.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exkurs Galois Theorie/Galois-Theorie.md",
+                "file": "Exkurs Galois Theorie/Satz von Abel-Galois.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exkurs Galois Theorie/Galois-Theorie.md"
+                "file": "Exkurs Galois Theorie/Satz von Abel-Galois.md"
               }
             }
           }
@@ -183,35 +183,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2313a992e5ac95f2",
+  "active": "b2a1bdb447d41b97",
   "lastOpenFiles": [
-    "Exkurs Galois Theorie/Galois-Gruppen.md",
-    "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
-    "Körper/Körpererweiterungen.md",
     "Exkurs Galois Theorie/Galois-Theorie.md",
-    "Exkurs Galois Theorie/Satz von Abel-Galois.md",
-    "Exkurs Galois Theorie",
+    "Exkurs Galois Theorie/Galois-Gruppen.md",
+    "Körper/Körpererweiterungen.md",
+    "Körper/Quotientenkörper.md",
     "Polynomringe/Polynomringe.md",
+    "Arithmetik/Kommutative Ringe.md",
+    "Körper/Körper.md",
+    "Gruppentheorie/Abelsche Gruppen.md",
+    "Gruppentheorie/Gruppen.md",
+    "Exkurs Galois Theorie/Satz von Abel-Galois.md",
+    "Geometrische Betrachtungen/Bewegungen.md",
+    "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
+    "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
+    "Gruppentheorie/Symmetrische Gruppe.md",
+    "Gruppentheorie/Einfache Gruppen.md",
+    "Gruppentheorie/Auflösbare Gruppen.md",
     "Gruppentheorie/Konjugation/Sylow-Sätze.md",
     "Gruppentheorie/Gruppenwirkung.md",
-    "Arithmetik/Euklidische Ringe.md",
-    "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
-    "Körper/Körper.md",
-    "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
-    "Gruppentheorie/Abelsche Gruppen.md",
-    "Gruppentheorie/Konjugation/Normalisator.md",
-    "Gruppentheorie/Konjugation/Normalteiler.md",
-    "Diophantische Gleichungen/Chinesischer Restsatz.md",
-    "Gruppentheorie/Auflösbare Gruppen.md",
     "Diophantische Gleichungen/Diophantische Gleichungssysteme.md",
+    "Gruppentheorie/Konjugation/Normalisator.md",
+    "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
+    "Gruppentheorie/Konjugation/Normalteiler.md",
+    "Gruppentheorie/Gruppenhomomorphismen.md",
+    "Diophantische Gleichungen/Chinesischer Restsatz.md",
     "Diophantische Gleichungen/Lineare Diophantische Gleichungen.md",
     "Diophantische Gleichungen/Satz von Fermat.md",
-    "Arithmetik/Primzahlen.md",
-    "Gruppentheorie/Gruppen.md",
-    "Arithmetik/Kommutative Ringe.md",
-    "Gruppentheorie/Einfache Gruppen.md",
-    "Ideale/Ideale.md",
-    "Geometrische Betrachtungen/Bewegungen.md",
+    "Exkurs Galois Theorie",
     "Pasted image 20240709170859.png",
     "Untitled.canvas",
     "Gruppentheorie/Auflösbarkeit",

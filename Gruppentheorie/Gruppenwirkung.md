@@ -22,7 +22,7 @@ Sei nun ein Homomorphismus $\rho:G \rightarrow S_{(X)}$ gegeben. Dann ist $*:G\t
 Sei $G$ eine Gruppe und $*:G\times X \rightarrow X$ eine Wirkung auf die Menge $X$. 
 - Die **Bahn** (bzw. **Orbit**) eines Elementes $x \in X$ ist $$G\cdot x:=\set{g*x : g\in G}$$
 - Der **Stabilisator** von $x \in X$ ist$$\text{Stab}_G(x):=G_{x}:=\set{g \in G : g* x =x}$$
-- Der **Kern** der Wirkung ist gegeben durch $$\ker:=\bigcap_{x\in X} G_{x}=\ker\rho$$wobei $\rho$ die [[#Zusammenhang zu symmetrischer Gruppe|Zuordnung]] zu einem Homomorphismus in die symmetrische Gruppe ist. Die Gleichheit gilt, weil der Kern genau die Elemente enthält, für die für alle $x \in X$ gilt, dass $g*x=x$ also $\rho(g)=Id$.
+- Der **Kern** der Wirkung ist gegeben durch $$\ker:=\bigcap_{x\in X} G_{x}=\ker\rho$$wobei $\rho$ die [[#Zusammenhang zu symmetrischer Gruppe|Zuordnung]] zu einem Homomorphismus in die symmetrische Gruppe $S_{(X)}$ ist. Die Gleichheit gilt, weil der Kern genau die Elemente $g \in G$ enthält, für die für alle $x \in X$ gilt, dass $g*x=x$ also $\rho(g)=Id$.
 
 Der **Bahnenraum** ist die Menge $$G\setminus X:=\set{G\cdot x: x\in X}$$und nach den unteren [[#Bahn und Stabilisator#Eigenschaften|Eigenschaften]] eine Partitionierung von $X$.
 Für Rechtsoperationen ist der Bahnenraum definiert als $$X/G:=\set{x\cdot G: x\in X}$$
@@ -33,7 +33,7 @@ Sei $G\times X \rightarrow X$ eine Wirkung. Dann gilt:
 - $\text{Stab}_G(x)=G_{x}\leq G$ ist eine [[Gruppen#Untergruppen|Untergruppe]].
 
 ###### Beweis
-- Es gilt $x \in G_{x}\subseteq X$ also $\bigcup_{x\in X} G_{x}=X$. Seien $G_{y}, G_{x}$ mit $G_{x}\cap G_{y} \neq \varnothing$. Dann existiert ein $h \in G_{x} \cap G_{y}$. Das heißt allerdings, dass $g, g' \in G$ existieren mit $h=g*x=g'y$. Dann ist insbesondere $((g')^{-1}\cdot g)*x =y$ also $y \in G_{x}$ also $G_{y} \subseteq G_{x}$ und analog $x \in G_y$ also $G_{x} \subseteq G_{y}$. D.h. $G_{x}=G_{y}$ also ist die angegebene Menge eine Partition
+- Es gilt $x \in Gx\subseteq X$ also $\bigcup_{x\in X} Gx=X$. Seien $Gy, Gx$ mit $Gx\cap Gy \neq \varnothing$. Dann existiert ein $h \in Gx \cap Gy$. Das heißt allerdings, dass $g, g' \in G$ existieren mit $h=g*x=g'*y$. Dann ist insbesondere $((g')^{-1}\cdot g)*x =y$ also $y \in Gx$ also $Gy \subseteq Gx$ und analog $x \in Gy$ also $Gx \subseteq Gy$. D.h. $Gx=Gy$ also ist die angegebene Menge eine Partition
 - Es gilt $e \in G_{x}$ also $G_{x}\neq \varnothing$. Seien also $a,b \in G_{x}$. Dann gilt $(a\cdot b^{-1})*x=(a\cdot b^{-1})*(b*x)=a*((b^{-1}\cdot b) *x) = a*(e*x)=a*x=x$ also ist $a\cdot b^{-1} \in G_{x}$ und wegen dem [[Gruppen#Untergruppenkriterium|Untergruppenkriterium]] $G_{x}$ eine Untergruppe von $G$.
 
 ##### Satz von Lagrange

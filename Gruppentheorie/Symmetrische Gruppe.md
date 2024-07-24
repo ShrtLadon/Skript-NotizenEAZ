@@ -10,10 +10,10 @@ Das nachfolgende wird größtenteils ohne Beweis eingeführt, dafür ist ein ein
 Für eine $g\in S_{n}$ kann man $g$ schreiben als $\begin{pmatrix}1 & 2 & ... & n\\g(1) & g(2) & ... & g(n)\end{pmatrix}$. Alternativ gibt es noch die Zyklenschreibweise bestehend aus Tupeln $(x, g(x),...,g^i(x))$ mit paarweise unterschiedlichen Einträgen, sodass $g^{i+1}(x)=x$, wobei man oft noch Tupel der Länge 1 weglässt.
 Ein Beispiel ist $g=\begin{pmatrix}1 & 2 & 3 & 4 & 5 & 6\\3 & 4 & 1 & 5 & 2& 6\end{pmatrix}=\begin{pmatrix}1 & 3\end{pmatrix} \begin{pmatrix}2 & 4 & 5\end{pmatrix}$. 
 ### Transpositionen
-Eine Transposition ist ein $\begin{pmatrix}i & j\end{pmatrix}\in S_{n}$, die genau zwei Elemente vertauscht. Wir können jedes $g\in S_{n}$ als ein Produkt von Transpositionen schreiben. Dabei ist das Produkt nicht eindeutig, aber ob die Anzahl der Transpositionen gerade oder ungerade ist schon.
+Eine Transposition ist ein $\begin{pmatrix}i & j\end{pmatrix}\in S_{n}$, das genau zwei Elemente vertauscht. Wir können jedes $g\in S_{n}$ als ein Produkt von Transpositionen schreiben. Dabei ist das Produkt nicht eindeutig, aber ob die Anzahl der Transpositionen gerade oder ungerade ist schon.
 
 ### Signum
-Das Signum $\text{sgn}:S_{n} \rightarrow \set{1, -1}, x \mapsto \begin{cases}1 & \text{g besteht in Darstellung aus gerader Anzahl an Transpositionen}\\-1 & \text{sonst}\end{cases}$  ist ein [[Gruppenhomomorphismen|Gruppenhomomorphismus]], wobei $\set{1,-1}$ mit der eindeutigen Gruppenstruktur isomorph zu $\mathbb{Z}/2\mathbb{Z}$ ist.
+Das Signum $\text{sgn}:S_{n} \rightarrow \set{1, -1}, x \mapsto \begin{cases}1 & \text{g besteht in Darstellung aus gerader Anzahl an Transpositionen}\\-1 & \text{sonst}\end{cases}$ist ein [[Gruppenhomomorphismen|Gruppenhomomorphismus]], wobei $\set{1,-1}$ mit der eindeutigen Gruppenstruktur isomorph zu $\mathbb{Z}/2\mathbb{Z}$ ist.
 
 Wir bezeichnen dabei $\ker \text{sgn}=\mathcal{A_{n}}=\set{g\in S_{n}\mid \text{sgn}(g)=1}$ als *alternierende Gruppe*. Da [[Normalteiler#Beispiele|$\mathcal{A_{n}} \trianglelefteq S_{n}$]] ist $S_{n}/A_{n}\cong \set{-1, 1}$ nach [[Faktorgruppen#Isomorphiesatz|Isomorphiesatz]] (zumindest für $n>1$) und $\lvert \mathcal{A}_{n}\rvert=\frac{n!}{2}$ für $n>1$.
 Man kann beobachten, dass ein einzelner Zyklus $(x_{1},...,x_{k})$ in $\mathcal{A_{n}}$ ist $\iff$ $k$ ungerade, denn $(x_{1},...,x_{k})=(x_{1},x_{2})\cdot (x_{2},x_{3})\cdot ...\cdot (x_{k-1},x_{k})$ ist ein Produkt von $k-1$ Transpositionen.
@@ -32,7 +32,7 @@ Also werden alle Möglichen Produkte von 2 Transpositionen auch durch Produkte v
 Es gilt jede Gruppe ist [[Gruppenhomomorphismen|isomorph]] zu einer Untergruppe einer symmetrischen Gruppe.
 
 ###### Beweis
-Sei $G$ eine Gruppe und $*:G\times G \rightarrow G$ die [[Gruppenwirkung]] von $G$ auf sich selbst. Dann kann man dem einen [[Gruppenhomomorphismen|Gruppenhomomorphismus]] $\rho:G \rightarrow S_{(G})$ [[Gruppenwirkung#Zusammenhang zu symmetrischer Gruppe|zuordnen]]. 
+Sei $G$ eine Gruppe und $*:G\times G \rightarrow G$ die [[Gruppenwirkung]] von $G$ auf sich selbst (also $g*h =g\cdot h$). Dann kann man dem einen [[Gruppenhomomorphismen|Gruppenhomomorphismus]] $\rho:G \rightarrow S_{(G})$ [[Gruppenwirkung#Zusammenhang zu symmetrischer Gruppe|zuordnen]]. 
 
 Sei $g \in \ker \rho$. Dann ist $\rho(g)=Id$, also $g*x=g\cdot x=x$ für alle $x \in G$. Damit ist aber $g=e$ wegen [[#Eigenschaften|der Eindeutigkeit des neutralen Elements]]. Also ist $\ker \rho =\set{e}$ und [[Gruppenhomomorphismen#Eigenschaften|damit]] $\rho$ injektiv. 
 Dann ist allerdings $\rho: G \rightarrow \text{Bild}(\rho) \leq S_{(X)}$ ein Isomorphismus auf eine Untergruppe von $S_{(X)}$.
@@ -101,7 +101,7 @@ Wir wissen also jetzt $\lvert \text{Fix}(g)\rvert \geq n- 4$, wollen aber zeigen
 Sei dazu $f\in \set{1,...,n}\setminus\set{a,b,c,d}$ (hier nutzen wir aus, dass $n\geq 5$ ist) und $$\varphi=(f, b, a)\in \mathcal{A_{n}}$$Dann ist $h=\varphi\cdot g\cdot \varphi^{-1}=(a,f)(c,d)$. Dann ist $h\in N$, weil $N \trianglelefteq \mathcal{A_{n}}$ also ist auch $$g\cdot h=(a, f,b)\in N$$und damit haben wir einen **Widerspruch** und einen 3-Zyklus in $N$ und damit bewiesen, dass die einzigen Normalteiler von $\mathcal{A_{n}}$ genau $\set{1}$ und $\mathcal{A_{n}}$ sind.
 
 ##### 1)
-Dass $\mathcal{A_{n}}\trianglelefteq S_{n}$ gilt, sieht man direkt, wenn man die Transpositionszerlegung von einem $g\in S_{n}$ betrachtet. Dann werden von links und von rechts gleich viele Transpositionen dazumultipliziert, also kommt eine gerade Anzahl dazu.
+Dass $\mathcal{A_{n}}\trianglelefteq S_{n}$ gilt als [[#Signum|Kern vom Signum-Homorphismus]].
 Sei $\set{1}\neq U \underset{\neq}\triangleleft S_{n}$. Dann ist $H:=U \cap \mathcal{A_{n}}$ eine [[Gruppen#Untergruppen|Untergruppe]] von $\mathcal{A}_{n}$ und es gilt für alle $g\in \mathcal{A}_{n}:g(U\cap \mathcal{A}_{n})g^{-1}=U\cap\mathcal{A}_{n}=H$ also $H\trianglelefteq \mathcal{A}_{n}$, also muss mit [[#2)]] gelten, dass $U\subseteq(S_{n}\setminus\mathcal{A}_{n})\cup{\{1\}}$ oder $U\supseteq \mathcal{A_{n}}$. Der erste Fall ist aber keine Untergruppe, denn $\text{sgn}(x)=-1\implies \text{sgn}(x\cdot x)=(-1)\cdot(-1)=1$, also $x^{2}\not \in U$. Also muss $U\supseteq \mathcal{A}_{n}$ sein. Da aber wegen [[Gruppenwirkung#Satz von Lagrange|Satz von Lagrange]] $\frac{n!}{2}=\lvert \mathcal{A_{n}}\rvert\leq \lvert U\rvert\mid \lvert S_{n} \rvert=n!$ [[Kommutative Ringe#Teiler|Teiler]] von $n!$ ist, muss $\lvert U\rvert=\frac{n!}2$ also $U=\mathcal{A}_n$ sein.
 
 ##### 3)

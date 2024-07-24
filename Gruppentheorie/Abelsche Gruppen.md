@@ -17,7 +17,7 @@ Die erste und letzte Eigenschaft gilt auch in allgemeinen [[Gruppen]] $(G,\cdot)
 Für die zweite Eigenschaft brauchen wir die Kommutativität der Verknüpfung (das ist tatsächlich notwendig wie ÜB10.4 zeigt).
 Dann gilt $n\cdot(x+y)=\underbrace{(x+y) +... + (x+y)}_{n \text{ mal}}\overset{\text{abelsch}}=\underbrace{x+...+x}_{n\text{ mal}}+ \underbrace{y+...+y}_{n \text{ mal}} = n\cdot x + n\cdot y$.
 
-Die letzte Bemerkung folgt dadurch, dass in [[Gruppen#Ordnung#Eigenschaften|$\lvert A\rvert\cdot x=0$]].  
+Die letzte Bemerkung folgt dadurch, dass [[Gruppen#Ordnung#Eigenschaften|$\lvert A\rvert\cdot x=0$]].  
 
 ### Bild und Kern unter Multiplikation
 Sei $A$ eine abelsche Gruppe und $n=m_{1}\cdot m_{2}$ mit $m_{1},m_{2}$ [[Kommutative Ringe#Teilerfremde Elemente|teilerfremd]]. Sei $n\cdot\equiv 0$ (z.B. wenn $n= k\cdot \lvert N\rvert$. Definiere für $i\in\set{1,2}$ $$A_{i}:=\ker(m_{i}\cdot)$$Dann gilt für $i\neq j \in \set{1,2}:$
@@ -28,7 +28,7 @@ Sei $A$ eine abelsche Gruppe und $n=m_{1}\cdot m_{2}$ mit $m_{1},m_{2}$ [[Kommut
 ###### Beweis
 Da $\mathbb{Z}$ [[Euklidische Ringe|euklidscher Ring]] ist, existieren $k_{1},k_{2}\in \mathbb{Z}$, sodass $k_{1}\cdot m_{1}+ k_{2}\cdot m_{2} =1$. Insbesondere gilt also für alle $a\in A$ wegen der Distributivität$$k_{1}\cdot m_1\cdot x+k_{2}\cdot m_{2} \cdot x=x \qquad(*)$$
 1) Sei $x\in A_{i}$. Dann ist $k_{i}\cdot m_{i}\cdot x = k_{i}\cdot 0 = 0$, also $k_{j}\cdot m_{j}\cdot x =x \in A_{i}$. Dann ist insbesondere $k_{j}\cdot$ die Umkehrabbildung von $m_{j}\cdot$ und als Einschränkung $m_{j}\cdot$ immer noch ein Homomorphismus, also insgesamt $m_{j}:A_{i} \rightarrow A_i$ ein Isomorphismus (Wir benutzen hier auch, dass Multiplikation in $\mathbb{Z}$ kommutativ ist, um eine Rechts und Linksinverse zu erhalten)
-2) $A_{j}\subseteq \text{Bild }(m_{i}\cdot)$ folgt aus 1). Sei $y\in$
+2) $A_{j}\subseteq \text{Bild }(m_{i}\cdot)$ folgt aus 1). Sei $y\in \text{Bild}(m_{i}\cdot)$. Dann existiert ein $x \in A$, sodass $m_{i}\cdot x = y$. Insbesondere gilt $m_{j} \cdot y = m_{j}\cdot m_{i} \cdot x = n\cdot x =0$. Also ist $y\in A_{j}$.
 3) Es gilt $x\in A_{i}\cap A_{j}$ impliziert mit $(*)$, dass $x=0+0=0$. 
 4) Betrachte $\Phi:A_{1}\times A_{2} \rightarrow A, (x_{1},x_{2})\mapsto x_{1}+x_{2}$:
 	Es gilt zunächst durch leichtes Nachrechnen $\Phi$ ist ein Gruppenhomomorphismus.
@@ -46,7 +46,7 @@ Die Zerlegung ist bis auf Vertauschung eindeutig.
 ### Beweis
 #### Existenz
 Die Existenz folgt direkt aus Kombination der folgenden Lemmata.
-##### A Produkt von p-Sylow Untergruppen
+##### A ist Produkt von p-Sylow Untergruppen
 Sei $\lvert n\rvert=A=p_{1}^{a_{1}}\cdot...\cdot p_{k}^{a_{k}}$, wobei die $p_{i}$ [[Kommutative Ringe|teilerfremd]], $a_{i}\geq 1$ und wir $n$ in seine [[Kommutative Ringe#Primfaktoren|Primfaktoren]] zerlegen. Dann gilt $$A\cong A_{1}\times...\times A_{k}$$wobei $A_{i}=\ker(p_{i}^{a_{i}}\cdot)$ die eindeutige [[Sylow-Sätze|$p_{i}-$Sylow Untergruppe]] ist.
 ###### Beweis
 Zu Beginn ist klar, dass die $p$-Sylow Untergruppen eindeutig sind, weil abelsche Untergruppen ein [[Normalteiler#Äquivalente Formulierungen|Normalteiler]] sind und damit [[Sylow-Sätze#Weitere Eigenschaften von $n_{p}$|eindeutig]].

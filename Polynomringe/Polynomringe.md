@@ -6,7 +6,7 @@ Sei $R$ [[Kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbere
 - Die Gruppe der [[Kommutative Ringe#Einheiten|Einheiten]] ist genau $(R[X])^{*} = R^{*}$ 
 
 ##### Grad
-Für ein Polynom $p = \{\sum\limits_{i=0}^{\infty}a_{i}X^{i}$ ist der **Grad** von $p$ definiert als $grad(p) = \sup \{n\in \mathbb{N}: a_{n} \neq 0\}$ also insbesondere $grad(0) = - \infty$
+Für ein Polynom $p = \sum\limits_{i=0}^{\infty}a_{i}X^{i}$ ist der **Grad** von $p$ definiert als $grad(p) = \sup \{n\in \mathbb{N}: a_{n} \neq 0\}$ also insbesondere $grad(0) = - \infty$
 
 ###### Rechenregeln
 - $grad(f\cdot g) \leq grad(f) + grad(g)$. Für $R$ [[Kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] gilt hier Gleichheit. 
@@ -21,7 +21,7 @@ Seien $L,R$ weiterhin wie oben. Dann ist der **Einsetzungshomomorphismus** $$\ma
 
 
 #### Eigenschaften
-In einem [[Kommutative Ringe|Integritätsbereich]] $R$, gilt für $p \in R[X]$, wenn $grad(p) < \#R$, dann ist $\mathcal{E}(p)\neq 0$. Das ergibt sich wegen dem Abschnitt zu [[#Teilbarkeit]].
+In einem [[Kommutative Ringe|Integritätsbereich]] $R$, gilt für $0 \neq p \in R[X]$, wenn $grad(p) < \#R$, dann ist $\mathcal{E}(p)\neq 0$. Das ergibt sich wegen dem Abschnitt zu [[#Teilbarkeit]].
 
 Außerdem ist in einem Integritätsbereich $R$ injektiv $\iff$ $\#R = \infty$   
 
@@ -51,7 +51,7 @@ Sei $R$ ein [[Kommutative Ringe#Nullteiler und Integritätsbereiche|Integritäts
 4) $grad(p)=1 \implies$ p [[Kommutative Ringe#Prim- und irreduzible Elemente|irreduzibel]]
 5) Sei $grad(p) \in \set{2,3}$. Dann ist $p$ irreduzibel $\iff$ $p$ hat keine Nullstellen
 ###### Beweis
-1) Wegen der Anmerkung in dem [[#Beweis / Konstruktion|Beweis von Polynomdivision mit Rest in Körpern]] und weil $1$ eine Einheit ist, können wir $p$ mit Rest durch $1X - a$ teilen. Es existieren also $q,r \in R[X]$ mit $p=qa+r$ und $grad(r)< 1$ also $r \in R$. Wegen $p(a) = q(a)(X-a)+r = r$ ergibt sich folgende Äquivalenzkette$$p \text{ durch } X-a \text{ teilbar} \iff r = 0 \iff p(a)=0$$
+1) Wegen der Anmerkung in dem [[#Beweis / Konstruktion|Beweis von Polynomdivision mit Rest in Körpern]] und weil $1$ eine Einheit ist, können wir $p$ mit Rest durch $1X - a$ teilen. Es existieren also $q,r \in R[X]$ mit $p=qa+r$ und $grad(r)< 1$ also $r \in R$. Wegen $p(a) = q(a)(a-a)+r = r$ ergibt sich folgende Äquivalenzkette$$p \text{ durch } X-a \text{ teilbar} \iff r = 0 \iff p(a)=0$$
 2) Mache eine Induktion nach $grad(p)$
 	**Induktionsanfang** Für $grad(p) = 0$ hat $p$ keine Nullstellen
 	**Induktionsschluss** Ist $p(a) = 0$, dann ist $p = q(X-a)$ bzw. $\forall x \in R$ $p(x)= q(x)(x-a)$. Da wir in $R$ in einem Integritätsbereich sind ist $p(x) = 0 \iff q(x) = 0 \lor x-a = 0$. Die zweite Bedingung ist genau für ein $x \in R$ erfüllt, für die erste Bedingung können wir die Induktionsvorraussetzung anwenden, denn wegen den [[#Rechenregeln|Rechenregeln für den Grad]] gilt $grad(q) = grad(p) - 1$. Also hat $q$ höchstens $grad(p)-1$ Nullstellen.
@@ -100,10 +100,10 @@ Wir nennen $p\in \mathbb{Z}[X]$ **primitiv**, wenn 1 der [[kommutative Ringe#Nul
 - $p$ ist primitiv $\iff$ $p$ wird durch keine Primzahl geteilt (wegen Eigenschaften von faktoriellen Ringen)
 - $p=r\cdot q\in \mathbb{Z}[X]$ ist primitiv $\iff$ $r$ und $q$ primitiv
 ###### Beweis
-"$\Rightarrow$" Kontraposition. Sei o.B.d.A. $r$ nicht primitiv, also $r=\lambda \hat r$ mit $\lambda \in \mathbb{Z}$ keine Einheit. Dann ist teilt aber $\lambda$ auch alle Koeffizienten in $p=\lambda \cdot\hat r\cdot q$ also ist $p$ nicht primitiv.
+"$\Rightarrow$" Kontraposition. Sei o.B.d.A. $r$ nicht primitiv, also $r=\lambda \hat r$ mit $\lambda \in \mathbb{Z}$ keine Einheit. Dann teilt aber $\lambda$ auch alle Koeffizienten in $p=\lambda \cdot\hat r\cdot q$ also ist $p$ nicht primitiv.
 
 "$\Leftarrow$" Kontraposition. Sei $p$ nicht primitiv. Dann existiert eine Primzahl $a\in \mathbb{Z}$, sodass $a\mid p$. Betrachte $p = \sum\limits_{k=0}^{m+n}p_{k}X^{k}=r\cdot q \mod a$, wobei $r = \sum\limits_{i=0}^{m}r_{i}X^{i}$ und $q =\sum\limits_{j=0}^{m}q_{j}X^{j}$ . Da [[Faktorringe|die Projektion auf den Faktorring $\mathbb{Z}/a\mathbb{Z}$]] ein [[Ringhomomorphismen|Ringhomomorphismus]] ist, ist $\mathbb{Z}[X] \rightarrow \mathbb{Z}/a\mathbb{Z}[X], \sum\limits_{i=0}^{n}b_{i}X^{i} \mapsto \sum\limits_{i=0}^{n}\overline{b_{i}}X^{i}$ 
-auch eine, also ist:$$0=\sum\limits_{k=0}^{m+n}\overline{c_{k}}X^{k}=\overline p_{1} \overline p_{2}$$Da allerdings $\mathbb{Z}/a\mathbb{Z}$ ein [[Körper]], also insbesondere ein [[kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] ist, ist der zugehörige Polynomring auch ein Integritätsbereich, also $\overline p_{1}=0$ oder $\overline p_{2}=0$. D.h. $a$ teilt alle Koeffizienten von $p_{1}$ oder von $p_{2}$ also ist $p_{1}$ oder $p_{2}$ nicht primitiv.
+auch eine, also ist:$$0=\sum\limits_{k=0}^{m+n}\overline{c_{k}}X^{k}=\overline r\cdot\overline q$$Da allerdings $\mathbb{Z}/a\mathbb{Z}$ ein [[Körper]], also insbesondere ein [[kommutative Ringe#Nullteiler und Integritätsbereiche|Integritätsbereich]] ist, ist der zugehörige Polynomring auch ein Integritätsbereich, also $\overline r=0$ oder $\overline q=0$. D.h. $a$ teilt alle Koeffizienten von $r$ oder von $q$ also ist $r$ oder $q$ nicht primitiv.
 #### Zusammenhang zu $\mathbb{Q}[X]$ 
 $p\in \mathbb{Z}[X]$ primitiv ist [[Kommutative Ringe#Prim- und irreduzible Elemente|irreduzibel]] $\iff$ $p$ in $\mathbb{Q}[X]$ irreduzibel. 
 
@@ -128,7 +128,7 @@ Wir erhalten also $p=\frac{m_{1}m_{2}}{n_{1}n_{2}}q_{1}q_{2}$. Da $q_{1}q_{2}$ u
 
 *z.Z. $p$ prim* Seien $p_{1},p_{2}\in \mathbb{Z}[X]$, sodass $p\mid p_{1}p_{2}$ in $\mathbb{Z}[X]$, also insbesondere auch $p\mid p_{1}p_{2}$ in $\mathbb{Q}[X]$. Aber da $\mathbb{Q}[X]$ ein [[Euklidische Ringe|Euklidischer Ring]] ist, wegen [[#Polynomdivision mit Rest]], ist $\mathbb{Q}[X]$ [[Kommutative Ringe#faktorielle Ringe|faktoriell]] also insbesondere $p$ prim in $\mathbb{Q}[X]$. Dann gilt aber insbesondere es ex. ein $f\in \mathbb{Q}[X]$ s.d. $p\cdot f = p_{1}$ oder $p\cdot f = p_{2}$. 
 
-Schreibe nun $p=\frac{m}{n}\cdot \hat f$, mit $\hat f\in \mathbb{Z}[X]$ primitiv. Dann ist $\frac m n (p\cdot \hat f)= p\cdot f = p_{i}\in \mathbb{Z}[X]$, aber da $(p\cdot \hat f)$ als Produkt primitiver Elemente primitiv, teilt $n \mid p\cdot \hat f$ nur, wenn $n$ eine Einheit ist, also gilt $\frac{m}{n}\in \mathbb{Z}$ also $f\in \mathbb{Z}[X]$ und damit teilt $p$ in $\mathbb{Z}[X]$ auch $p_{1}$ oder $p_{2}$, ist also prim
+Schreibe nun $f=\frac{m}{n}\cdot \hat f$, mit $\hat f\in \mathbb{Z}[X]$ primitiv. Dann ist $\frac m n (p\cdot \hat f)= p\cdot f = p_{i}\in \mathbb{Z}[X]$, aber da $(p\cdot \hat f)$ als Produkt primitiver Elemente primitiv, teilt $n \mid p\cdot \hat f$ nur, wenn $n$ eine Einheit ist, also gilt $\frac{m}{n}\in \mathbb{Z}$ also $f\in \mathbb{Z}[X]$ und damit teilt $p$ in $\mathbb{Z}[X]$ auch $p_{1}$ oder $p_{2}$, ist also prim
 
 ###### 2)
 Zerlege in $\mathbb{Q}[X]$, da faktoriell und zerlege in primitive Zahlen und Faktoren. Dann Faktoren in $\mathbb{Z}$ wie in [[#1)]] 

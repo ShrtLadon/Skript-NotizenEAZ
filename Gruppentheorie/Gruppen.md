@@ -56,14 +56,14 @@ Sei $G$ endlich.
 #### Theorem von Cauchy
 Sei $G$ eine endliche Gruppe, $p$ eine [[Kommutative Ringe#Prim- und irreduzible Elemente|Primzahl]] die $\lvert G\rvert$ [[Kommutative Ringe#Teiler|teilt]]. Dann existiert ein $g \in G$ mit $$\text{ord}(g)=p$$
 ##### Beweis
-Betrachte $Y:=G^{p}=\set{(g_{1},...,g_{p}) : g_{1},...,g_{p} \in G}$. Es gilt $\lvert Y\rvert = \lvert G\rvert^{p}$ und die Teilmenge $$X:= \set{(g_{1},...,g_{p})\in Y:g_{1}\cdot ... \cdot g_p=e_{G}}$$Da wir die ersten $p-1$ Elemente frei wählen können und das letzte durch das Inverse des Produktes [[#Eigenschaften|eindeutig]] festgelegt ist, ist $\lvert X\rvert =\lvert G\rvert^{p-1}$. 
+Betrachte $Y:=G^{p}=\set{(g_{1},...,g_{p}) : g_{1},...,g_{p} \in G}$. Es gilt $\lvert Y\rvert = \lvert G\rvert^{p}$.  Sei die Teilmenge $X$ definiert als: $$X:= \set{(g_{1},...,g_{p})\in Y:g_{1}\cdot ... \cdot g_p=e_{G}}$$Da wir die ersten $p-1$ Elemente frei wählen können und das letzte durch das Inverse des Produktes [[#Eigenschaften|eindeutig]] festgelegt ist, ist $\lvert X\rvert =\lvert G\rvert^{p-1}$. 
 
-Wir wollen uns wenn möglich (fast) nur mit den Elementen befassen, für die gilt $g_{1}=...g_{p}$ und dann Aussagen von [[Gruppenwirkung]] über Kardinalititäten nutzen. Dazu definieren wir die Gruppe $$H:=\set{1, \xi,...,\xi^{p-1}}\cong \mathbb{Z}_{p}\cong \mathbb{Z}/p \mathbb{Z}$$mit $\xi= e^{\frac{2 \pi i}{p}}$ und der Multiplikation als Verknüpfung. Darauf betrachten wir die [[Gruppenwirkung]] $*:H \times X \rightarrow X, \xi^{i} * (g_{1},...,g_{p}):=(g_{i},...,g_{p},g_{1},...,g_{i-1})$ also eine Rotation der Elemente.
+Wir wollen uns wenn möglich (fast) nur mit den Elementen befassen, für die gilt $g_{1}=...=g_{p}$ und dann Aussagen von [[Gruppenwirkung|Wirkungen]] über Kardinalitäten nutzen. Dazu definieren wir die Gruppe $$H:=\set{1, \xi,...,\xi^{p-1}}\cong \mathbb{Z}_{p}\cong \mathbb{Z}/p \mathbb{Z}$$mit $\xi= e^{\frac{2 \pi i}{p}}$ und der Multiplikation als Verknüpfung. Darauf betrachten wir die [[Gruppenwirkung]] $*:H \times X \rightarrow X, \xi^{i} * (g_{1},...,g_{p}):=(g_{i},...,g_{p},g_{1},...,g_{i-1})$ also eine Rotation der Elemente.
 Insbesondere ist das wohldefiniert, weil $g_{1}\cdot ... \cdot g_{p} = e$ $\implies$ $(g_{i}\cdot ... \cdot g_{p}) \cdot (g_{1},...,g_{i-1})=e$ 
 
 Wegen der [[Gruppenwirkung#Bahnenformel|Bahnenformel]] gilt nun$$p=\lvert H\rvert = \lvert H \cdot x\rvert \cdot \lvert H_{x}\rvert$$für alle $x \in X$. Insbesondere gilt also, weil $p$ prim, dass $\lvert H\cdot x\rvert \in \set{1,p}$ also dass die [[Gruppenwirkung#Bahn und Stabilisator|Bahnen]] Länge 1 oder p haben.
 
-Es gilt $\lvert G\rvert^{p-1} =\lvert X\rvert = 1 \cdot \#(\text{Bahnen der Länge 1}) + p \cdot \#(\text{Bahnen der Länge p})$wobei wir hier nutzen, dass Bahnen $X$ [[Gruppenwirkung#Bahn und Stabilisator#Eigenschaften|partitionieren]]. Wir müssen dazu auf der rechten Seite noch mit $p$ multiplizieren, weil in den Bahnen der Länge $p$ genau $p$ Elemente enthalten sind.
+Es gilt $\lvert G\rvert^{p-1} =\lvert X\rvert = 1 \cdot \#(\text{Bahnen der Länge 1}) + p \cdot \#(\text{Bahnen der Länge p})$ wobei wir hier nutzen, dass Bahnen $X$ [[Gruppenwirkung#Bahn und Stabilisator#Eigenschaften|partitionieren]]. Wir müssen dazu auf der rechten Seite noch mit $p$ multiplizieren, weil in den Bahnen der Länge $p$ genau $p$ Elemente enthalten sind.
 
 Da $p$ teilt $\lvert G\rvert$ gilt, teilt $p$ auch $\lvert G\rvert^{p-1}$ ($p-1 \geq 1$). Dann folgt aber weil $p$ die rechte Seite der Summe teilt, dass $p$ auch $\# (\text{Bahnen der Länge 1})$ teilt.
 
@@ -98,7 +98,7 @@ Es gilt die Untergruppen von $(\mathbb{Z},+)$ sind genau durch $(n \mathbb{Z}, +
 #### Diedergruppe
 Sei $n \geq 3$. Dann ist die Menge der Symmetrien (also [[Bewegungen|Isometrien]], die Ecken auf Ecken abbilden) des regulären $n$-Ecks eine Gruppe $D_{2n}$ bezüglich der Komposition und hat $2n$ Elemente. 
 ##### Beweis
-Es gilt ein n-Eck hat genau die Ecken $1, e^{\frac{2 \pi i \cdot 1}{n}}, e^{\frac{2 \pi i \cdot n-1}{n}}$. Außerdem gilt, dass die Komposition in $D_{2n}$ abgeschlossen ist.
+Es gilt ein n-Eck hat genau die Ecken $1, e^{\frac{2 \pi i \cdot 1}{n}},..., e^{\frac{2 \pi i \cdot n-1}{n}}$. Außerdem gilt, dass die Komposition in $D_{2n}$ abgeschlossen ist.
 
 (G1), (G2): folgt, weil Komposition assoziativ ist und $Id_{\mathbb{C}}$ ein neutrales Element.
 
