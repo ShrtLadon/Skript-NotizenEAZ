@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac787dcb32dfb189",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gruppentheorie/Gruppenwirkung.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cd01c3fae4b56f2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
+                "file": "Gruppentheorie/Symmetrische Gruppe.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exkurs Galois Theorie/Satz von Abel-Galois.md",
+                "file": "Gruppentheorie/Gruppen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sylow",
+                "query": "cay",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exkurs Galois Theorie/Satz von Abel-Galois.md",
+                "file": "Gruppentheorie/Symmetrische Gruppe.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exkurs Galois Theorie/Satz von Abel-Galois.md",
+                "file": "Gruppentheorie/Symmetrische Gruppe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exkurs Galois Theorie/Satz von Abel-Galois.md"
+                "file": "Gruppentheorie/Symmetrische Gruppe.md"
               }
             }
           }
@@ -183,34 +171,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2a1bdb447d41b97",
+  "active": "cd01c3fae4b56f2d",
   "lastOpenFiles": [
-    "Exkurs Galois Theorie/Galois-Theorie.md",
-    "Exkurs Galois Theorie/Galois-Gruppen.md",
-    "Körper/Körpererweiterungen.md",
-    "Körper/Quotientenkörper.md",
     "Polynomringe/Polynomringe.md",
-    "Arithmetik/Kommutative Ringe.md",
-    "Körper/Körper.md",
-    "Gruppentheorie/Abelsche Gruppen.md",
-    "Gruppentheorie/Gruppen.md",
-    "Exkurs Galois Theorie/Satz von Abel-Galois.md",
-    "Geometrische Betrachtungen/Bewegungen.md",
-    "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
-    "Geometrische Betrachtungen/Formalisierung von Konstruktionen mit Zirkel und Lineal.md",
+    "Arithmetik/Primzahlen.md",
+    "Diophantische Gleichungen/Chinesischer Restsatz.md",
+    "Arithmetik/Ringhomomorphismen.md",
     "Gruppentheorie/Symmetrische Gruppe.md",
     "Gruppentheorie/Einfache Gruppen.md",
-    "Gruppentheorie/Auflösbare Gruppen.md",
-    "Gruppentheorie/Konjugation/Sylow-Sätze.md",
-    "Gruppentheorie/Gruppenwirkung.md",
-    "Diophantische Gleichungen/Diophantische Gleichungssysteme.md",
     "Gruppentheorie/Konjugation/Normalisator.md",
+    "Gruppentheorie/Konjugation/Sylow-Sätze.md",
+    "Arithmetik/Kommutative Ringe.md",
+    "Gruppentheorie/Gruppen.md",
+    "Gruppentheorie/Gruppenwirkung.md",
+    "Ideale/Ideale.md",
+    "Ideale/Hauptidealringe.md",
+    "Ideale/Faktorringe.md",
     "Gruppentheorie/Konjugation/Operation durch Konjugation.md",
-    "Gruppentheorie/Konjugation/Normalteiler.md",
-    "Gruppentheorie/Gruppenhomomorphismen.md",
-    "Diophantische Gleichungen/Chinesischer Restsatz.md",
-    "Diophantische Gleichungen/Lineare Diophantische Gleichungen.md",
+    "Geometrische Betrachtungen/Algebraische Frage der Konstruierbarkeit.md",
     "Diophantische Gleichungen/Satz von Fermat.md",
+    "Gruppentheorie/Faktorgruppen.md",
+    "Gruppentheorie/Konjugation/Normalteiler.md",
+    "Körper/Körper.md",
+    "Körper/Körpererweiterungen.md",
+    "Körper/Quotientenkörper.md",
+    "Gruppentheorie/Abelsche Gruppen.md",
+    "Gruppentheorie/Auflösbare Gruppen.md",
+    "Exkurs Galois Theorie/Satz von Abel-Galois.md",
+    "Exkurs Galois Theorie/Galois-Theorie.md",
     "Exkurs Galois Theorie",
     "Pasted image 20240709170859.png",
     "Untitled.canvas",

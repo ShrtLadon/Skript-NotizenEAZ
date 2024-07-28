@@ -1,4 +1,4 @@
-Sei $G$ eine [[Gruppen|Gruppe]], dann [[Gruppenwirkung|operiert]] $G$ mit $$c_{g}(h):=g*h:=ghg^{-1}$$auf sich selbst von links. Diese Operation heißt auch **Konjugationsoperation**. Man kann leicht nachrechnen, dass das ein [[Gruppenhomomorphismen|Gruppenhomomorphismus]] ist.
+nSei $G$ eine [[Gruppen|Gruppe]], dann [[Gruppenwirkung|operiert]] $G$ mit $$c_{g}(h):=g*h:=ghg^{-1}$$auf sich selbst von links. Diese Operation heißt auch **Konjugationsoperation**. Man kann leicht nachrechnen, dass das ein [[Gruppenhomomorphismen|Gruppenhomomorphismus]] ist.
 
 ###### Beweis der Operationseigenschaft
 - (A1) $g*(g'*h)=g*(g'hg'^{-1})=gg'hg'^{-1}g^{-1}\overset{(gg')^{-1}=g'^{-1}g^{-1}}=(gg')*h$ 

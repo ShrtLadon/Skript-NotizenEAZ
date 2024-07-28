@@ -1,4 +1,4 @@
-Sei $U < G$ eine [[Gruppen#Untergruppen|Untergruppe]]. Dann ist der **Normalisator** definiert als $$N_G(U):=\set{g\in G\mid g^{-1}\cdot U \cdot g=U}$$Das ist eine [[Gruppenwirkung|Operation]] von $G$ auf $\set{U \mid U \leq G}$, denn [[Operation durch Konjugation|$c_{g}$]] ist ein [[Gruppenhomomorphismen|Homomorphismus]] also unter Untergruppen abgeschlossen.
+Sei $U < G$ eine [[Gruppen#Untergruppen|Untergruppe]]. Dann ist der **Normalisator** definiert als $$N_G(U):=\set{g\in G\mid g^{-1}\cdot U \cdot g=U}$$Das ist der [[Gruppenwirkung#Bahn und Stabilisator|Stabilsator]] einer [[Gruppenwirkung|Operation]] von $G$ auf $\set{U \mid U \leq G}$, denn [[Operation durch Konjugation|$c_{g}$]] ist ein [[Gruppenhomomorphismen|Homomorphismus]] also unter Untergruppen abgeschlossen.
 #### Wichtige Eigenschaften
 - $N_{G}(U)$ ist eine [[Gruppen#Untergruppen|Untergruppe]] von $G$ und es gilt [[Normalteiler|$U \trianglelefteq N_{G}(U)$]].
 - $N_{G}(U)$ ist die größte Untergruppe von $G$ in der $U$ normal ist.

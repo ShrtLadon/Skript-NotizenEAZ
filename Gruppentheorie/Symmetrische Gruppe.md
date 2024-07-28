@@ -32,7 +32,7 @@ Also werden alle Möglichen Produkte von 2 Transpositionen auch durch Produkte v
 Es gilt jede Gruppe ist [[Gruppenhomomorphismen|isomorph]] zu einer Untergruppe einer symmetrischen Gruppe.
 
 ###### Beweis
-Sei $G$ eine Gruppe und $*:G\times G \rightarrow G$ die [[Gruppenwirkung]] von $G$ auf sich selbst (also $g*h =g\cdot h$). Dann kann man dem einen [[Gruppenhomomorphismen|Gruppenhomomorphismus]] $\rho:G \rightarrow S_{(G})$ [[Gruppenwirkung#Zusammenhang zu symmetrischer Gruppe|zuordnen]]. 
+Sei $G$ eine Gruppe und $*:G\times G \rightarrow G$ die [[Gruppenwirkung]] von $G$ auf sich selbst (also $g*h =g\cdot h$). Dann kann man dem einen [[Gruppenhomomorphismen|Gruppenhomomorphismus]] $\rho:G \rightarrow S_{(G)}$ [[Gruppenwirkung#Zusammenhang zu symmetrischer Gruppe|zuordnen]]. 
 
 Sei $g \in \ker \rho$. Dann ist $\rho(g)=Id$, also $g*x=g\cdot x=x$ für alle $x \in G$. Damit ist aber $g=e$ wegen [[#Eigenschaften|der Eindeutigkeit des neutralen Elements]]. Also ist $\ker \rho =\set{e}$ und [[Gruppenhomomorphismen#Eigenschaften|damit]] $\rho$ injektiv. 
 Dann ist allerdings $\rho: G \rightarrow \text{Bild}(\rho) \leq S_{(X)}$ ein Isomorphismus auf eine Untergruppe von $S_{(X)}$.

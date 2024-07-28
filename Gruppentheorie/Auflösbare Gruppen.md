@@ -119,7 +119,7 @@ Wenn $n_p>1$, gilt weil alle $U_{1},U_{2}\in \text{Syl}_{p}(G)$ [[Sylow-Sätze|z
 Es gilt $24=2^{3}\cdot 3$. 
 *Fall*: $n_{2}=1$
 Dann ist $U_{2}\trianglelefteq G$ und $\lvert G/U_{2}\rvert=\frac{24}{2^3}=3$. Also sind $G/U_{2}$, $U_{2}$ nach obiger Tabelle auflösbar und damit auch $G$.
-*Fall* $n_{2}\neq 1$. Dann ist $n_{2}=3$, also $\lvert \text{Syl}_{2}(G)\rvert=3$. Es gilt für die [[#Vorüberlegung / Funktionsdefinition]] dass $\ker\varphi_{3}\neq G$. Außerdem ist $\varphi_{3}$ nicht injektiv, da $24 = \lvert G\rvert>\lvert S_{2}\rvert=2$. Also ist $\ker \varphi_{3}\neq \set{e}$. Wir wissen außerdem, dass $\ker \varphi_{3}\trianglelefteq G$. Da $\lvert \ker \varphi_{3}\rvert, \lvert G/\ker\varphi_3\rvert<24$ wissen wir nach der Tabelle oben schon, dass $\ker \varphi_{3}, G/\ker\varphi_{3}$ auflösbar sind und damit $G$ auch.
+*Fall* $n_{2}\neq 1$. Dann ist $n_{2}=3$, also $\lvert \text{Syl}_{2}(G)\rvert=3$. Es gilt für die [[#Vorüberlegung / Funktionsdefinition]] dass $\ker\varphi_{3}\neq G$. Außerdem ist $\varphi_{3}$ nicht injektiv, da $24 = \lvert G\rvert>\lvert S_{3}\rvert=6$. Also ist $\ker \varphi_{3}\neq \set{e}$. Wir wissen außerdem, dass $\ker \varphi_{3}\trianglelefteq G$. Da $\lvert \ker \varphi_{3}\rvert, \lvert G/\ker\varphi_3\rvert<24$ wissen wir nach der Tabelle oben schon, dass $\ker \varphi_{3}, G/\ker\varphi_{3}$ auflösbar sind und damit $G$ auch.
 
 ###### Lemma $n=30$
 Es gilt $30=2\cdot3\cdot5$.

@@ -39,16 +39,16 @@ Sei $K$ ein Körper und $p \in K[X]$ ein [[Kommutative Ringe#Prim- und irreduzib
 ###### Beweis
 Zunächst bemerken wir:
 Sei $q \in K[X]$. Dann existiert mit [[Polynomringe#Polynomdivision mit Rest|Polynomdivision]] eindeutige $s,r \in K[X]$ mit $grad(r) < grad(p)=n$, sodass $q=s\cdot p + r$. Insbesondere gibt es also für jedes $\bar q\in K[X]/p\cdot K[X]$ einen eindeutigen Repräsentanten vom Grad $\leq n-1$.
-Insbesondere ist $grad(p)>1$, also gilt für alle $b_{i}\in K$, dass alle $\overline{b_{i}}\in K[X]/p\cdot K[X]$ paarweise verschieden. Wir können also alle ${b_{i}}$ mit $\overline{b_{i}}$ assoziieren.  
+Insbesondere ist $grad(p)>1$, also gilt für alle $b_{i}\in K$, dass alle $\overline{b_{i}}\in K[X]/p\cdot K[X]$ paarweise verschieden. Wir können also alle ${b_{i}}$ mit $\overline{b_{i}}$ identifizieren.  
 
 0) Jeder Körper ist ein [[Euklidische Ringe#Beispiele|Euklidischer Ring]] also ein [[Hauptidealringe#Euklidische Ringe|Hauptidealring]] und damit $p\cdot K[X]$ ein [[Ideale#Prim- und maximale Ideale#Eigenschaften|maximales Ideal]] und damit ist $K[X]/p\cdot K[X]$ ein Körper.
-1) Betrachte den [[Polynomringe#Einsetzungshomomorphismus|Einsetzungshomorphismus]] $$\varphi_a:K[X]\mapsto K(a), q\mapsto q(a)$$Es gilt dann $\ker \varphi_{a}=(p)$, denn $\sum\limits_{i=1}^{m}b_{i}\cdot a^{i}=(\sum\limits_{i=1}^{m}b_{i}X^{i})+p\cdot K[X]$. Wegen dem Isomorphiesatz folgt $\text{Bild} \varphi_{a}\cong K[X]/p\cdot K[X]$ ist ein Körper, der $a$ und $K$ enthält. Da $K(a)$ der minimale solcher Körper ist, ist $\varphi_{a}$ surjektiv und damit ein Isomorphismus.
+1) Betrachte die [[Polynomringe#Einsetzungshomomorphismus|Einsetzung von $a$]] $$\varphi^{a}:K[X]\mapsto K(a), q\mapsto q(a)$$Es gilt dann $\ker \varphi^{a}=(p)$, denn $\sum\limits_{i=1}^{m}b_{i}\cdot a^{i}=(\sum\limits_{i=1}^{m}b_{i}X^{i})+p\cdot K[X]$. Wegen dem Isomorphiesatz folgt $\text{Bild} \varphi^{a}\cong K[X]/p\cdot K[X]$ ist ein Körper, der $a$ und $K$ enthält. Da $K(a)$ der minimale solcher Körper ist, ist $\varphi^a$ surjektiv und damit ein Isomorphismus.
 2) Wegen der obigen Bemerkung genügt es Polynome vom Grad $\leq n-1$ zu betrachten: 
 	Für diese gilt, dass $1,X,...,X^{n-1}$ eine Basis ist. D.h. es existieren für alle $r\in \set{w\in K[X] \mid grad(w) \leq n-1}$ eindeutige $c_{0},...,c_{n-1}\in K$, sodass $$\begin{align}&r=c_{0}+c_{1}\cdot X + ... +c_{n-1}\cdot X^{n-1}\\\iff&\overline r=c_{0} + c_{1}\cdot a+...+c_{n-1}\cdot a\end{align}$$Damit ist $\set{0,a,...,a^{n-1}}$ eine Basis
 3) In 1) gezeigt.
 
 #### Charakterisierung von einfachen Körpererweiterungen
-Sei $K(a)/K$ eine einfache Körpererweiterung und $\varphi_{a}:K[X]\rightarrow L$ der [[Polynomringe#Einsetzungshomomorphismus|Einsetzungshomorphismus]], also $\varphi_{a}(p)=p(a)$. 
+Sei $K(a)/K$ eine einfache Körpererweiterung und $\varphi_{a}:K[X]\rightarrow L$ die [[Polynomringe#Einsetzungshomomorphismus|Einsetzung von $a$]], also $\varphi_{a}(p)=p(a)$. 
 *Fall:* $\varphi_{a}$ ist injektiv:
 	 Dann gibt es eine eindeutige Erweiterung von $\varphi_{a}$ zu einem [[Ringhomomorphismen|Isomorphismus]] $\Phi:K(X) \rightarrow L$ also dem [[Quotientenkörper#Beispiele|Körper der "rationalen Funktionen" auf $K$]] zu $L$. Insbesondere ist also $L/K$ eine unendliche Körpererweiterung.
 *Fall:* $\varphi_{a}$ ist nicht injektiv:
@@ -113,14 +113,14 @@ $1 \implies 2$:
 Sei $a \in L$. Dann gilt $K(a) \subseteq L$ also $[K(a):K]\leq[L:K]< \infty$. Durch Wahl einer endlichen Basis $\set{a_{1},...,a_{n}}$ von $L/K$ folgt auch $L=K(a_{1},...,a_{n})$.
 
 $2 \implies 3$:
-folgt direkt, weil $L/K$ von endlich vielen Elementen erzeugt ist.
+folgt direkt, weil $L/K$ von endlich vielen Elementen erzeugt ist, die alle algebraisch sind.
 
 $3 \implies 1$:
 Führe Induktion nach $m$:
 *Induktionsanfang:* $m=1$. Dann existiert ein $p\neq 0$ mit $p(x_{1})=0$ und es folgt mit der [[#Charakterisierung von einfachen Körpererweiterungen]], dass $[K(x_{1}):K]<\infty$.
 
 *Induktionsschluss* $m-1 \leadsto m:$
-Es gilt $L=K(x_{1},...,x_{m-1})(x_m)$. Außerdem existiert ein $p \neq 0 \in K[X]$ mit $p(x_{m})=0$. Außerdem ist $p \in K(x_{1},...,x_{m})[X]$. Damit wissen wir nach Begründung im Induktionsanfang:$$[K(x_{1},...,x_{m}):K(x_{1},...,x_{m-1})]<\infty$$und wegen [[#Gradsatz]] folgt die Behauptung mit der Induktionssvoraussetzung.
+Es gilt $L=K(x_{1},...,x_{m-1})(x_m)$. Außerdem existiert ein $p \neq 0 \in K[X]$ mit $p(x_{m})=0$. Außerdem ist $p \in K(x_{1},...,x_{m})[X]$. Damit wissen wir nach Begründung im Induktionsanfang:$$[K(x_{1},...,x_{m}):K(x_{1},...,x_{m-1})]<\infty$$und wegen [[#Gradsatz]] folgt die Behauptung mit der Induktionsvoraussetzung.
 
 ### algebraische Teilkörper und Verknüpfungen von algebraischen Elementen
 1) Seien $L/K$ und $A/L$ [[#algebraische und transzendente Erweiterungen|algebraisch]]. Dann gilt $A/K$ ist algebraisch
@@ -167,7 +167,7 @@ Dann ist $P=X-a$ und $K(a)=K$ ein Zerfällungskörper von $P$ über $K$.
 
 *Induktionsschluss:*
 **Fall**: $P$ ist irreduzibel:
-Sei $\alpha$ eine (abstrakte) Nullstelle von $P$ und $L:= K(\alpha)$. Dann [[#Minimalpolynom|gilt]] $[L:K]=n$, denn $grad(P)=grad(p_\min)$. Außerdem existiert ein $q \in L[X]$ mit $P=(X-\alpha)\cdot q$ und $grad(q)\leq n-1$. 
+Sei $\alpha$ eine (abstrakte z.B. durch [[#Beispiel Körper der Polynomrestklassen modulo p]] erhaltene) Nullstelle von $P$ und $L:= K(\alpha)$. Dann [[#Minimalpolynom|gilt]] $[L:K]=n$, denn $grad(P)=grad(p_\min)$. Außerdem existiert ein $q \in L[X]$ mit $P=(X-\alpha)\cdot q$ und $grad(q)\leq n-1$. 
 
 Nach Induktionsvoraussetzung existiert ein Zerfällungskörper $A=L(\alpha_{2},...,\alpha_n)$ von $q$ mit $[A:L]\leq(n-1)!$, wobei $\alpha_{1},...,\alpha_{n}$ die Nullstellen von $q$ also von $P$ sind. Insbesondere zerfällt $P$ in $A$ in Linearfaktoren. Dann gilt wegen [[#Gradsatz]]$$[A:K]=[A:L]\cdot[L:K]\leq(n-1)!\cdot n=n!$$
 **Fall**: $P$ ist reduzibel:
